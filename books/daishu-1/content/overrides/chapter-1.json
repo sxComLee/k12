@@ -1,0 +1,51 @@
+{
+  "section-1-1": {
+    "learningGoals": [
+      "理解集合、元素以及“属于/不属于”的关系",
+      "掌握列举法和描述法的区别",
+      "能把对象组织成规范的集合表示"
+    ],
+    "interactiveDemos": [
+      {
+        "kind": "set-operations",
+        "title": "集合关系切换",
+        "modes": ["members", "intersection", "union", "complement"]
+      }
+    ]
+  },
+  "section-1-2": {
+    "interactiveDemos": [
+      {
+        "kind": "set-operations",
+        "title": "子集、交集、并集、补集联动图",
+        "modes": ["subset", "intersection", "union", "complement"]
+      }
+    ]
+  },
+  "section-1-12": {
+    "interactiveDemos": [
+      {
+        "kind": "function-family",
+        "title": "指数函数底数变化",
+        "curve": "exponential",
+        "bases": [0.5, 2, 10],
+        "xMin": -3,
+        "xMax": 3,
+        "step": 0.25
+      }
+    ]
+  },
+  "section-1-13": {
+    "interactiveDemos": [
+      {
+        "kind": "function-family",
+        "title": "对数函数底数变化",
+        "curve": "logarithmic",
+        "bases": [0.5, 2, 10],
+        "xMin": 0.25,
+        "xMax": 4,
+        "step": 0.25
+      }
+    ]
+  }
+}

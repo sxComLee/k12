@@ -1,0 +1,3969 @@
+{
+  "slug": "chapter-1",
+  "number": 1,
+  "title": "幂函数、指数函数和对数函数",
+  "startPage": 5,
+  "units": [
+    {
+      "slug": "unit-1",
+      "label": "一",
+      "title": "集合",
+      "startPage": 5
+    },
+    {
+      "slug": "unit-2",
+      "label": "二",
+      "title": "映射与函数",
+      "startPage": 15
+    },
+    {
+      "slug": "unit-3",
+      "label": "三",
+      "title": "幂函数",
+      "startPage": 21
+    },
+    {
+      "slug": "unit-4",
+      "label": "四",
+      "title": "指数函数和对数函数",
+      "startPage": 38
+    }
+  ],
+  "sections": [
+    {
+      "slug": "section-1-1",
+      "number": "1.1",
+      "title": "集合",
+      "startPage": 5,
+      "unitSlug": "unit-1",
+      "pageRange": [
+        5,
+        6
+      ],
+      "text": "1.1 集合\n\n考察下面几组对象：\n\n（1） 1, 2, 3, 4, 5;（2） 与一个角的两边距离相等的所有的点；\n\n（3） 所有的直角三角形；\n\n（4） x2, 3x + 2, 5y3− x, x2 + y2；\n\n（5） 某农场所有的拖拉机。\n\n它们分别是由一些数、一些点、一些图形、一些整式、一些物体组成的。我们说，每一组对象的全体形成一个集合（有时也简称集)。集合里的各个对象叫做这个集合的元素。例如，（1）是由数 1, 2,3, 4, 5 组成的集合，其中的对象 1, 2, 3, 4, 5 都是这个集合的元素。\n\n含有有限个元素的集合叫做有限集，上面（1），（4），（5）这三个集合都是有限集；含有无限个元素的集合叫做无限集，上面（2），（3）这两个集合都是无限集。\n\n对于一个给定的集合，集合中的元素是确定的，这就是说，任何一个对象或者是这个给定集合的元素，或者不是它的元素。例如，对于由所有的直角三角形组成的集合，内角分别为 30◦， 60◦， 90◦ 的三角形，是这个集合的元素，而内角分别为 50◦，60◦，70◦ 的三角形，就不是这个集合的元素。\n\n对于一个给定的集合，集合中的元素是互异的，这就是说，集合中的任何两个元素都是不同的对象；相同的对象归入任何一个集合时，只能算作这个集合的一个元素。因此，集合中的元素是没有重复现象的。\n\n集合的表示方法，常用的有列举法和描述法。\n\n把集合中的元素一一列举出来，写在大括号内表示集合的方法，叫做列举法。\n\n例如，由数 1, 2, 3, 4, 5 组成的集合，可以表示为又如，由整式 x2，3x + 2, 5y3{1, 2, 3, 4, 5}− x, x2 + y2 组成的集合，可以表示为{x2, 3x + 2, 5y3− x, x2 + y2}用列举法表示集合时，不必考虑元素之间的顺序。例如由四个元素−3, 0, 2, 5 组成的集合，可以表示为 {−3, 0, 2, 5}，也可以表示为 {0, 2,−3, 5}，等等。\n\n应该注意，a 与 {a} 是不同的：a 表示一个元素；{a} 表示一个集合，这个集合只有一个元素 a。\n\n把集合中的元素的公共属性描述出来，写在大括号内表示集合的方法，叫做描述法。这时往往在大括号内先写上这个集合的元素的一般形式，再划一条竖线，在竖线右边写上这个集合的元素的公共属性。\n\n例如：\n\n由不等式 x− 3 > 2 的所有的解组成的集合（即 x− 3 > 2 的解集），可以表示为{x | x− 3 > 2} 1由抛物线 y= x2 + 1 上所有的点的坐标组成的集合，可以表示为{(x, y) | y= x2 + 1}在不引起混淆的情况下，为了简便，有些集合用描述法表示时，可以省去竖线及其左边的部分。\n\n例如，由所有的直角三角形组成的集合，可以表示为{直角三角形}由所有的小于 6 的正整数组成的集合，可以表示为{小于 6 的正整数}集合通常用大写的拉丁字母表示，集合的元素用小写的拉丁字母表示。如果 a 是集合 A 的元素，就说 a 属于集合 A，记作 a ∈ A；如果 a 不是集合 A 的元素，就说 a 不属于 A，记作 a / ∈ A（或a¯∈A）。例如，设 B 表示集合 {1, 2, 3, 4, 5}，则5 ∈ B, 32 / ∈ B全体自然数的集合通常简称自然数集，记作 N ；\n\n全体整数的集合通常简称整数集，记作 Z；\n\n全体有理数的集合通常简称有理数集，记作 Q；\n\n全体实数的集合通常简称实数集，记作 R。\n\n为了方便起见，有时我们还用 Q+ 表示正有理数集，用 R− 表示负实数集，等等。\n\n练 习\n\n（口答）下面集合里的元素是什么（第 1～5 题）？\n\n1. {大于 3 小于 11 的偶数}。\n\n2. {平方后等于 1 的数}。\n\n3. {平方后仍等于原数的数}。\n\n4. {比 2 大 3 的数}。\n\n5. {一年中有 31 天的月份}。\n\n在下列各题中，分别指出了一个集合的所有元素，用适当的方法把这个集合表示出来，然后说出它是有限集还是无限集（第 6～10 题）：\n\n6. 水星、金星、地球、火星、木星、土星、天王星、海王星、冥王星。\n\n7. 周长等于 20 厘米的三角形。\n\n8. 长江、黄河、珠江、黑龙江。\n\n9. 不等式 x2 + 5x + 6 > 0 的解。",
+      "blocks": [
+        {
+          "id": "section-1-1-block-1",
+          "type": "section-intro",
+          "content": "考察下面几组对象："
+        },
+        {
+          "id": "section-1-1-block-2",
+          "type": "section-intro",
+          "content": "（1） 1, 2, 3, 4, 5;（2） 与一个角的两边距离相等的所有的点；"
+        },
+        {
+          "id": "section-1-1-block-3",
+          "type": "section-intro",
+          "content": "（3） 所有的直角三角形；"
+        },
+        {
+          "id": "section-1-1-block-4",
+          "type": "section-intro",
+          "content": "（4） x2, 3x + 2, 5y3− x, x2 + y2；"
+        },
+        {
+          "id": "section-1-1-block-5",
+          "type": "section-intro",
+          "content": "（5） 某农场所有的拖拉机。"
+        },
+        {
+          "id": "section-1-1-block-6",
+          "type": "definition",
+          "content": "它们分别是由一些数、一些点、一些图形、一些整式、一些物体组成的。我们说，每一组对象的全体形成一个集合（有时也简称集)。集合里的各个对象叫做这个集合的元素。例如，（1）是由数 1, 2,3, 4, 5 组成的集合，其中的对象 1, 2, 3, 4, 5 都是这个集合的元素。"
+        },
+        {
+          "id": "section-1-1-block-7",
+          "type": "definition",
+          "content": "含有有限个元素的集合叫做有限集，上面（1），（4），（5）这三个集合都是有限集；含有无限个元素的集合叫做无限集，上面（2），（3）这两个集合都是无限集。"
+        },
+        {
+          "id": "section-1-1-block-8",
+          "type": "section-intro",
+          "content": "对于一个给定的集合，集合中的元素是确定的，这就是说，任何一个对象或者是这个给定集合的元素，或者不是它的元素。例如，对于由所有的直角三角形组成的集合，内角分别为 30◦， 60◦， 90◦ 的三角形，是这个集合的元素，而内角分别为 50◦，60◦，70◦ 的三角形，就不是这个集合的元素。"
+        },
+        {
+          "id": "section-1-1-block-9",
+          "type": "section-intro",
+          "content": "对于一个给定的集合，集合中的元素是互异的，这就是说，集合中的任何两个元素都是不同的对象；相同的对象归入任何一个集合时，只能算作这个集合的一个元素。因此，集合中的元素是没有重复现象的。"
+        },
+        {
+          "id": "section-1-1-block-10",
+          "type": "section-intro",
+          "content": "集合的表示方法，常用的有列举法和描述法。"
+        },
+        {
+          "id": "section-1-1-block-11",
+          "type": "definition",
+          "content": "把集合中的元素一一列举出来，写在大括号内表示集合的方法，叫做列举法。"
+        },
+        {
+          "id": "section-1-1-block-12",
+          "type": "section-intro",
+          "content": "例如，由数 1, 2, 3, 4, 5 组成的集合，可以表示为又如，由整式 x2，3x + 2, 5y3{1, 2, 3, 4, 5}− x, x2 + y2 组成的集合，可以表示为{x2, 3x + 2, 5y3− x, x2 + y2}用列举法表示集合时，不必考虑元素之间的顺序。例如由四个元素−3, 0, 2, 5 组成的集合，可以表示为 {−3, 0, 2, 5}，也可以表示为 {0, 2,−3, 5}，等等。"
+        },
+        {
+          "id": "section-1-1-block-13",
+          "type": "section-intro",
+          "content": "应该注意，a 与 {a} 是不同的：a 表示一个元素；{a} 表示一个集合，这个集合只有一个元素 a。"
+        },
+        {
+          "id": "section-1-1-block-14",
+          "type": "definition",
+          "content": "把集合中的元素的公共属性描述出来，写在大括号内表示集合的方法，叫做描述法。这时往往在大括号内先写上这个集合的元素的一般形式，再划一条竖线，在竖线右边写上这个集合的元素的公共属性。"
+        },
+        {
+          "id": "section-1-1-block-15",
+          "type": "section-intro",
+          "content": "例如："
+        },
+        {
+          "id": "section-1-1-block-16",
+          "type": "section-intro",
+          "content": "由不等式 x− 3 > 2 的所有的解组成的集合（即 x− 3 > 2 的解集），可以表示为{x | x− 3 > 2} 1由抛物线 y= x2 + 1 上所有的点的坐标组成的集合，可以表示为{(x, y) | y= x2 + 1}在不引起混淆的情况下，为了简便，有些集合用描述法表示时，可以省去竖线及其左边的部分。"
+        },
+        {
+          "id": "section-1-1-block-17",
+          "type": "definition",
+          "content": "例如，由所有的直角三角形组成的集合，可以表示为{直角三角形}由所有的小于 6 的正整数组成的集合，可以表示为{小于 6 的正整数}集合通常用大写的拉丁字母表示，集合的元素用小写的拉丁字母表示。如果 a 是集合 A 的元素，就说 a 属于集合 A，记作 a ∈ A；如果 a 不是集合 A 的元素，就说 a 不属于 A，记作 a / ∈ A（或a¯∈A）。例如，设 B 表示集合 {1, 2, 3, 4, 5}，则5 ∈ B, 32 / ∈ B全体自然数的集合通常简称自然数集，记作 N ；"
+        },
+        {
+          "id": "section-1-1-block-18",
+          "type": "definition",
+          "content": "全体整数的集合通常简称整数集，记作 Z；"
+        },
+        {
+          "id": "section-1-1-block-19",
+          "type": "definition",
+          "content": "全体有理数的集合通常简称有理数集，记作 Q；"
+        },
+        {
+          "id": "section-1-1-block-20",
+          "type": "definition",
+          "content": "全体实数的集合通常简称实数集，记作 R。"
+        },
+        {
+          "id": "section-1-1-block-21",
+          "type": "section-intro",
+          "content": "为了方便起见，有时我们还用 Q+ 表示正有理数集，用 R− 表示负实数集，等等。"
+        },
+        {
+          "id": "section-1-1-block-22",
+          "type": "exercise",
+          "content": "练 习"
+        },
+        {
+          "id": "section-1-1-block-23",
+          "type": "section-intro",
+          "content": "（口答）下面集合里的元素是什么（第 1～5 题）？"
+        },
+        {
+          "id": "section-1-1-block-24",
+          "type": "section-intro",
+          "content": "1. {大于 3 小于 11 的偶数}。"
+        },
+        {
+          "id": "section-1-1-block-25",
+          "type": "section-intro",
+          "content": "2. {平方后等于 1 的数}。"
+        },
+        {
+          "id": "section-1-1-block-26",
+          "type": "section-intro",
+          "content": "3. {平方后仍等于原数的数}。"
+        },
+        {
+          "id": "section-1-1-block-27",
+          "type": "section-intro",
+          "content": "4. {比 2 大 3 的数}。"
+        },
+        {
+          "id": "section-1-1-block-28",
+          "type": "section-intro",
+          "content": "5. {一年中有 31 天的月份}。"
+        },
+        {
+          "id": "section-1-1-block-29",
+          "type": "section-intro",
+          "content": "在下列各题中，分别指出了一个集合的所有元素，用适当的方法把这个集合表示出来，然后说出它是有限集还是无限集（第 6～10 题）："
+        },
+        {
+          "id": "section-1-1-block-30",
+          "type": "section-intro",
+          "content": "6. 水星、金星、地球、火星、木星、土星、天王星、海王星、冥王星。"
+        },
+        {
+          "id": "section-1-1-block-31",
+          "type": "section-intro",
+          "content": "7. 周长等于 20 厘米的三角形。"
+        },
+        {
+          "id": "section-1-1-block-32",
+          "type": "section-intro",
+          "content": "8. 长江、黄河、珠江、黑龙江。"
+        },
+        {
+          "id": "section-1-1-block-33",
+          "type": "section-intro",
+          "content": "9. 不等式 x2 + 5x + 6 > 0 的解。"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解集合、元素以及“属于/不属于”的关系",
+          "掌握列举法和描述法的区别",
+          "能把对象组织成规范的集合表示"
+        ],
+        "keyPoints": [
+          "它们分别是由一些数、一些点、一些图形、一些整式、一些物体",
+          "含有有限个元素的集合叫做有限集，上面（1），（4），（5",
+          "把集合中的元素一一列举出来，写在大括号内表示集合的方法，",
+          "把集合中的元素的公共属性描述出来，写在大括号内表示集合的"
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [
+          {
+            "kind": "set-operations",
+            "title": "集合关系切换",
+            "modes": [
+              "members",
+              "intersection",
+              "union",
+              "complement"
+            ]
+          }
+        ],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-2",
+      "number": "1.2",
+      "title": "子集、交集、并集、补集",
+      "startPage": 7,
+      "unitSlug": "unit-1",
+      "pageRange": [
+        7,
+        14
+      ],
+      "text": "1.2 子集、交集、并集、补集\n\n1. 子集我们知道，任何一个自然数都是一个整数，就是说，自然数集 N 的任何一个元素都是整数集 Z的一个元素。同样，自然数集 N 的任何一个元素都是有理数集 Q 的一个元素。\n\n对于两个集合 A 与 B，如果集合 A 的任何一个元素都是集合 B 的元素，那么集合 A 叫做集合B 的子集，记作A ⊆ B （或B ⊇ A），读作“A 包含于 B”（或“B 包含 A”）。例如N ⊆ Z, N ⊆ Q, R ⊇ Z, R ⊇ Q。\n\n当 A 不是 B 的子集时，我们可以记作A ̸⊆ B （或B ̸⊇ A），读作“A 不包含于 B”（或“B 不包含 A”）。\n\n对于任何一个集合 A，因为它的任何一个元素都属于集合 A 本身，所以A ⊆ A，也就是说，任何一个集合是它本身的子集。\n\n为了方便起见，我们把不含任何元素的集合叫做空集，记作 ∅。例如：\n\n{x | x + 1 = x + 3}= ∅ ，{小于零的正整数}= ∅ ，{两边之和小于第三边的三角形}= ∅ 。\n\n我们规定空集是任何集合的子集。也就是说，对于任何集合 A，有∅ ⊆ A 。\n\n如果 A 是 B 的子集，并且 B 中至少有一个元素不属于 A，那么集合 A 叫做集合 B 的真子集，记作A ⊂ B （或B ⊃ A）。\n\n当 A 不是 B 的真子集时，我们可以记作A ̸⊂ B （或B ̸⊃ A）。\n\n例如，自然数集 N 是 N 的子集，但不是的 N 真子集，所以 N ⊆ N ，但 N ̸⊂ N ；N 是实数集R 的子集，也是 R 的真子集，所以 N ⊂ R。\n\n集合 B 同它的真子集 A 之间的关系，可以用图1-1 中 B 同 A 的关系来说明，其中 A，B 两个圈的内部分别表示集合 A，B。\n\n显然，空集是任何非空集合的真子集。\n\n容易知道， 对于集合 A， B， C, 如果 A ⊆ B， B ⊆ C，那么 A ⊆ C。\n\n事实上，设 x 是集合 A 的任意一个元素，因为 A ⊆ B，所以 x ∈ B，又因为 B ⊆ C，所以 x ∈ C。从而 A ⊆ C。\n\n同样可知， 对于集合 A， B， C, 如果 A ⊂ B， B ⊂ C，那么 A ⊂ C.对于两个集合 A 与 B，如果 A ⊆ B，同时 B ⊆ A，我们就说这两个集合相等，记作A= B，BA图 1-1读作“A 等于 B”。\n\n例如，A= {x | x2 + 3x + 2 = 0}，B= {−1,−2}，则A= B。\n\n例 1 写出集合 {a, b} 的所有子集及真子集。\n\n解: 集合 {a, b} 的所有的子集是 ∅，{a}，{b}，{a, b}，其中 ∅，{a}，{b} 是真子集。\n\n例 2 写出不等式 x− 3 > 2 的解集并进行化简（即化成直接表明未知数本身的取值范围的解集）。\n\n解: 不等式 x− 3 > 2 的解集是\n\n{x | x− 3 > 2}= {x | x > 5}。\n\n2. 交集已知 6 的正约数的集合为A= {1, 2, 3, 6}，10 的正约数的集合为B= {1, 2, 5, 10}，那么 6 与 10 的正公约数的集合为{1, 2}。\n\n容易看出，集合 {1, 2} 是由所有属于 A 且属于 B 的元素（即 A，B 的公共元素）所组成的。\n\n一般地，由所有属于集合 A 且属于集合 B 的元素所组成的集合，叫做 A，B 的交集，记作 A ∩ B（可读作“A 交 B”），即A ∩ B= {x | x ∈ A，且x ∈ B}。\n\n这样，6 与 10 的正公约数的集合，可以从求 6 的正约数的集合与 10 的正约数的集合的交集而得到，即A A ∩ B B{1, 2, 3, 6} ∩ {1, 2, 5, 10}= {1, 2}。\n\n图 1-2 中的阴影部分，表示集合 A，B 的交集 A ∩ B。\n\n由交集定义容易推出，对于任何集合 A，B，有图 1-2A ∩ A= A, A ∩ ∅= ∅,A ∩ B= B ∩ A。\n\n例 1 设 A= {x | x >−2}, B= {x | x < 3}，求 A ∩ B。\n\n解: A ∩ B= {x | x >−2} ∩ {x | x < 3}\n\n= {x | −2 < x < 3}。\n\n例 2 设 A= {(x, y) | 4x + y = 6}, B= {(x, y) | 3x + 2y = 7}，求 A ∩ B。\n\n解: A ∩ B= {(x, y) | 4x + y = 6} ∩ {(x, y) | 3x + 2y = 7}\n\n=  (x, y)  4x + y = 6,3x + 2y = 7  = {(1, 2)}。\n\n例 3 设 A= {等腰三角形}，B= {直角三角形}，求 A ∩ B。\n\n解: A ∩ B= {等腰三角形} ∩ {直角三角形}\n\n= {有两边相等且有一个角是直角的三角形}= {等腰直角三角形}。\n\n形如 2n (n ∈ Z) 的整数叫做偶数，形如 2n + 1 (n ∈ Z) 的整数叫做奇数。全体奇数的集合简称奇数集，全体偶数的集合简称偶数集。我们再看一个例子。\n\n例 4 已知 A 为奇数集，B 为偶数集，Z 为整数集，求 A ∩ Z，B ∩ Z，A ∩ B。\n\n解: A ∩ Z= {奇数} ∩ {整数}= {奇数}= A,\n\nB ∩ Z= {偶数} ∩ {整数}= {偶数}= B,A ∩ B= {奇数} ∩ {偶数}= ∅。\n\n练 习\n\n1. 图中 A，B，C 表示集合，说明它们之间有什么包含关系。\n\n2. 写出集合 {a, b, c} 的所有子集及真子集。\n\n3. 用适当的符号（∈，̸∈，=，⊂，⊃） 填空：\n\n（1）a {a}; （2）a {a, b, c};（3）d {a, b, c}; （4）{a} {a, b, c};（5）{a, b} {b, a}; （6）{3, 5} {1, 3, 5, 7};（7）{2, 4, 5, 8} {2, 8}; （8）∅ {1, 2, 3};4. 写出方程 x + 3 = x2− 5 的解集并进行化简。\n\n5. 写出方程组B CA（第 1 题）  2x + 3y = 1,3x− 2y = 3的解集并进行化简。\n\n6. 写出不等式 3x + 2 < 4x− 1 的解集并进行化简。\n\n7. 如图，设 A= {a, b, c, d}, B= {b, d, e, f, g}。\n\n（1）求 A ∩ B，B ∩ A；\n\n（2）用适当的符号（⊃，⊂，=）填空：\n\nA ∩ B A， A ∩ B B ∩ A，B A ∩ B， ∅ B ∩ A。\n\n8. 图中 A，B，C 表示集合，把各个阴影部分所表示的集合分别标出来，并用适当的符号表示它们同 A，B，C 之间的包含关系。\n\n9. 设 A= {x | x < 5}, B= {x | x ≥ 0}，求 A ∩ B。\n\n10. 设 A= {(x, y) | 3x + 2y = 1}，B= {(x, y) | x− y = 2}，C= {(x, y) | 2x− 2y = 3}，D= {(x, y) | 6x + 4y = 2}，求 A ∩ B，B ∩ C，A ∩ D。\n\n11. 设 A= {锐角三角形}，B= {钝角三角形}，求 A ∩ B。\n\nABAabdefBgcC（第 7 题）（第 8 题）k ∈ Z}， B= {x | x = 2k+1, k ∈ Z}， C= {x | x = 2(k+1), k ∈ Z}，k ∈ Z}。问 A， B， C， D 中哪些集合相等，哪些集合的交集是空集。\n\n12. 设 A= {x | x = 2k, D= {x | x = 2k− 1, 3. 并集已知方程 x2− 4 = 0 的解集为方程 x2− 1 = 0 的解集为那么方程的解集为A= {2,−2}，B= {1,−1}，(x2− 4)(x2− 1) = 0{1,−1, 2,−2}。\n\n容易看出，集合 {1,−1, 2,−2} 是由所有属于 A 或属于 B 的元素所组成的。\n\n一般地，由所有属于集合 A 或属于集合 B 的元素所组成的集合，叫做 A， B 的并集，记作 A ∪ B（可读作“A 并 B”），即A ∪ B= {x | x ∈ A，或x ∈ B}。\n\n这样，方程 (x2\n\n解集的并集而得到，即\n\n− 4)(x2− 1) = 0 的解集，可以从求方程 x2− 4 = 0 的解集与方程 x2− 1 = 0 的{2,−2} ∪ {1,−1}= {1,−1, 2,−2}。\n\nA BA B（1）（2）图 1-3\n\n图1-3中的阴影部分，表示集合 A，B 的并集 A ∪ B。\n\n注意：我们已经知道，集合中的元素是没有重复现象的。因此，在求两个集合的并集时，这两个集合的公共元素在并集中只能出现一次。例如，设 A= {3, 5, 6, 8}，B= {4, 5, 7, 8}，则 A ∪ B 应是{3, 4, 5, 6, 7, 8}，而不是 {3, 5, 6, 8, 4, 5, 7, 8}。\n\n由并集定义容易知道，对于任何集合 A，B，有A ∪ A= A, A ∪ ∅= A,A ∪ B= B ∪ A。\n\n例 1 设 A= {x | −1 < x < 2}，B= {x | 1 < x < 3}，求 A ∪ B。\n\n解: A ∪ B= {x | −1 < x < 2} ∪ {x | 1 < x < 3}\n\n= {x | −1 < x < 3}。\n\n例 2 设 A= {锐角三角形}，B= {钝角三角形}，求 A ∪ B。\n\n解: A ∪ B= {锐角三角形} ∪ {钝角三角形}\n\n= {锐角三角形，或钝角三角形}= {斜三角形}。\n\n例 3 写出不等式 x2 + x− 6 ≥ 0 的解集并进行化简。\n\n解: 不等式 x2 + x− 6 ≥ 0 的解集是\n\n{x | x2 + x− 6 ≥ 0}= {x | x ≤ −3} ∪ {x | x ≥ 2}= {x | x ≤ −3，或x ≥ 2}。\n\n例 4 设 A= x−4 < x <−\n\n12 ，B= {x | x ≤ −4}，求 A ∪ B，A ∩ B。\n\n解:\n\nA ∪ B= x−4 < x <−12 ∪ {x | x ≤ −4}= x x <−12 ,A ∩ B= x−4 < x <−12 ∩ {x | x ≤ −4}= ∅。\n\n例 5 已知 Q 为有理数集，Z 为整数集，求 Q ∪ Z，Q ∩ Z。\n\n解: Q ∪ Z= {有理数} ∪ {整数}= {有理数}= Q,\n\nQ ∩ Z= {有理数} ∩ {整数}= {整数}= Z。\n\n4. 补集在研究集合与集合之间的关系时，在某些情况下，这些集合都是某一个给定的集合的子集，这个给定的集合可以看作一个全集，用符号 I 表示。也就是说，全集含有我们所要研究的各个集合的全部元素。\n\n例如，在研究数集时，常常把实数集 R 作为全集；在研究图形的集合时，常常把所有的空间图形组成的集合作为全集。\n\n已知全集 I，集合 A ⊆ I，由 I 中所有不属于 A 的元素组成的集合，叫做集合 A 在集合 I 中的补集，记作¯A（可读作“A 补”），即A= {x | x ∈ I，且x / ∈ A}。\n\nI图1-4中的长方形内表示全集 I，圆内表示集合 A，阴影部分表示集合 A 在集合 I 中的补集 A。\n\n由补集定义容易知道，对于任何集合 A，有A ∪ A= I, A ∩ A= ∅, 其中，A 表示 A 在 I 中的补集。\n\n例如，如果 I= {1, 2, 3, 4, 5, 6}，A= {1, 3, 5}，那么A= A，AAA= {2, 4, 6}。\n\n容易看出图 1-4{1, 3, 5} ∪ {2, 4, 6}= {1, 2, 3, 4, 5, 6}= I,{1, 3, 5} ∩ {2, 4, 6}= ∅,A= {1, 3, 5}= A。\n\n例 1 已知 I= R= {实数}，Q= {有理数}，求 Q。\n\n解: 有理数集在实数集中的补集是全体无理数的集合，所以\n\nQ= {无理数}。\n\n以后我们就把全体无理数的集合简称为无理数集，记作 Q。\n\n例 2 设 I= {梯形}，A= {等腰梯形}，求 A。\n\n解: A= {不等腰梯形}。\n\n例 3 已知 I= R= {实数}，A= {x | x2 + 3x + 2 < 0}，求 A。\n\n解: ∵ A= {x | x2 + 3x + 2 < 0}= {x | −2 < x <−1}，\n\n∴ A= {x | x ⩽−2} ∪ {x | x ⩾−1}= {x | x ⩽−2，或x ⩾−1}。\n\n例 4 设 I= {1, 2, 3, 4, 5, 6, 7, 8}，A= {1, 3, 5}，B= {4, 7, 8}，求 A，B，A ∩ B，A ∪ B。\n\n解: A= {1, 2, 6, 7, 8}, B= {1, 2, 3, 5, 6},\n\nA ∩ B= {1, 2, 6},A ∪ B= {1, 2, 3, 5, 6, 7, 8}。\n\n练 习\n\n1. 设 A= {1, 2, 3, 4, 5}，B= {4, 5, 6, 7, 8, 9}。\n\n（1）求 A ∩ B，A ∪ B。\n\n（2）用适当的符号（⊃，⊂）填空：\n\nA ∪ B A, A ∪ B B, A ∩ B A ∪ B。\n\n2. 设 A= {x | −2 < x < 1}，B= {x | 0 ⩽ x ⩽ 2}，求 A ∪ B。\n\n3. 设 A= {x | x >−2}，B= {x | x ⩾ 3}，求 A ∪ B。\n\n4. 写出不等式 |a + 3| > 1 的解集并进行化简（提示： |a + 3| > 1 ⇐⇒ a + 3 > 1，或a + 3 <−1）。\n\n5. 写出不等式 x2− x− 2 < 0 的解集并进行化简。\n\n6. 设 A= {直角三角形}，B= {斜三角形} ，求 A ∪ B。\n\n7. 已知 N 为自然数集。\n\n（1）如果 I 为整数集 Z，求 N ；\n\n（2）如果 I 为非负整数集，求 N 。\n\n8. 已知 I= R= {实数}，Q= {无理数}，求 Q 的补集 Q。\n\n9. 设 I= {四边形}，A= {至少有一组对边平行的四边形}，求 A。\n\n10. 设 I= {小于 9 的正整数}，A= {1, 2, 3}，B= {3, 4, 5, 6}，求 A，B，A ∩ B，A ∩ B。\n\n11. 图中 I 是全集，A，B 是 I 的两个子集，用阴影表示：\n\nIIA BA B（1）（2）（第 11 题）（1）A ∪ B; （2）A ∩ B。\n\n12. 设 A= {x | x = 2k, k ∈ Z}，B= {x | x = 2k + 1, k ∈ Z}，I= Z，求 A，B。\n\n习题 一\n\n1. 在下列各题中分别指出了一个集合的所有元素，用适当的方法把这个集合表示出来：\n\n（1）组成中国国旗图案的颜色；\n\n（2）世界上最高的山山峰；\n\n（3）由 1，2，3 这三个数字中抽出一部分或全部数字（没有重复）所排成的一切自然数；\n\n（4）直角坐标系第一象限内所有的点的坐标。\n\n2. 写出方程 x2 + x− 1 = 0 的解集并进行化简。\n\n3. 写出方程组        x + y = 3,y + z = 4,z + x = 5的解集并进行化简。\n\n4. 在下列各题中，指出关系式 A ⊆ B，A ⊇ B，A ⊂ B，A ⊃ B，A= B 中哪些成立：\n\n（1）A= {1, 3, 5, 7}，B= {3, 5, 7}；\n\n（2）A= {1, 2, 4, 8}，B= {x | x是 8 的正约数}。\n\n5. 判断下列各式是否正确，并说明理由：\n\n（1）2 ⊂ {x | x ⩽ 10}; （2）2 ∈ {x | x ⩽ 10};（3）{2} ⊂ {x | x ⩽ 10}; （4）∅ ∈ {x | x ⩽ 10};（5）∅ ̸⊂ {x | x ⩽ 10}; （6）∅ ⊂ {x | x ⩽ 10};（7）{4, 5, 6, 7} ̸⊂ {2, 3, 5, 7, 11}; （8）{4, 5, 6, 7} ̸⊃ {2, 3, 5, 7, 11}￿6. 学校里开运动会，设 A= {参加百米赛跑的同学}，B= {参加跳高比赛的同学}，求 A ∩ B。\n\n7. 用适当的集合填空：\n\n∩ ∅ A B∅AB A ∩ B8. 设 A= {红星农场的汽车}，B= {红星农场的拖拉机}，求 A ∪ B。\n\n9. 用适当的集合填空：\n\n∪ ∅ A B∅A AB10. 写出下列不等式的解集并进行化简：\n\n（1）x2 + 2x− 8 ⩽ 0； （2）x2 + 8x + 15 > 0。\n\n11. 设 S= {x | x ⩽ 3}，T= {x | x < 1}，求 S ∩ T 及 S ∪ T ，并在数轴上表示出来。\n\n12. 写出不等式 |3x− 5| > 2 的解集并进行化简。\n\n13. 用适当的集合填空：\n\n∩ ∅ A A∪ ∅ A A∅A∅AAA14. 设 I= {x | x ∈ N ，且x ⩽ 10}，A= {1, 2, 4, 5, 9}，B= {4, 6, 7, 8, 10}，C= {3, 5, 7}，求A ∩ B，A ∪ B，A ∩ B，A ∪ B，(A ∩ B) ∩ C，(A ∪ B) ∪ C。\n\n15. 设 I= {a, b, c, d, e, f }， A= {a, c, d}， B= {b, d, e}，求 A， B， A ∩ B， A ∪ B， A ∩ B， A ∪ B。\n\n看看求出的后四个集合中有没有相等的集合。\n\n16. 设 A= {x | x2− 16 < 0}，B= {x | x2− 4x + 3 ⩾ 0}，I= R，求：\n\n（1）A ∩ B; （2）A ∪ B;（4）A ∪ B。\n\n（3）A ∩ B;",
+      "blocks": [
+        {
+          "id": "section-1-2-block-1",
+          "type": "property",
+          "content": "1. 子集我们知道，任何一个自然数都是一个整数，就是说，自然数集 N 的任何一个元素都是整数集 Z的一个元素。同样，自然数集 N 的任何一个元素都是有理数集 Q 的一个元素。"
+        },
+        {
+          "id": "section-1-2-block-2",
+          "type": "definition",
+          "content": "对于两个集合 A 与 B，如果集合 A 的任何一个元素都是集合 B 的元素，那么集合 A 叫做集合B 的子集，记作A ⊆ B （或B ⊇ A），读作“A 包含于 B”（或“B 包含 A”）。例如N ⊆ Z, N ⊆ Q, R ⊇ Z, R ⊇ Q。"
+        },
+        {
+          "id": "section-1-2-block-3",
+          "type": "definition",
+          "content": "当 A 不是 B 的子集时，我们可以记作A ̸⊆ B （或B ̸⊇ A），读作“A 不包含于 B”（或“B 不包含 A”）。"
+        },
+        {
+          "id": "section-1-2-block-4",
+          "type": "property",
+          "content": "对于任何一个集合 A，因为它的任何一个元素都属于集合 A 本身，所以A ⊆ A，也就是说，任何一个集合是它本身的子集。"
+        },
+        {
+          "id": "section-1-2-block-5",
+          "type": "definition",
+          "content": "为了方便起见，我们把不含任何元素的集合叫做空集，记作 ∅。例如："
+        },
+        {
+          "id": "section-1-2-block-6",
+          "type": "section-intro",
+          "content": "{x | x + 1 = x + 3}= ∅ ，{小于零的正整数}= ∅ ，{两边之和小于第三边的三角形}= ∅ 。"
+        },
+        {
+          "id": "section-1-2-block-7",
+          "type": "property",
+          "content": "我们规定空集是任何集合的子集。也就是说，对于任何集合 A，有∅ ⊆ A 。"
+        },
+        {
+          "id": "section-1-2-block-8",
+          "type": "definition",
+          "content": "如果 A 是 B 的子集，并且 B 中至少有一个元素不属于 A，那么集合 A 叫做集合 B 的真子集，记作A ⊂ B （或B ⊃ A）。"
+        },
+        {
+          "id": "section-1-2-block-9",
+          "type": "definition",
+          "content": "当 A 不是 B 的真子集时，我们可以记作A ̸⊂ B （或B ̸⊃ A）。"
+        },
+        {
+          "id": "section-1-2-block-10",
+          "type": "property",
+          "content": "例如，自然数集 N 是 N 的子集，但不是的 N 真子集，所以 N ⊆ N ，但 N ̸⊂ N ；N 是实数集R 的子集，也是 R 的真子集，所以 N ⊂ R。"
+        },
+        {
+          "id": "section-1-2-block-11",
+          "type": "property",
+          "content": "集合 B 同它的真子集 A 之间的关系，可以用图1-1 中 B 同 A 的关系来说明，其中 A，B 两个圈的内部分别表示集合 A，B。"
+        },
+        {
+          "id": "section-1-2-block-12",
+          "type": "property",
+          "content": "显然，空集是任何非空集合的真子集。"
+        },
+        {
+          "id": "section-1-2-block-13",
+          "type": "section-intro",
+          "content": "容易知道， 对于集合 A， B， C, 如果 A ⊆ B， B ⊆ C，那么 A ⊆ C。"
+        },
+        {
+          "id": "section-1-2-block-14",
+          "type": "section-intro",
+          "content": "事实上，设 x 是集合 A 的任意一个元素，因为 A ⊆ B，所以 x ∈ B，又因为 B ⊆ C，所以 x ∈ C。从而 A ⊆ C。"
+        },
+        {
+          "id": "section-1-2-block-15",
+          "type": "definition",
+          "content": "同样可知， 对于集合 A， B， C, 如果 A ⊂ B， B ⊂ C，那么 A ⊂ C.对于两个集合 A 与 B，如果 A ⊆ B，同时 B ⊆ A，我们就说这两个集合相等，记作A= B，BA图 1-1读作“A 等于 B”。"
+        },
+        {
+          "id": "section-1-2-block-16",
+          "type": "section-intro",
+          "content": "例如，A= {x | x2 + 3x + 2 = 0}，B= {−1,−2}，则A= B。"
+        },
+        {
+          "id": "section-1-2-block-17",
+          "type": "example",
+          "content": "例 1 写出集合 {a, b} 的所有子集及真子集。\n\n解: 集合 {a, b} 的所有的子集是 ∅，{a}，{b}，{a, b}，其中 ∅，{a}，{b} 是真子集。"
+        },
+        {
+          "id": "section-1-2-block-18",
+          "type": "example",
+          "content": "例 2 写出不等式 x− 3 > 2 的解集并进行化简（即化成直接表明未知数本身的取值范围的解集）。\n\n解: 不等式 x− 3 > 2 的解集是"
+        },
+        {
+          "id": "section-1-2-block-19",
+          "type": "section-intro",
+          "content": "{x | x− 3 > 2}= {x | x > 5}。"
+        },
+        {
+          "id": "section-1-2-block-20",
+          "type": "property",
+          "content": "2. 交集已知 6 的正约数的集合为A= {1, 2, 3, 6}，10 的正约数的集合为B= {1, 2, 5, 10}，那么 6 与 10 的正公约数的集合为{1, 2}。"
+        },
+        {
+          "id": "section-1-2-block-21",
+          "type": "section-intro",
+          "content": "容易看出，集合 {1, 2} 是由所有属于 A 且属于 B 的元素（即 A，B 的公共元素）所组成的。"
+        },
+        {
+          "id": "section-1-2-block-22",
+          "type": "definition",
+          "content": "一般地，由所有属于集合 A 且属于集合 B 的元素所组成的集合，叫做 A，B 的交集，记作 A ∩ B（可读作“A 交 B”），即A ∩ B= {x | x ∈ A，且x ∈ B}。"
+        },
+        {
+          "id": "section-1-2-block-23",
+          "type": "property",
+          "content": "这样，6 与 10 的正公约数的集合，可以从求 6 的正约数的集合与 10 的正约数的集合的交集而得到，即A A ∩ B B{1, 2, 3, 6} ∩ {1, 2, 5, 10}= {1, 2}。"
+        },
+        {
+          "id": "section-1-2-block-24",
+          "type": "property",
+          "content": "图 1-2 中的阴影部分，表示集合 A，B 的交集 A ∩ B。"
+        },
+        {
+          "id": "section-1-2-block-25",
+          "type": "property",
+          "content": "由交集定义容易推出，对于任何集合 A，B，有图 1-2A ∩ A= A, A ∩ ∅= ∅,A ∩ B= B ∩ A。"
+        },
+        {
+          "id": "section-1-2-block-26",
+          "type": "example",
+          "content": "例 1 设 A= {x | x >−2}, B= {x | x < 3}，求 A ∩ B。\n\n解: A ∩ B= {x | x >−2} ∩ {x | x < 3}"
+        },
+        {
+          "id": "section-1-2-block-27",
+          "type": "section-intro",
+          "content": "= {x | −2 < x < 3}。"
+        },
+        {
+          "id": "section-1-2-block-28",
+          "type": "example",
+          "content": "例 2 设 A= {(x, y) | 4x + y = 6}, B= {(x, y) | 3x + 2y = 7}，求 A ∩ B。\n\n解: A ∩ B= {(x, y) | 4x + y = 6} ∩ {(x, y) | 3x + 2y = 7}"
+        },
+        {
+          "id": "section-1-2-block-29",
+          "type": "section-intro",
+          "content": "=  (x, y)  4x + y = 6,3x + 2y = 7  = {(1, 2)}。"
+        },
+        {
+          "id": "section-1-2-block-30",
+          "type": "example",
+          "content": "例 3 设 A= {等腰三角形}，B= {直角三角形}，求 A ∩ B。\n\n解: A ∩ B= {等腰三角形} ∩ {直角三角形}"
+        },
+        {
+          "id": "section-1-2-block-31",
+          "type": "section-intro",
+          "content": "= {有两边相等且有一个角是直角的三角形}= {等腰直角三角形}。"
+        },
+        {
+          "id": "section-1-2-block-32",
+          "type": "definition",
+          "content": "形如 2n (n ∈ Z) 的整数叫做偶数，形如 2n + 1 (n ∈ Z) 的整数叫做奇数。全体奇数的集合简称奇数集，全体偶数的集合简称偶数集。我们再看一个例子。"
+        },
+        {
+          "id": "section-1-2-block-33",
+          "type": "example",
+          "content": "例 4 已知 A 为奇数集，B 为偶数集，Z 为整数集，求 A ∩ Z，B ∩ Z，A ∩ B。\n\n解: A ∩ Z= {奇数} ∩ {整数}= {奇数}= A,"
+        },
+        {
+          "id": "section-1-2-block-34",
+          "type": "section-intro",
+          "content": "B ∩ Z= {偶数} ∩ {整数}= {偶数}= B,A ∩ B= {奇数} ∩ {偶数}= ∅。"
+        },
+        {
+          "id": "section-1-2-block-35",
+          "type": "exercise",
+          "content": "练 习\n\n1. 图中 A，B，C 表示集合，说明它们之间有什么包含关系。"
+        },
+        {
+          "id": "section-1-2-block-36",
+          "type": "property",
+          "content": "2. 写出集合 {a, b, c} 的所有子集及真子集。"
+        },
+        {
+          "id": "section-1-2-block-37",
+          "type": "section-intro",
+          "content": "3. 用适当的符号（∈，̸∈，=，⊂，⊃） 填空："
+        },
+        {
+          "id": "section-1-2-block-38",
+          "type": "section-intro",
+          "content": "（1）a {a}; （2）a {a, b, c};（3）d {a, b, c}; （4）{a} {a, b, c};（5）{a, b} {b, a}; （6）{3, 5} {1, 3, 5, 7};（7）{2, 4, 5, 8} {2, 8}; （8）∅ {1, 2, 3};4. 写出方程 x + 3 = x2− 5 的解集并进行化简。"
+        },
+        {
+          "id": "section-1-2-block-39",
+          "type": "section-intro",
+          "content": "5. 写出方程组B CA（第 1 题）  2x + 3y = 1,3x− 2y = 3的解集并进行化简。"
+        },
+        {
+          "id": "section-1-2-block-40",
+          "type": "section-intro",
+          "content": "6. 写出不等式 3x + 2 < 4x− 1 的解集并进行化简。"
+        },
+        {
+          "id": "section-1-2-block-41",
+          "type": "section-intro",
+          "content": "7. 如图，设 A= {a, b, c, d}, B= {b, d, e, f, g}。"
+        },
+        {
+          "id": "section-1-2-block-42",
+          "type": "section-intro",
+          "content": "（1）求 A ∩ B，B ∩ A；"
+        },
+        {
+          "id": "section-1-2-block-43",
+          "type": "section-intro",
+          "content": "（2）用适当的符号（⊃，⊂，=）填空："
+        },
+        {
+          "id": "section-1-2-block-44",
+          "type": "section-intro",
+          "content": "A ∩ B A， A ∩ B B ∩ A，B A ∩ B， ∅ B ∩ A。"
+        },
+        {
+          "id": "section-1-2-block-45",
+          "type": "section-intro",
+          "content": "8. 图中 A，B，C 表示集合，把各个阴影部分所表示的集合分别标出来，并用适当的符号表示它们同 A，B，C 之间的包含关系。"
+        },
+        {
+          "id": "section-1-2-block-46",
+          "type": "section-intro",
+          "content": "9. 设 A= {x | x < 5}, B= {x | x ≥ 0}，求 A ∩ B。"
+        },
+        {
+          "id": "section-1-2-block-47",
+          "type": "section-intro",
+          "content": "10. 设 A= {(x, y) | 3x + 2y = 1}，B= {(x, y) | x− y = 2}，C= {(x, y) | 2x− 2y = 3}，D= {(x, y) | 6x + 4y = 2}，求 A ∩ B，B ∩ C，A ∩ D。"
+        },
+        {
+          "id": "section-1-2-block-48",
+          "type": "section-intro",
+          "content": "11. 设 A= {锐角三角形}，B= {钝角三角形}，求 A ∩ B。"
+        },
+        {
+          "id": "section-1-2-block-49",
+          "type": "property",
+          "content": "ABAabdefBgcC（第 7 题）（第 8 题）k ∈ Z}， B= {x | x = 2k+1, k ∈ Z}， C= {x | x = 2(k+1), k ∈ Z}，k ∈ Z}。问 A， B， C， D 中哪些集合相等，哪些集合的交集是空集。"
+        },
+        {
+          "id": "section-1-2-block-50",
+          "type": "property",
+          "content": "12. 设 A= {x | x = 2k, D= {x | x = 2k− 1, 3. 并集已知方程 x2− 4 = 0 的解集为方程 x2− 1 = 0 的解集为那么方程的解集为A= {2,−2}，B= {1,−1}，(x2− 4)(x2− 1) = 0{1,−1, 2,−2}。"
+        },
+        {
+          "id": "section-1-2-block-51",
+          "type": "section-intro",
+          "content": "容易看出，集合 {1,−1, 2,−2} 是由所有属于 A 或属于 B 的元素所组成的。"
+        },
+        {
+          "id": "section-1-2-block-52",
+          "type": "definition",
+          "content": "一般地，由所有属于集合 A 或属于集合 B 的元素所组成的集合，叫做 A， B 的并集，记作 A ∪ B（可读作“A 并 B”），即A ∪ B= {x | x ∈ A，或x ∈ B}。"
+        },
+        {
+          "id": "section-1-2-block-53",
+          "type": "section-intro",
+          "content": "这样，方程 (x2"
+        },
+        {
+          "id": "section-1-2-block-54",
+          "type": "example",
+          "content": "解集的并集而得到，即"
+        },
+        {
+          "id": "section-1-2-block-55",
+          "type": "section-intro",
+          "content": "− 4)(x2− 1) = 0 的解集，可以从求方程 x2− 4 = 0 的解集与方程 x2− 1 = 0 的{2,−2} ∪ {1,−1}= {1,−1, 2,−2}。"
+        },
+        {
+          "id": "section-1-2-block-56",
+          "type": "section-intro",
+          "content": "A BA B（1）（2）图 1-3"
+        },
+        {
+          "id": "section-1-2-block-57",
+          "type": "property",
+          "content": "图1-3中的阴影部分，表示集合 A，B 的并集 A ∪ B。"
+        },
+        {
+          "id": "section-1-2-block-58",
+          "type": "property",
+          "content": "注意：我们已经知道，集合中的元素是没有重复现象的。因此，在求两个集合的并集时，这两个集合的公共元素在并集中只能出现一次。例如，设 A= {3, 5, 6, 8}，B= {4, 5, 7, 8}，则 A ∪ B 应是{3, 4, 5, 6, 7, 8}，而不是 {3, 5, 6, 8, 4, 5, 7, 8}。"
+        },
+        {
+          "id": "section-1-2-block-59",
+          "type": "property",
+          "content": "由并集定义容易知道，对于任何集合 A，B，有A ∪ A= A, A ∪ ∅= A,A ∪ B= B ∪ A。"
+        },
+        {
+          "id": "section-1-2-block-60",
+          "type": "example",
+          "content": "例 1 设 A= {x | −1 < x < 2}，B= {x | 1 < x < 3}，求 A ∪ B。\n\n解: A ∪ B= {x | −1 < x < 2} ∪ {x | 1 < x < 3}"
+        },
+        {
+          "id": "section-1-2-block-61",
+          "type": "section-intro",
+          "content": "= {x | −1 < x < 3}。"
+        },
+        {
+          "id": "section-1-2-block-62",
+          "type": "example",
+          "content": "例 2 设 A= {锐角三角形}，B= {钝角三角形}，求 A ∪ B。\n\n解: A ∪ B= {锐角三角形} ∪ {钝角三角形}"
+        },
+        {
+          "id": "section-1-2-block-63",
+          "type": "section-intro",
+          "content": "= {锐角三角形，或钝角三角形}= {斜三角形}。"
+        },
+        {
+          "id": "section-1-2-block-64",
+          "type": "example",
+          "content": "例 3 写出不等式 x2 + x− 6 ≥ 0 的解集并进行化简。\n\n解: 不等式 x2 + x− 6 ≥ 0 的解集是"
+        },
+        {
+          "id": "section-1-2-block-65",
+          "type": "section-intro",
+          "content": "{x | x2 + x− 6 ≥ 0}= {x | x ≤ −3} ∪ {x | x ≥ 2}= {x | x ≤ −3，或x ≥ 2}。"
+        },
+        {
+          "id": "section-1-2-block-66",
+          "type": "example",
+          "content": "例 4 设 A= x−4 < x <−"
+        },
+        {
+          "id": "section-1-2-block-67",
+          "type": "section-intro",
+          "content": "12 ，B= {x | x ≤ −4}，求 A ∪ B，A ∩ B。"
+        },
+        {
+          "id": "section-1-2-block-68",
+          "type": "example",
+          "content": "解:"
+        },
+        {
+          "id": "section-1-2-block-69",
+          "type": "section-intro",
+          "content": "A ∪ B= x−4 < x <−12 ∪ {x | x ≤ −4}= x x <−12 ,A ∩ B= x−4 < x <−12 ∩ {x | x ≤ −4}= ∅。"
+        },
+        {
+          "id": "section-1-2-block-70",
+          "type": "example",
+          "content": "例 5 已知 Q 为有理数集，Z 为整数集，求 Q ∪ Z，Q ∩ Z。\n\n解: Q ∪ Z= {有理数} ∪ {整数}= {有理数}= Q,"
+        },
+        {
+          "id": "section-1-2-block-71",
+          "type": "section-intro",
+          "content": "Q ∩ Z= {有理数} ∩ {整数}= {整数}= Z。"
+        },
+        {
+          "id": "section-1-2-block-72",
+          "type": "property",
+          "content": "4. 补集在研究集合与集合之间的关系时，在某些情况下，这些集合都是某一个给定的集合的子集，这个给定的集合可以看作一个全集，用符号 I 表示。也就是说，全集含有我们所要研究的各个集合的全部元素。"
+        },
+        {
+          "id": "section-1-2-block-73",
+          "type": "section-intro",
+          "content": "例如，在研究数集时，常常把实数集 R 作为全集；在研究图形的集合时，常常把所有的空间图形组成的集合作为全集。"
+        },
+        {
+          "id": "section-1-2-block-74",
+          "type": "definition",
+          "content": "已知全集 I，集合 A ⊆ I，由 I 中所有不属于 A 的元素组成的集合，叫做集合 A 在集合 I 中的补集，记作¯A（可读作“A 补”），即A= {x | x ∈ I，且x / ∈ A}。"
+        },
+        {
+          "id": "section-1-2-block-75",
+          "type": "property",
+          "content": "I图1-4中的长方形内表示全集 I，圆内表示集合 A，阴影部分表示集合 A 在集合 I 中的补集 A。"
+        },
+        {
+          "id": "section-1-2-block-76",
+          "type": "property",
+          "content": "由补集定义容易知道，对于任何集合 A，有A ∪ A= I, A ∩ A= ∅, 其中，A 表示 A 在 I 中的补集。"
+        },
+        {
+          "id": "section-1-2-block-77",
+          "type": "section-intro",
+          "content": "例如，如果 I= {1, 2, 3, 4, 5, 6}，A= {1, 3, 5}，那么A= A，AAA= {2, 4, 6}。"
+        },
+        {
+          "id": "section-1-2-block-78",
+          "type": "section-intro",
+          "content": "容易看出图 1-4{1, 3, 5} ∪ {2, 4, 6}= {1, 2, 3, 4, 5, 6}= I,{1, 3, 5} ∩ {2, 4, 6}= ∅,A= {1, 3, 5}= A。"
+        },
+        {
+          "id": "section-1-2-block-79",
+          "type": "example",
+          "content": "例 1 已知 I= R= {实数}，Q= {有理数}，求 Q。\n\n解: 有理数集在实数集中的补集是全体无理数的集合，所以"
+        },
+        {
+          "id": "section-1-2-block-80",
+          "type": "section-intro",
+          "content": "Q= {无理数}。"
+        },
+        {
+          "id": "section-1-2-block-81",
+          "type": "definition",
+          "content": "以后我们就把全体无理数的集合简称为无理数集，记作 Q。"
+        },
+        {
+          "id": "section-1-2-block-82",
+          "type": "example",
+          "content": "例 2 设 I= {梯形}，A= {等腰梯形}，求 A。\n\n解: A= {不等腰梯形}。"
+        },
+        {
+          "id": "section-1-2-block-83",
+          "type": "example",
+          "content": "例 3 已知 I= R= {实数}，A= {x | x2 + 3x + 2 < 0}，求 A。\n\n解: ∵ A= {x | x2 + 3x + 2 < 0}= {x | −2 < x <−1}，"
+        },
+        {
+          "id": "section-1-2-block-84",
+          "type": "section-intro",
+          "content": "∴ A= {x | x ⩽−2} ∪ {x | x ⩾−1}= {x | x ⩽−2，或x ⩾−1}。"
+        },
+        {
+          "id": "section-1-2-block-85",
+          "type": "example",
+          "content": "例 4 设 I= {1, 2, 3, 4, 5, 6, 7, 8}，A= {1, 3, 5}，B= {4, 7, 8}，求 A，B，A ∩ B，A ∪ B。\n\n解: A= {1, 2, 6, 7, 8}, B= {1, 2, 3, 5, 6},"
+        },
+        {
+          "id": "section-1-2-block-86",
+          "type": "section-intro",
+          "content": "A ∩ B= {1, 2, 6},A ∪ B= {1, 2, 3, 5, 6, 7, 8}。"
+        },
+        {
+          "id": "section-1-2-block-87",
+          "type": "exercise",
+          "content": "练 习\n\n1. 设 A= {1, 2, 3, 4, 5}，B= {4, 5, 6, 7, 8, 9}。"
+        },
+        {
+          "id": "section-1-2-block-88",
+          "type": "section-intro",
+          "content": "（1）求 A ∩ B，A ∪ B。"
+        },
+        {
+          "id": "section-1-2-block-89",
+          "type": "section-intro",
+          "content": "（2）用适当的符号（⊃，⊂）填空："
+        },
+        {
+          "id": "section-1-2-block-90",
+          "type": "section-intro",
+          "content": "A ∪ B A, A ∪ B B, A ∩ B A ∪ B。"
+        },
+        {
+          "id": "section-1-2-block-91",
+          "type": "section-intro",
+          "content": "2. 设 A= {x | −2 < x < 1}，B= {x | 0 ⩽ x ⩽ 2}，求 A ∪ B。"
+        },
+        {
+          "id": "section-1-2-block-92",
+          "type": "section-intro",
+          "content": "3. 设 A= {x | x >−2}，B= {x | x ⩾ 3}，求 A ∪ B。"
+        },
+        {
+          "id": "section-1-2-block-93",
+          "type": "section-intro",
+          "content": "4. 写出不等式 |a + 3| > 1 的解集并进行化简（提示： |a + 3| > 1 ⇐⇒ a + 3 > 1，或a + 3 <−1）。"
+        },
+        {
+          "id": "section-1-2-block-94",
+          "type": "section-intro",
+          "content": "5. 写出不等式 x2− x− 2 < 0 的解集并进行化简。"
+        },
+        {
+          "id": "section-1-2-block-95",
+          "type": "section-intro",
+          "content": "6. 设 A= {直角三角形}，B= {斜三角形} ，求 A ∪ B。"
+        },
+        {
+          "id": "section-1-2-block-96",
+          "type": "section-intro",
+          "content": "7. 已知 N 为自然数集。"
+        },
+        {
+          "id": "section-1-2-block-97",
+          "type": "section-intro",
+          "content": "（1）如果 I 为整数集 Z，求 N ；"
+        },
+        {
+          "id": "section-1-2-block-98",
+          "type": "section-intro",
+          "content": "（2）如果 I 为非负整数集，求 N 。"
+        },
+        {
+          "id": "section-1-2-block-99",
+          "type": "property",
+          "content": "8. 已知 I= R= {实数}，Q= {无理数}，求 Q 的补集 Q。"
+        },
+        {
+          "id": "section-1-2-block-100",
+          "type": "section-intro",
+          "content": "9. 设 I= {四边形}，A= {至少有一组对边平行的四边形}，求 A。"
+        },
+        {
+          "id": "section-1-2-block-101",
+          "type": "section-intro",
+          "content": "10. 设 I= {小于 9 的正整数}，A= {1, 2, 3}，B= {3, 4, 5, 6}，求 A，B，A ∩ B，A ∩ B。"
+        },
+        {
+          "id": "section-1-2-block-102",
+          "type": "property",
+          "content": "11. 图中 I 是全集，A，B 是 I 的两个子集，用阴影表示："
+        },
+        {
+          "id": "section-1-2-block-103",
+          "type": "section-intro",
+          "content": "IIA BA B（1）（2）（第 11 题）（1）A ∪ B; （2）A ∩ B。"
+        },
+        {
+          "id": "section-1-2-block-104",
+          "type": "section-intro",
+          "content": "12. 设 A= {x | x = 2k, k ∈ Z}，B= {x | x = 2k + 1, k ∈ Z}，I= Z，求 A，B。"
+        },
+        {
+          "id": "section-1-2-block-105",
+          "type": "exercise",
+          "content": "习题 一\n\n1. 在下列各题中分别指出了一个集合的所有元素，用适当的方法把这个集合表示出来："
+        },
+        {
+          "id": "section-1-2-block-106",
+          "type": "section-intro",
+          "content": "（1）组成中国国旗图案的颜色；"
+        },
+        {
+          "id": "section-1-2-block-107",
+          "type": "section-intro",
+          "content": "（2）世界上最高的山山峰；"
+        },
+        {
+          "id": "section-1-2-block-108",
+          "type": "section-intro",
+          "content": "（3）由 1，2，3 这三个数字中抽出一部分或全部数字（没有重复）所排成的一切自然数；"
+        },
+        {
+          "id": "section-1-2-block-109",
+          "type": "section-intro",
+          "content": "（4）直角坐标系第一象限内所有的点的坐标。"
+        },
+        {
+          "id": "section-1-2-block-110",
+          "type": "section-intro",
+          "content": "2. 写出方程 x2 + x− 1 = 0 的解集并进行化简。"
+        },
+        {
+          "id": "section-1-2-block-111",
+          "type": "section-intro",
+          "content": "3. 写出方程组        x + y = 3,y + z = 4,z + x = 5的解集并进行化简。"
+        },
+        {
+          "id": "section-1-2-block-112",
+          "type": "property",
+          "content": "4. 在下列各题中，指出关系式 A ⊆ B，A ⊇ B，A ⊂ B，A ⊃ B，A= B 中哪些成立："
+        },
+        {
+          "id": "section-1-2-block-113",
+          "type": "section-intro",
+          "content": "（1）A= {1, 3, 5, 7}，B= {3, 5, 7}；"
+        },
+        {
+          "id": "section-1-2-block-114",
+          "type": "section-intro",
+          "content": "（2）A= {1, 2, 4, 8}，B= {x | x是 8 的正约数}。"
+        },
+        {
+          "id": "section-1-2-block-115",
+          "type": "section-intro",
+          "content": "5. 判断下列各式是否正确，并说明理由："
+        },
+        {
+          "id": "section-1-2-block-116",
+          "type": "section-intro",
+          "content": "（1）2 ⊂ {x | x ⩽ 10}; （2）2 ∈ {x | x ⩽ 10};（3）{2} ⊂ {x | x ⩽ 10}; （4）∅ ∈ {x | x ⩽ 10};（5）∅ ̸⊂ {x | x ⩽ 10}; （6）∅ ⊂ {x | x ⩽ 10};（7）{4, 5, 6, 7} ̸⊂ {2, 3, 5, 7, 11}; （8）{4, 5, 6, 7} ̸⊃ {2, 3, 5, 7, 11}￿6. 学校里开运动会，设 A= {参加百米赛跑的同学}，B= {参加跳高比赛的同学}，求 A ∩ B。"
+        },
+        {
+          "id": "section-1-2-block-117",
+          "type": "section-intro",
+          "content": "7. 用适当的集合填空："
+        },
+        {
+          "id": "section-1-2-block-118",
+          "type": "section-intro",
+          "content": "∩ ∅ A B∅AB A ∩ B8. 设 A= {红星农场的汽车}，B= {红星农场的拖拉机}，求 A ∪ B。"
+        },
+        {
+          "id": "section-1-2-block-119",
+          "type": "section-intro",
+          "content": "9. 用适当的集合填空："
+        },
+        {
+          "id": "section-1-2-block-120",
+          "type": "section-intro",
+          "content": "∪ ∅ A B∅A AB10. 写出下列不等式的解集并进行化简："
+        },
+        {
+          "id": "section-1-2-block-121",
+          "type": "section-intro",
+          "content": "（1）x2 + 2x− 8 ⩽ 0； （2）x2 + 8x + 15 > 0。"
+        },
+        {
+          "id": "section-1-2-block-122",
+          "type": "section-intro",
+          "content": "11. 设 S= {x | x ⩽ 3}，T= {x | x < 1}，求 S ∩ T 及 S ∪ T ，并在数轴上表示出来。"
+        },
+        {
+          "id": "section-1-2-block-123",
+          "type": "section-intro",
+          "content": "12. 写出不等式 |3x− 5| > 2 的解集并进行化简。"
+        },
+        {
+          "id": "section-1-2-block-124",
+          "type": "section-intro",
+          "content": "13. 用适当的集合填空："
+        },
+        {
+          "id": "section-1-2-block-125",
+          "type": "section-intro",
+          "content": "∩ ∅ A A∪ ∅ A A∅A∅AAA14. 设 I= {x | x ∈ N ，且x ⩽ 10}，A= {1, 2, 4, 5, 9}，B= {4, 6, 7, 8, 10}，C= {3, 5, 7}，求A ∩ B，A ∪ B，A ∩ B，A ∪ B，(A ∩ B) ∩ C，(A ∪ B) ∪ C。"
+        },
+        {
+          "id": "section-1-2-block-126",
+          "type": "section-intro",
+          "content": "15. 设 I= {a, b, c, d, e, f }， A= {a, c, d}， B= {b, d, e}，求 A， B， A ∩ B， A ∪ B， A ∩ B， A ∪ B。"
+        },
+        {
+          "id": "section-1-2-block-127",
+          "type": "section-intro",
+          "content": "看看求出的后四个集合中有没有相等的集合。"
+        },
+        {
+          "id": "section-1-2-block-128",
+          "type": "section-intro",
+          "content": "16. 设 A= {x | x2− 16 < 0}，B= {x | x2− 4x + 3 ⩾ 0}，I= R，求："
+        },
+        {
+          "id": "section-1-2-block-129",
+          "type": "section-intro",
+          "content": "（1）A ∩ B; （2）A ∪ B;（4）A ∪ B。"
+        },
+        {
+          "id": "section-1-2-block-130",
+          "type": "section-intro",
+          "content": "（3）A ∩ B;"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 子集、交集、并集、补集 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [
+          "1. 子集我们知道，任何一个自然数都是一个整数，就是说，",
+          "对于两个集合 A 与 B，如果集合 A 的任何一个元素都",
+          "当 A 不是 B 的子集时，我们可以记作A ̸⊆ B （",
+          "对于任何一个集合 A，因为它的任何一个元素都属于集合 A"
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [
+          {
+            "kind": "set-operations",
+            "title": "子集、交集、并集、补集联动图",
+            "modes": [
+              "subset",
+              "intersection",
+              "union",
+              "complement"
+            ]
+          }
+        ],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-3",
+      "number": "1.3",
+      "title": "映射",
+      "startPage": 15,
+      "unitSlug": "unit-2",
+      "pageRange": [
+        15,
+        15
+      ],
+      "text": "1.3 映射\n\n在初中我们已学习过对应的例子。例如，对于任何一个实数 a，数轴上都有唯一的一点 A 和它对应；坐标平面内的任何一个点 P ，都有唯一的有序实数对 (x, y) 和它对应。现在我们学习一种特殊的对应——映射。\n\n先看两个集合 A，B 的元素之间的一些对应的例子（图1-5）。为简单起见，这里的 A，B 都是有限集。\n\n3930◦√3-3260◦A4BAB-2120◦11150◦-1212−12√3−2（1）（2）A1-12-23-3149B（3）图 1-5在（1）中，对应法则是“开平方”，即对于集合 A 中的每一个正数 x （如 x = 9），集合 B 中有两个平方根 ±√x（即 3 与−3）和它对应；在（2）中，对应法则是“求余弦”，即对于集合 A 中的每1一个角 α （如 α = 120◦），集合 B 中有一个余弦值 cos α（即−2 ）和它对应；在（3）中，对应法则是“平方”，即对于集合 A 中的每两个非零整数 ±m（如 2 和−2），集合 B 中有一个平方数 m2 （即4）和它们对应。\n\n一般地，对于一个集合中的一个或几个元素，可以按照某种对应法则，使另一个集合（也可以是原集合）中有一个或几个元素和它对应。\n\n图1-5中（2）与（3）这两个对应都有这样的特点：对于第一个集合（即 A）中的任何一个元素，第二个集合（即 B）中都有唯一的元素和它对应。",
+      "blocks": [
+        {
+          "id": "section-1-3-block-1",
+          "type": "section-intro",
+          "content": "在初中我们已学习过对应的例子。例如，对于任何一个实数 a，数轴上都有唯一的一点 A 和它对应；坐标平面内的任何一个点 P ，都有唯一的有序实数对 (x, y) 和它对应。现在我们学习一种特殊的对应——映射。"
+        },
+        {
+          "id": "section-1-3-block-2",
+          "type": "section-intro",
+          "content": "先看两个集合 A，B 的元素之间的一些对应的例子（图1-5）。为简单起见，这里的 A，B 都是有限集。"
+        },
+        {
+          "id": "section-1-3-block-3",
+          "type": "section-intro",
+          "content": "3930◦√3-3260◦A4BAB-2120◦11150◦-1212−12√3−2（1）（2）A1-12-23-3149B（3）图 1-5在（1）中，对应法则是“开平方”，即对于集合 A 中的每一个正数 x （如 x = 9），集合 B 中有两个平方根 ±√x（即 3 与−3）和它对应；在（2）中，对应法则是“求余弦”，即对于集合 A 中的每1一个角 α （如 α = 120◦），集合 B 中有一个余弦值 cos α（即−2 ）和它对应；在（3）中，对应法则是“平方”，即对于集合 A 中的每两个非零整数 ±m（如 2 和−2），集合 B 中有一个平方数 m2 （即4）和它们对应。"
+        },
+        {
+          "id": "section-1-3-block-4",
+          "type": "section-intro",
+          "content": "一般地，对于一个集合中的一个或几个元素，可以按照某种对应法则，使另一个集合（也可以是原集合）中有一个或几个元素和它对应。"
+        },
+        {
+          "id": "section-1-3-block-5",
+          "type": "section-intro",
+          "content": "图1-5中（2）与（3）这两个对应都有这样的特点：对于第一个集合（即 A）中的任何一个元素，第二个集合（即 B）中都有唯一的元素和它对应。"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 映射 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [],
+        "conceptMap": null,
+        "interactiveDemos": [],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-4",
+      "number": "1.4",
+      "title": "函数",
+      "startPage": 16,
+      "unitSlug": "unit-2",
+      "pageRange": [
+        16,
+        20
+      ],
+      "text": "1.4 函数\n\n我们在初中已经学过函数，知道：如果在某变化过程中有两个变量 x， y，并且对于 x 在某个范围内的每一个确定的值，按照某个对应法则，y 都有唯一确定的值和它对应，那么 y 就是 x 的函数，x叫做自变量，x 的取值范围叫做函数的定义域，和 x 的值对应的 y 的值叫做 函數值，函数值的集合叫做函数的值域。\n\n从映射的概念可以知道，映射 f : A → B 包括三个部分：原象集合 A，象所在的集合 B 以及从A 到 B 的对应法则 f 。当集合 A，B 都是非空的数的集合，且 B 的每一个元素都有原象时，这样的映射 f : A → B 就是定义域 A 到值域 B 上的函数。所以函数是由定义域、值域以及定义域到值域上的对应法则三部分组成的一类特殊的映射。\n\n例如，对于一次函数 y = 3x + 2，函数的定义域是实数集 R，值域也是 R，对应法则是“乘 3 加2”，这个函数是一个 R 到 R 上的映射。\n\n又如，对于二次函数 y = 2x2 + 2，函数的定义域是 R，值域是 {y | y ⩾ 2}，对应法则是“平方乘2 加 2”，这个函数是一个 R 到 {y | y ⩾ 2} 上的映射。\n\n在本书中，将把这类定义域 A 到值域 B 上的特殊的映射 f : A → B 都叫做函数，并记作y= f (x)。\n\nx 在定义域 A 内取一个确定的值 a 时，对应的函数值记作 f (a)。\n\n例如，二次函数 f (x) = x2 + 2x− 1 在 x = 0，x = 1，x = 2 时的函数值分别为 f (0) =−1，f (1) = 2，f (2) = 7。\n\n在同时研究两个或多个函数时，要用不同的符号来表示它们，除 f (x) 外还常用 F (x)， G(x)， g(x)等符号。\n\n在研究函数时常常用到区间的概念。\n\n设 a，b 是两个实数，而且 a < b，我们把满足 a ⩽ x ⩽ b 的实数 x 的集合叫做闭区间，表示为[a, b]；把满足 a < x < b 的实数 x 的集合叫做开区间，表示为 (a, b)；把满足 a ⩽ x < b，a < x ⩽ b 的实数 x 的集合，都叫做半开半闭区间，分别表示为 [a, b)，(a, b]。这里的实数 a 与 b 都叫做相应区间的端点。\n\n实数集 R 也可以用区间表示为 (−∞, +∞)，“∞”读作“无穷大”，“−∞”读作“负无穷大”，“+inf ty” 读作“正无穷大”。我们还把满足 x ⩾ a，x > a，x ⩽ b，x < b 的实数 x 的集合分别表示为[a, +∞)，(a, +∞)，(−∞, b]，(−∞, b)。\n\n我们知道，正比例函数和一次函数的图象都是一条直线，二次函数的图象是一条平滑的曲线（抛物线），反比例函数的图象是两支平滑的曲线（双曲线）。此外，函数的图象也可以是一些点或几条线段等。\n\n例 1 某种茶杯，每个 0.5 元，买 x 个茶杯的钱数（元）\n\nf (x) = 0.5x, x ∈ Z−。\n\n画出这个函数的图象。\n\n解: 这个函数的图象由一些点组成，如图1-6所示\n\ny(元)321y(分)24168O 1 2 3 4图 1-6x(个)O20 40图 1-7x(克重)\n\n例 2 在国内投寄外埠平信，每封信不超过 20 克重付邮资 8 分，超过 20 克重而不超过 40 克重付\n\n邮资 1 角 6 分。那么，每封 x(0 < x ⩽ 40) 克重的信应付邮资（分）f (x) =  8, x ∈ (0, 20],16, x ∈ (20, 40]。\n\n画出这个函数的图象。\n\n解: 这个函数的图象是两条线段，如图1-7所示。\n\n当我们所研究的函数 y= f (x) 是用一个式子表示时，如果不加说明，函数的定义域就是指能使这个式子有意义的实数 x 的集合。\n\n例 3 求函数 f (x) = 1\n\nx− 2 的定义域。\n\n解: 因为 x− 2 = 0 即 x = 2 时， 1\n\nx− 2 没有意义，而 x ̸= 2 时， 1x− 2 都有意义，所以这个函数的定义域是 {x | x ∈ R，且x ̸= 2}。\n\n例 4 求函数 f (x) = √3x + 2 的定义域。\n\n22\n\n解: 因为 3x + 2 ⩾ 0 即 x ⩾−\n\n3 时，√3x + 2 有意义，而 x <−3 时，√3x + 2 没有意义，所以这个函数的定义域是−23 , +∞ 。\n\n例 5 求函数 f (x) = √x + 1 + √1− x + 2 的定义域。\n\n解: 使 √x + 1 有意义的实数 x 的集合是 [−1, +∞)，使 √1− x 有意义的实数 x 的集合是 (−∞, 1]，\n\n所以这个函数的定义域是[−1, +∞) ∩ (−∞, 1] = [−1, 1]。\n\n练 习\n\n1. （口答）如图，已知函数 y= x2，圈内的数都是整数，求：\n\n（1）函数的定义域、值域；\n\n（2）和 x =−2 对应的象；\n\n（3）y = 9 和什么原象对应。\n\n2. 已知函数 f (x) = 2x− 3, x ∈ {0, 1, 2, 3, 5}，求 f (0)，f (2)，f (5) 及函数的值域。\n\n3. 画出下列函数的图象：\n\n（1）f (x) = 2x, x ∈ Z，且|x| ⩽ 2；\n\n（2）f (x) =  1, x ∈ (0, +∞),−1, x ∈ (−∞, 0]。\n\n4. 求下列函数的定义域：\n\n（1）f (x) = 14x + 7 ；\n\n（2）f (x) = √1− x + √x + 3− 1。\n\n平方09−3203−14−211......（第 1 题）\n\n习题 二\n\nx 求倒数的 2 倍−3−2−121. 根据给定的对应法则，写出和 x 对应的数值：\n\nx平方0−323−1−21...9...13（第 1 题）2. 根据给定的对应法则，写出和 x 对应的数值：\n\n3. 下列各图表示的对应是不是从第一个集合到第二个集合的映射，为什么？\n\n4. 下列对应是不是从 A 到 B 的映射，为什么？\n\n（1）A= R+，B= R，对应法则是“求常用对数”；\n\n（2）A= {平面M 内的点}，B= {平面M 内的圆}，对应法则是“以点 P 为圆心画圆”；\n\n（3）A= {α | 0◦ ⩽ α ⩽ 180◦}，B = [0, 1]，对应法则是“求余弦”；\n\n（4）A= {平面M 内的三角形}，B= {平面M 内的圆}，对应法则是“画三角形的外接圆”。\n\n平方乘 2 加 1x−2−√3−√2−1 0 1 √2 √3 23（第 2 题）a1a3a2a4（2）（第 3 题）a1b1b1a1b1a3b2b2a2a3b3b2a2b3b3a4b4b4a4b4（1）（3）5. 在从集合 A 到集合 B 的映射中，（1）对于集合 A 中的任意一个元素 a，在集合 B 中是不是有象？是不是只有一个象？\n\n（2）对于集合 B 中的任意一个元素 b，在集合 A 中是不是有原象？是不是只有一个原象？\n\n6. 如图，已知从集合 A 到集合 B 的对应法则是“乘 2 减 3”，从集合 B 到集合 C 的对应法则是“乘 3 减 5”。按对应法则写出集合 B，C 中的对应元素。\n\n乘 2 减 3 乘 3 减 51−1−823456（第 6 题）7. 已知函数 f (x) = 3x + 5, x ∈ R，求 f (−3)，f (−2)，f (0)，f (1)，f (2) 以及函数的值域。\n\n8. 画出下列函数的图象，并说出函数的定义域、值域：\n\n（1）正比例函数 y = 3x；\n\n8（2）反比例函数 y=；\n\nx（3）一次函数 y=−4x + 5；\n\n（4）二次函数 y= x2− 6x + 7。\n\n9. 画出下列函数的图象：\n\n（1）f (x) = x + 2, x ∈ Z，且|x| ⩽ 3；\n\n（2）f (x) = 3x− 5, x ∈ (2, 4]；\n\n（3）f (x) =−√x, x ∈ [0, +∞)；\n\n12 , 2)。\n\n（4）f (x) = 2x2− 3x− 2, x ∈ (−10. 求下列函数的定义域：\n\n（1）f (x) = 6x2− 3x + 2 ；\n\n3 √4x + 8（2）f (x) =√3x− 2 ；\n\n（3）f (x) = √2x− 1 + √1− 2x + 4；\n\n（4）f (x) = √x2− 4。\n\n11. 建筑一个容枳为 8000米3，深为 6 米的长方体蓄水池，池壁每 米2 的造价为 a 元，池底每 米2的造价为 2a 元。把总造价 y 元表示为底的一边长 x 米的函数，并指出函数的定义域。\n\n12. 如图，灌溉渠的横断面是等腰梯形，底宽 2 米，边坡的倾角为 45◦，水深 h 米。求横断面中有水面积 A米2 与水深 h 米的函数关系式。\n\nh 米45◦2 米（第 12 题）13. 投寄本埠平信，每 20 克重应贴邮票 4 分，不足 20 克重的以 20 克重计算。写出邮资〈分）与信件重量（在 60 克重以内）的函数关系式，并画出函数的图象。如果要寄挂号信，则每封信另加挂号费 1 角 2 分。写出邮资（分）与挂号信件重量（在 60 克重以内）的函数关系式，并画出函数的图象。",
+      "blocks": [
+        {
+          "id": "section-1-4-block-1",
+          "type": "definition",
+          "content": "我们在初中已经学过函数，知道：如果在某变化过程中有两个变量 x， y，并且对于 x 在某个范围内的每一个确定的值，按照某个对应法则，y 都有唯一确定的值和它对应，那么 y 就是 x 的函数，x叫做自变量，x 的取值范围叫做函数的定义域，和 x 的值对应的 y 的值叫做 函數值，函数值的集合叫做函数的值域。"
+        },
+        {
+          "id": "section-1-4-block-2",
+          "type": "property",
+          "content": "从映射的概念可以知道，映射 f : A → B 包括三个部分：原象集合 A，象所在的集合 B 以及从A 到 B 的对应法则 f 。当集合 A，B 都是非空的数的集合，且 B 的每一个元素都有原象时，这样的映射 f : A → B 就是定义域 A 到值域 B 上的函数。所以函数是由定义域、值域以及定义域到值域上的对应法则三部分组成的一类特殊的映射。"
+        },
+        {
+          "id": "section-1-4-block-3",
+          "type": "property",
+          "content": "例如，对于一次函数 y = 3x + 2，函数的定义域是实数集 R，值域也是 R，对应法则是“乘 3 加2”，这个函数是一个 R 到 R 上的映射。"
+        },
+        {
+          "id": "section-1-4-block-4",
+          "type": "property",
+          "content": "又如，对于二次函数 y = 2x2 + 2，函数的定义域是 R，值域是 {y | y ⩾ 2}，对应法则是“平方乘2 加 2”，这个函数是一个 R 到 {y | y ⩾ 2} 上的映射。"
+        },
+        {
+          "id": "section-1-4-block-5",
+          "type": "definition",
+          "content": "在本书中，将把这类定义域 A 到值域 B 上的特殊的映射 f : A → B 都叫做函数，并记作y= f (x)。"
+        },
+        {
+          "id": "section-1-4-block-6",
+          "type": "definition",
+          "content": "x 在定义域 A 内取一个确定的值 a 时，对应的函数值记作 f (a)。"
+        },
+        {
+          "id": "section-1-4-block-7",
+          "type": "property",
+          "content": "例如，二次函数 f (x) = x2 + 2x− 1 在 x = 0，x = 1，x = 2 时的函数值分别为 f (0) =−1，f (1) = 2，f (2) = 7。"
+        },
+        {
+          "id": "section-1-4-block-8",
+          "type": "property",
+          "content": "在同时研究两个或多个函数时，要用不同的符号来表示它们，除 f (x) 外还常用 F (x)， G(x)， g(x)等符号。"
+        },
+        {
+          "id": "section-1-4-block-9",
+          "type": "property",
+          "content": "在研究函数时常常用到区间的概念。"
+        },
+        {
+          "id": "section-1-4-block-10",
+          "type": "definition",
+          "content": "设 a，b 是两个实数，而且 a < b，我们把满足 a ⩽ x ⩽ b 的实数 x 的集合叫做闭区间，表示为[a, b]；把满足 a < x < b 的实数 x 的集合叫做开区间，表示为 (a, b)；把满足 a ⩽ x < b，a < x ⩽ b 的实数 x 的集合，都叫做半开半闭区间，分别表示为 [a, b)，(a, b]。这里的实数 a 与 b 都叫做相应区间的端点。"
+        },
+        {
+          "id": "section-1-4-block-11",
+          "type": "section-intro",
+          "content": "实数集 R 也可以用区间表示为 (−∞, +∞)，“∞”读作“无穷大”，“−∞”读作“负无穷大”，“+inf ty” 读作“正无穷大”。我们还把满足 x ⩾ a，x > a，x ⩽ b，x < b 的实数 x 的集合分别表示为[a, +∞)，(a, +∞)，(−∞, b]，(−∞, b)。"
+        },
+        {
+          "id": "section-1-4-block-12",
+          "type": "property",
+          "content": "我们知道，正比例函数和一次函数的图象都是一条直线，二次函数的图象是一条平滑的曲线（抛物线），反比例函数的图象是两支平滑的曲线（双曲线）。此外，函数的图象也可以是一些点或几条线段等。"
+        },
+        {
+          "id": "section-1-4-block-13",
+          "type": "example",
+          "content": "例 1 某种茶杯，每个 0.5 元，买 x 个茶杯的钱数（元）"
+        },
+        {
+          "id": "section-1-4-block-14",
+          "type": "section-intro",
+          "content": "f (x) = 0.5x, x ∈ Z−。"
+        },
+        {
+          "id": "section-1-4-block-15",
+          "type": "property",
+          "content": "画出这个函数的图象。"
+        },
+        {
+          "id": "section-1-4-block-16",
+          "type": "example",
+          "content": "解: 这个函数的图象由一些点组成，如图1-6所示"
+        },
+        {
+          "id": "section-1-4-block-17",
+          "type": "section-intro",
+          "content": "y(元)321y(分)24168O 1 2 3 4图 1-6x(个)O20 40图 1-7x(克重)"
+        },
+        {
+          "id": "section-1-4-block-18",
+          "type": "example",
+          "content": "例 2 在国内投寄外埠平信，每封信不超过 20 克重付邮资 8 分，超过 20 克重而不超过 40 克重付"
+        },
+        {
+          "id": "section-1-4-block-19",
+          "type": "section-intro",
+          "content": "邮资 1 角 6 分。那么，每封 x(0 < x ⩽ 40) 克重的信应付邮资（分）f (x) =  8, x ∈ (0, 20],16, x ∈ (20, 40]。"
+        },
+        {
+          "id": "section-1-4-block-20",
+          "type": "property",
+          "content": "画出这个函数的图象。"
+        },
+        {
+          "id": "section-1-4-block-21",
+          "type": "example",
+          "content": "解: 这个函数的图象是两条线段，如图1-7所示。"
+        },
+        {
+          "id": "section-1-4-block-22",
+          "type": "property",
+          "content": "当我们所研究的函数 y= f (x) 是用一个式子表示时，如果不加说明，函数的定义域就是指能使这个式子有意义的实数 x 的集合。"
+        },
+        {
+          "id": "section-1-4-block-23",
+          "type": "example",
+          "content": "例 3 求函数 f (x) = 1"
+        },
+        {
+          "id": "section-1-4-block-24",
+          "type": "section-intro",
+          "content": "x− 2 的定义域。"
+        },
+        {
+          "id": "section-1-4-block-25",
+          "type": "example",
+          "content": "解: 因为 x− 2 = 0 即 x = 2 时， 1"
+        },
+        {
+          "id": "section-1-4-block-26",
+          "type": "property",
+          "content": "x− 2 没有意义，而 x ̸= 2 时， 1x− 2 都有意义，所以这个函数的定义域是 {x | x ∈ R，且x ̸= 2}。"
+        },
+        {
+          "id": "section-1-4-block-27",
+          "type": "example",
+          "content": "例 4 求函数 f (x) = √3x + 2 的定义域。"
+        },
+        {
+          "id": "section-1-4-block-28",
+          "type": "section-intro",
+          "content": "22"
+        },
+        {
+          "id": "section-1-4-block-29",
+          "type": "example",
+          "content": "解: 因为 3x + 2 ⩾ 0 即 x ⩾−"
+        },
+        {
+          "id": "section-1-4-block-30",
+          "type": "property",
+          "content": "3 时，√3x + 2 有意义，而 x <−3 时，√3x + 2 没有意义，所以这个函数的定义域是−23 , +∞ 。"
+        },
+        {
+          "id": "section-1-4-block-31",
+          "type": "example",
+          "content": "例 5 求函数 f (x) = √x + 1 + √1− x + 2 的定义域。\n\n解: 使 √x + 1 有意义的实数 x 的集合是 [−1, +∞)，使 √1− x 有意义的实数 x 的集合是 (−∞, 1]，"
+        },
+        {
+          "id": "section-1-4-block-32",
+          "type": "property",
+          "content": "所以这个函数的定义域是[−1, +∞) ∩ (−∞, 1] = [−1, 1]。"
+        },
+        {
+          "id": "section-1-4-block-33",
+          "type": "exercise",
+          "content": "练 习\n\n1. （口答）如图，已知函数 y= x2，圈内的数都是整数，求："
+        },
+        {
+          "id": "section-1-4-block-34",
+          "type": "property",
+          "content": "（1）函数的定义域、值域；"
+        },
+        {
+          "id": "section-1-4-block-35",
+          "type": "section-intro",
+          "content": "（2）和 x =−2 对应的象；"
+        },
+        {
+          "id": "section-1-4-block-36",
+          "type": "section-intro",
+          "content": "（3）y = 9 和什么原象对应。"
+        },
+        {
+          "id": "section-1-4-block-37",
+          "type": "property",
+          "content": "2. 已知函数 f (x) = 2x− 3, x ∈ {0, 1, 2, 3, 5}，求 f (0)，f (2)，f (5) 及函数的值域。"
+        },
+        {
+          "id": "section-1-4-block-38",
+          "type": "property",
+          "content": "3. 画出下列函数的图象："
+        },
+        {
+          "id": "section-1-4-block-39",
+          "type": "section-intro",
+          "content": "（1）f (x) = 2x, x ∈ Z，且|x| ⩽ 2；"
+        },
+        {
+          "id": "section-1-4-block-40",
+          "type": "section-intro",
+          "content": "（2）f (x) =  1, x ∈ (0, +∞),−1, x ∈ (−∞, 0]。"
+        },
+        {
+          "id": "section-1-4-block-41",
+          "type": "property",
+          "content": "4. 求下列函数的定义域："
+        },
+        {
+          "id": "section-1-4-block-42",
+          "type": "section-intro",
+          "content": "（1）f (x) = 14x + 7 ；"
+        },
+        {
+          "id": "section-1-4-block-43",
+          "type": "section-intro",
+          "content": "（2）f (x) = √1− x + √x + 3− 1。"
+        },
+        {
+          "id": "section-1-4-block-44",
+          "type": "section-intro",
+          "content": "平方09−3203−14−211......（第 1 题）"
+        },
+        {
+          "id": "section-1-4-block-45",
+          "type": "exercise",
+          "content": "习题 二"
+        },
+        {
+          "id": "section-1-4-block-46",
+          "type": "section-intro",
+          "content": "x 求倒数的 2 倍−3−2−121. 根据给定的对应法则，写出和 x 对应的数值："
+        },
+        {
+          "id": "section-1-4-block-47",
+          "type": "section-intro",
+          "content": "x平方0−323−1−21...9...13（第 1 题）2. 根据给定的对应法则，写出和 x 对应的数值："
+        },
+        {
+          "id": "section-1-4-block-48",
+          "type": "section-intro",
+          "content": "3. 下列各图表示的对应是不是从第一个集合到第二个集合的映射，为什么？"
+        },
+        {
+          "id": "section-1-4-block-49",
+          "type": "section-intro",
+          "content": "4. 下列对应是不是从 A 到 B 的映射，为什么？"
+        },
+        {
+          "id": "section-1-4-block-50",
+          "type": "section-intro",
+          "content": "（1）A= R+，B= R，对应法则是“求常用对数”；"
+        },
+        {
+          "id": "section-1-4-block-51",
+          "type": "section-intro",
+          "content": "（2）A= {平面M 内的点}，B= {平面M 内的圆}，对应法则是“以点 P 为圆心画圆”；"
+        },
+        {
+          "id": "section-1-4-block-52",
+          "type": "section-intro",
+          "content": "（3）A= {α | 0◦ ⩽ α ⩽ 180◦}，B = [0, 1]，对应法则是“求余弦”；"
+        },
+        {
+          "id": "section-1-4-block-53",
+          "type": "section-intro",
+          "content": "（4）A= {平面M 内的三角形}，B= {平面M 内的圆}，对应法则是“画三角形的外接圆”。"
+        },
+        {
+          "id": "section-1-4-block-54",
+          "type": "section-intro",
+          "content": "平方乘 2 加 1x−2−√3−√2−1 0 1 √2 √3 23（第 2 题）a1a3a2a4（2）（第 3 题）a1b1b1a1b1a3b2b2a2a3b3b2a2b3b3a4b4b4a4b4（1）（3）5. 在从集合 A 到集合 B 的映射中，（1）对于集合 A 中的任意一个元素 a，在集合 B 中是不是有象？是不是只有一个象？"
+        },
+        {
+          "id": "section-1-4-block-55",
+          "type": "section-intro",
+          "content": "（2）对于集合 B 中的任意一个元素 b，在集合 A 中是不是有原象？是不是只有一个原象？"
+        },
+        {
+          "id": "section-1-4-block-56",
+          "type": "section-intro",
+          "content": "6. 如图，已知从集合 A 到集合 B 的对应法则是“乘 2 减 3”，从集合 B 到集合 C 的对应法则是“乘 3 减 5”。按对应法则写出集合 B，C 中的对应元素。"
+        },
+        {
+          "id": "section-1-4-block-57",
+          "type": "property",
+          "content": "乘 2 减 3 乘 3 减 51−1−823456（第 6 题）7. 已知函数 f (x) = 3x + 5, x ∈ R，求 f (−3)，f (−2)，f (0)，f (1)，f (2) 以及函数的值域。"
+        },
+        {
+          "id": "section-1-4-block-58",
+          "type": "property",
+          "content": "8. 画出下列函数的图象，并说出函数的定义域、值域："
+        },
+        {
+          "id": "section-1-4-block-59",
+          "type": "property",
+          "content": "（1）正比例函数 y = 3x；"
+        },
+        {
+          "id": "section-1-4-block-60",
+          "type": "property",
+          "content": "8（2）反比例函数 y=；"
+        },
+        {
+          "id": "section-1-4-block-61",
+          "type": "property",
+          "content": "x（3）一次函数 y=−4x + 5；"
+        },
+        {
+          "id": "section-1-4-block-62",
+          "type": "property",
+          "content": "（4）二次函数 y= x2− 6x + 7。"
+        },
+        {
+          "id": "section-1-4-block-63",
+          "type": "property",
+          "content": "9. 画出下列函数的图象："
+        },
+        {
+          "id": "section-1-4-block-64",
+          "type": "section-intro",
+          "content": "（1）f (x) = x + 2, x ∈ Z，且|x| ⩽ 3；"
+        },
+        {
+          "id": "section-1-4-block-65",
+          "type": "section-intro",
+          "content": "（2）f (x) = 3x− 5, x ∈ (2, 4]；"
+        },
+        {
+          "id": "section-1-4-block-66",
+          "type": "section-intro",
+          "content": "（3）f (x) =−√x, x ∈ [0, +∞)；"
+        },
+        {
+          "id": "section-1-4-block-67",
+          "type": "section-intro",
+          "content": "12 , 2)。"
+        },
+        {
+          "id": "section-1-4-block-68",
+          "type": "property",
+          "content": "（4）f (x) = 2x2− 3x− 2, x ∈ (−10. 求下列函数的定义域："
+        },
+        {
+          "id": "section-1-4-block-69",
+          "type": "section-intro",
+          "content": "（1）f (x) = 6x2− 3x + 2 ；"
+        },
+        {
+          "id": "section-1-4-block-70",
+          "type": "section-intro",
+          "content": "3 √4x + 8（2）f (x) =√3x− 2 ；"
+        },
+        {
+          "id": "section-1-4-block-71",
+          "type": "section-intro",
+          "content": "（3）f (x) = √2x− 1 + √1− 2x + 4；"
+        },
+        {
+          "id": "section-1-4-block-72",
+          "type": "section-intro",
+          "content": "（4）f (x) = √x2− 4。"
+        },
+        {
+          "id": "section-1-4-block-73",
+          "type": "property",
+          "content": "11. 建筑一个容枳为 8000米3，深为 6 米的长方体蓄水池，池壁每 米2 的造价为 a 元，池底每 米2的造价为 2a 元。把总造价 y 元表示为底的一边长 x 米的函数，并指出函数的定义域。"
+        },
+        {
+          "id": "section-1-4-block-74",
+          "type": "property",
+          "content": "12. 如图，灌溉渠的横断面是等腰梯形，底宽 2 米，边坡的倾角为 45◦，水深 h 米。求横断面中有水面积 A米2 与水深 h 米的函数关系式。"
+        },
+        {
+          "id": "section-1-4-block-75",
+          "type": "property",
+          "content": "h 米45◦2 米（第 12 题）13. 投寄本埠平信，每 20 克重应贴邮票 4 分，不足 20 克重的以 20 克重计算。写出邮资〈分）与信件重量（在 60 克重以内）的函数关系式，并画出函数的图象。如果要寄挂号信，则每封信另加挂号费 1 角 2 分。写出邮资（分）与挂号信件重量（在 60 克重以内）的函数关系式，并画出函数的图象。"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 函数 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [
+          "我们在初中已经学过函数，知道：如果在某变化过程中有两个变",
+          "从映射的概念可以知道，映射 f : A → B 包括三个",
+          "例如，对于一次函数 y = 3x + 2，函数的定义域是",
+          "又如，对于二次函数 y = 2x2 + 2，函数的定义域"
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-5",
+      "number": "1.5",
+      "title": "幂函数",
+      "startPage": 21,
+      "unitSlug": "unit-3",
+      "pageRange": [
+        21,
+        24
+      ],
+      "text": "1.5 幂函数\n\n的情况）。\n\n我们知道，当 n = 0 时，xn = x0 = 1 (x ̸= 0)，函数 y= x0 成为常数函数 y = 1 (x ̸= 0)，它的图象是平行于 x 轴并在 x 轴上方 1 个单位的一条直线（除去点 (0, 1)）。\n\n当 n = 1 时，函数 y= xn 就是 y= x。n 是其他正整数时， xn 的意义是 xn = x· x· · · · · x （共 n个 x 相乘）。函数的定义域是实数集 R。\n\nn 是一个正分数时，我们只研究 n 是一个既约分数 p的情况（p，q 是正整数，q > 1)。这时，xnqpp的意义是 xq = q √xp，函数 y= xq 的定义域是使q √xp 有意义的实数 x 的集合。\n\nn 是一个负整数或负分数时，例如，n =−p（p 是正整数）或 n =−p（p,q 是素质的正整数，q1p1q > 1）时，xn 的意义分别是 xn = x−p =，xn = x−q =，函数的定义域是使 1xpq √xpxp 或 1有q √xp意义的实数 x 的集合。\n\n例 1 求下列幂函数的定义域：\n\n1y= x3，y= x3 ，y= x\n\n解: y= x3 的定义域是 R，\n\n1y= x3 = 3 √x 的定义域是 R，1y= x2 = √x 的定义域是 [0, +∞)，1y= x−2 =x2 的定义域是 {x | x ∈ R，且x ̸= 0}，11y= x−2 =的定义域是 (0, +∞)。\n\n√x现在我们分 x > 0 及 n < 0 两种情况来研究幂函数的图象和性质。\n\n12 ，y= x−2，y= x−12 。\n\n1. n > 0。\n\n我们知道，y= x 的图象是直线（图1-8），y= x2 的图象是抛物线（图1-9）。\n\ny432yy= x−3−11O−4−2 54321y= x2O图 1-91 2 3x1 2 3 4−1x−2−3−4−3−2−1 图 1-8现在画函数 y= x3y= x3，y= x12 及 y= x13 的图象。\n\n分别列出 x，y 的对应值表，用描点的方法，画出这三个函数的图象（图1-10，图1-11及图1-12）。\n\nx. . .−1.5−1−0.5 0 0.5 1 1.5. . .y= x3. . .−3.38−1−0.13 0 0.13 1 3.38. . .y= x12x 0 0.5 1 2 3 4 6. . .y= x12 0 0.71 1 1.41 1.73 2 2.45. . .y= x13x. . .−3−2−1 0 1 2 3. . .y= x13 . . .−1.44−1￿26−1 0 1 1￿26 1.44. . .y4321y= x3yO−2−1 1 2−1−2−3−4图 1-10x543211y= x2O1 2 3 4 5 6图 1-11xy121y= x3−3−2−1 O1 2 3x−1−2图 1-12进一步研究可以看出：幂函数 y= x4， y= x6，……的图象类似于 y= x2 的图象； y= x5， y= x7，1111……的图象类似于 y= x3 的图象；y= x4 ，y= x6 ，……的图象类似于 y= x2 的图象；y= x5 ，11y= x7 ，……的图象类似于 y= x3 的图象。\n\n11下面在同一坐标系内画出幂函数 y= x，y= x2，y= x3，y= x2 ，y= x3 的图象（图1-13），我们可以看出，当 n > 0 时，幂函数 y= xn 有下列性质：\n\n（1）图象都通过点 (0, 0)，(1, 1)；\n\n（2）在第一象限内，函数值随 x 的增大而增大。\n\nyy= x3 y= x2 y= x11y= xy= x213−1O 1−1x图 1-13\n\n例 1 比较下列各题中两个值的大小：\n\n33（1）1.55 ，1.75 （2）0.71.5，0.61.5。\n\n解: （1）各题中两个值都是幂运算的结果，且指数相同，因此，可以利用幂函数的性质来判断它\n\n们的大小，考察函数 y= x35 ，在第一象限内，y 的值随 x 的增大而增大。\n\n∵ 1.5 < 1.7，3∴ 1.535 < 1.75 。\n\n（2）考察幂函数 y= x1.5，同理，∵ 0.7 > 0.6，∴ 0.71.5 > 0.61.5。\n\n2. n < 0。\n\n1我们知道，幂函数 y= x−1 的图象，即反比例函数 y=y4321的图象，是两支曲线（图1-14）。\n\nxy= x−1−4−3−2−1O 1 2 3 4−1−2−3−4x图 1-14\n\n1现在画函数 y= x−2，y= x−2 的图象。\n\n分别列出 x，y 的对应值表，用描点的方法画出这两个函数的图象（图1-15，图1-16）。\n\n1y= x−2 =x211x. . .−3−2−1−21 2 3. . .21111y= x−2. . .1 4 4 19449. . .11y= x−2 =√x111x. . .1 4. . .169411y= x−2. . . 4 3 2 12. . .y4321y= x−2y43211y= x−2O 1 2 3 4−4−3−2−1xO−1 −1图 1-15在同一坐标系内画出 y= x−1，y= x−2，y= x−时，幂函数 y= xn 有下列性质：\n\n（1）图象都通过点 (1, 1)；\n\n（2）在第一象限内，函数值随着 x 的增大而减小；\n\n（3）在第一象限内，图象向上与 y 轴无限地接近，向右与 x 轴无限地接近。\n\n1 2 3 4 5x−1图 1-162 的图象（图1-17），我们可以看出，当 n < 01",
+      "blocks": [
+        {
+          "id": "section-1-5-block-1",
+          "type": "section-intro",
+          "content": "的情况）。"
+        },
+        {
+          "id": "section-1-5-block-2",
+          "type": "property",
+          "content": "我们知道，当 n = 0 时，xn = x0 = 1 (x ̸= 0)，函数 y= x0 成为常数函数 y = 1 (x ̸= 0)，它的图象是平行于 x 轴并在 x 轴上方 1 个单位的一条直线（除去点 (0, 1)）。"
+        },
+        {
+          "id": "section-1-5-block-3",
+          "type": "property",
+          "content": "当 n = 1 时，函数 y= xn 就是 y= x。n 是其他正整数时， xn 的意义是 xn = x· x· · · · · x （共 n个 x 相乘）。函数的定义域是实数集 R。"
+        },
+        {
+          "id": "section-1-5-block-4",
+          "type": "property",
+          "content": "n 是一个正分数时，我们只研究 n 是一个既约分数 p的情况（p，q 是正整数，q > 1)。这时，xnqpp的意义是 xq = q √xp，函数 y= xq 的定义域是使q √xp 有意义的实数 x 的集合。"
+        },
+        {
+          "id": "section-1-5-block-5",
+          "type": "property",
+          "content": "n 是一个负整数或负分数时，例如，n =−p（p 是正整数）或 n =−p（p,q 是素质的正整数，q1p1q > 1）时，xn 的意义分别是 xn = x−p =，xn = x−q =，函数的定义域是使 1xpq √xpxp 或 1有q √xp意义的实数 x 的集合。"
+        },
+        {
+          "id": "section-1-5-block-6",
+          "type": "example",
+          "content": "例 1 求下列幂函数的定义域："
+        },
+        {
+          "id": "section-1-5-block-7",
+          "type": "section-intro",
+          "content": "1y= x3，y= x3 ，y= x"
+        },
+        {
+          "id": "section-1-5-block-8",
+          "type": "example",
+          "content": "解: y= x3 的定义域是 R，"
+        },
+        {
+          "id": "section-1-5-block-9",
+          "type": "section-intro",
+          "content": "1y= x3 = 3 √x 的定义域是 R，1y= x2 = √x 的定义域是 [0, +∞)，1y= x−2 =x2 的定义域是 {x | x ∈ R，且x ̸= 0}，11y= x−2 =的定义域是 (0, +∞)。"
+        },
+        {
+          "id": "section-1-5-block-10",
+          "type": "property",
+          "content": "√x现在我们分 x > 0 及 n < 0 两种情况来研究幂函数的图象和性质。"
+        },
+        {
+          "id": "section-1-5-block-11",
+          "type": "section-intro",
+          "content": "12 ，y= x−2，y= x−12 。"
+        },
+        {
+          "id": "section-1-5-block-12",
+          "type": "section-intro",
+          "content": "1. n > 0。"
+        },
+        {
+          "id": "section-1-5-block-13",
+          "type": "section-intro",
+          "content": "我们知道，y= x 的图象是直线（图1-8），y= x2 的图象是抛物线（图1-9）。"
+        },
+        {
+          "id": "section-1-5-block-14",
+          "type": "property",
+          "content": "y432yy= x−3−11O−4−2 54321y= x2O图 1-91 2 3x1 2 3 4−1x−2−3−4−3−2−1 图 1-8现在画函数 y= x3y= x3，y= x12 及 y= x13 的图象。"
+        },
+        {
+          "id": "section-1-5-block-15",
+          "type": "property",
+          "content": "分别列出 x，y 的对应值表，用描点的方法，画出这三个函数的图象（图1-10，图1-11及图1-12）。"
+        },
+        {
+          "id": "section-1-5-block-16",
+          "type": "property",
+          "content": "x. . .−1.5−1−0.5 0 0.5 1 1.5. . .y= x3. . .−3.38−1−0.13 0 0.13 1 3.38. . .y= x12x 0 0.5 1 2 3 4 6. . .y= x12 0 0.71 1 1.41 1.73 2 2.45. . .y= x13x. . .−3−2−1 0 1 2 3. . .y= x13 . . .−1.44−1￿26−1 0 1 1￿26 1.44. . .y4321y= x3yO−2−1 1 2−1−2−3−4图 1-10x543211y= x2O1 2 3 4 5 6图 1-11xy121y= x3−3−2−1 O1 2 3x−1−2图 1-12进一步研究可以看出：幂函数 y= x4， y= x6，……的图象类似于 y= x2 的图象； y= x5， y= x7，1111……的图象类似于 y= x3 的图象；y= x4 ，y= x6 ，……的图象类似于 y= x2 的图象；y= x5 ，11y= x7 ，……的图象类似于 y= x3 的图象。"
+        },
+        {
+          "id": "section-1-5-block-17",
+          "type": "property",
+          "content": "11下面在同一坐标系内画出幂函数 y= x，y= x2，y= x3，y= x2 ，y= x3 的图象（图1-13），我们可以看出，当 n > 0 时，幂函数 y= xn 有下列性质："
+        },
+        {
+          "id": "section-1-5-block-18",
+          "type": "section-intro",
+          "content": "（1）图象都通过点 (0, 0)，(1, 1)；"
+        },
+        {
+          "id": "section-1-5-block-19",
+          "type": "property",
+          "content": "（2）在第一象限内，函数值随 x 的增大而增大。"
+        },
+        {
+          "id": "section-1-5-block-20",
+          "type": "section-intro",
+          "content": "yy= x3 y= x2 y= x11y= xy= x213−1O 1−1x图 1-13"
+        },
+        {
+          "id": "section-1-5-block-21",
+          "type": "example",
+          "content": "例 1 比较下列各题中两个值的大小："
+        },
+        {
+          "id": "section-1-5-block-22",
+          "type": "section-intro",
+          "content": "33（1）1.55 ，1.75 （2）0.71.5，0.61.5。"
+        },
+        {
+          "id": "section-1-5-block-23",
+          "type": "example",
+          "content": "解: （1）各题中两个值都是幂运算的结果，且指数相同，因此，可以利用幂函数的性质来判断它"
+        },
+        {
+          "id": "section-1-5-block-24",
+          "type": "property",
+          "content": "们的大小，考察函数 y= x35 ，在第一象限内，y 的值随 x 的增大而增大。"
+        },
+        {
+          "id": "section-1-5-block-25",
+          "type": "section-intro",
+          "content": "∵ 1.5 < 1.7，3∴ 1.535 < 1.75 。"
+        },
+        {
+          "id": "section-1-5-block-26",
+          "type": "property",
+          "content": "（2）考察幂函数 y= x1.5，同理，∵ 0.7 > 0.6，∴ 0.71.5 > 0.61.5。"
+        },
+        {
+          "id": "section-1-5-block-27",
+          "type": "section-intro",
+          "content": "2. n < 0。"
+        },
+        {
+          "id": "section-1-5-block-28",
+          "type": "property",
+          "content": "1我们知道，幂函数 y= x−1 的图象，即反比例函数 y=y4321的图象，是两支曲线（图1-14）。"
+        },
+        {
+          "id": "section-1-5-block-29",
+          "type": "section-intro",
+          "content": "xy= x−1−4−3−2−1O 1 2 3 4−1−2−3−4x图 1-14"
+        },
+        {
+          "id": "section-1-5-block-30",
+          "type": "property",
+          "content": "1现在画函数 y= x−2，y= x−2 的图象。"
+        },
+        {
+          "id": "section-1-5-block-31",
+          "type": "property",
+          "content": "分别列出 x，y 的对应值表，用描点的方法画出这两个函数的图象（图1-15，图1-16）。"
+        },
+        {
+          "id": "section-1-5-block-32",
+          "type": "property",
+          "content": "1y= x−2 =x211x. . .−3−2−1−21 2 3. . .21111y= x−2. . .1 4 4 19449. . .11y= x−2 =√x111x. . .1 4. . .169411y= x−2. . . 4 3 2 12. . .y4321y= x−2y43211y= x−2O 1 2 3 4−4−3−2−1xO−1 −1图 1-15在同一坐标系内画出 y= x−1，y= x−2，y= x−时，幂函数 y= xn 有下列性质："
+        },
+        {
+          "id": "section-1-5-block-33",
+          "type": "section-intro",
+          "content": "（1）图象都通过点 (1, 1)；"
+        },
+        {
+          "id": "section-1-5-block-34",
+          "type": "property",
+          "content": "（2）在第一象限内，函数值随着 x 的增大而减小；"
+        },
+        {
+          "id": "section-1-5-block-35",
+          "type": "section-intro",
+          "content": "（3）在第一象限内，图象向上与 y 轴无限地接近，向右与 x 轴无限地接近。"
+        },
+        {
+          "id": "section-1-5-block-36",
+          "type": "section-intro",
+          "content": "1 2 3 4 5x−1图 1-162 的图象（图1-17），我们可以看出，当 n < 01"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 幂函数 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [
+          "我们知道，当 n = 0 时，xn = x0 = 1 (",
+          "当 n = 1 时，函数 y= xn 就是 y= x。n",
+          "n 是一个正分数时，我们只研究 n 是一个既约分数 p的",
+          "n 是一个负整数或负分数时，例如，n =−p（p 是正整"
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-6",
+      "number": "1.6",
+      "title": "函数的单调性",
+      "startPage": 25,
+      "unitSlug": "unit-3",
+      "pageRange": [
+        25,
+        26
+      ],
+      "text": "1.6 函数的单调性\n\n我们在研究一次函数、二次函数和幂函数时，根据函数的图象研究了函数在某个区间上增大或减小的性质。\n\n一般地，对于给定区间上的函数 f (x)：\n\n1. 如果对于属于这个区间的任意两个自变量的值 x1，x2，当 x1 < x2 时，都有 f (x1) < f (x2)，那么就说 f (x) 在这个区间上是增函数（图1-18（1））；\n\n2. 如果对于属于这个区间的任意两个自变量的值 x1，x2，当 x1 < x2 时，都有 f (x1) > f (x2)，那么就说 f (x) 在这个区间上是减函数（图1-18（2））。\n\nyyy= f (x)f (x1)f (x2)f (x1)y= f (x)f (x2)Ox1x2xOx1x2x（1）（2）图 1-18如果函数 y= f (x) 在某个区间上是增函数或减函数，就说 f (x) 在这一区间上具有（严格的）单调性，这一区间叫做 f (x) 的单调区间。\n\n例 1 图1-19 是定义在闭区间 [−5, 5] 上的函数 f (x) 的图象。根据图象说出 f (x) 的单调区间，以\n\n及在每一单调区间上 f (x) 是增函数还是减函数。\n\ny213 y= f (x)−2O−5−4−3−1 1 2 3 4 5x−1−2图 1-19\n\n解: 函数 f (x) 的单调区间有 [−5,−2]，[−2, 1]，[1, 3]，[3, 5]。其中，f (x) 在区间 [−5,−2]，[1, 3]\n\n上是减函数，在区间 [−2, 1]，[3, 5] 上是增函数。\n\n例 2 证明函数 f (x) = 3x + 2 在 (−∞, +∞) 上是增函数。\n\n证明: 设 x1，x2 是任意两个实数，且 x1 < x2，则f (x1) = 3x1 + 2, f (x2) = 3x2 + 2。\n\nf (x2)− f (x1) = (3x2 + 2)− (3x1 + 2) = 3(x2− x1)。\n\n∵ x2 > x1, x2− x1 > 0,∴ f (x2)− f (x1) > 0, f (x2) > f (x1)。\n\n所以 f (x) = 3x + 2 在 (−∞, +∞) 上是增函数。\n\n例 3 证明函数 f (x) = 1\n\n在 (0, +∞) 上是减函数。\n\nx证明: 设 x1 > 0，x2 > 0，且 x1 < x2，则",
+      "blocks": [
+        {
+          "id": "section-1-6-block-1",
+          "type": "property",
+          "content": "我们在研究一次函数、二次函数和幂函数时，根据函数的图象研究了函数在某个区间上增大或减小的性质。"
+        },
+        {
+          "id": "section-1-6-block-2",
+          "type": "property",
+          "content": "一般地，对于给定区间上的函数 f (x)："
+        },
+        {
+          "id": "section-1-6-block-3",
+          "type": "property",
+          "content": "1. 如果对于属于这个区间的任意两个自变量的值 x1，x2，当 x1 < x2 时，都有 f (x1) < f (x2)，那么就说 f (x) 在这个区间上是增函数（图1-18（1））；"
+        },
+        {
+          "id": "section-1-6-block-4",
+          "type": "property",
+          "content": "2. 如果对于属于这个区间的任意两个自变量的值 x1，x2，当 x1 < x2 时，都有 f (x1) > f (x2)，那么就说 f (x) 在这个区间上是减函数（图1-18（2））。"
+        },
+        {
+          "id": "section-1-6-block-5",
+          "type": "definition",
+          "content": "yyy= f (x)f (x1)f (x2)f (x1)y= f (x)f (x2)Ox1x2xOx1x2x（1）（2）图 1-18如果函数 y= f (x) 在某个区间上是增函数或减函数，就说 f (x) 在这一区间上具有（严格的）单调性，这一区间叫做 f (x) 的单调区间。"
+        },
+        {
+          "id": "section-1-6-block-6",
+          "type": "example",
+          "content": "例 1 图1-19 是定义在闭区间 [−5, 5] 上的函数 f (x) 的图象。根据图象说出 f (x) 的单调区间，以"
+        },
+        {
+          "id": "section-1-6-block-7",
+          "type": "property",
+          "content": "及在每一单调区间上 f (x) 是增函数还是减函数。"
+        },
+        {
+          "id": "section-1-6-block-8",
+          "type": "section-intro",
+          "content": "y213 y= f (x)−2O−5−4−3−1 1 2 3 4 5x−1−2图 1-19"
+        },
+        {
+          "id": "section-1-6-block-9",
+          "type": "example",
+          "content": "解: 函数 f (x) 的单调区间有 [−5,−2]，[−2, 1]，[1, 3]，[3, 5]。其中，f (x) 在区间 [−5,−2]，[1, 3]"
+        },
+        {
+          "id": "section-1-6-block-10",
+          "type": "property",
+          "content": "上是减函数，在区间 [−2, 1]，[3, 5] 上是增函数。"
+        },
+        {
+          "id": "section-1-6-block-11",
+          "type": "example",
+          "content": "例 2 证明函数 f (x) = 3x + 2 在 (−∞, +∞) 上是增函数。"
+        },
+        {
+          "id": "section-1-6-block-12",
+          "type": "section-intro",
+          "content": "证明: 设 x1，x2 是任意两个实数，且 x1 < x2，则f (x1) = 3x1 + 2, f (x2) = 3x2 + 2。"
+        },
+        {
+          "id": "section-1-6-block-13",
+          "type": "section-intro",
+          "content": "f (x2)− f (x1) = (3x2 + 2)− (3x1 + 2) = 3(x2− x1)。"
+        },
+        {
+          "id": "section-1-6-block-14",
+          "type": "section-intro",
+          "content": "∵ x2 > x1, x2− x1 > 0,∴ f (x2)− f (x1) > 0, f (x2) > f (x1)。"
+        },
+        {
+          "id": "section-1-6-block-15",
+          "type": "property",
+          "content": "所以 f (x) = 3x + 2 在 (−∞, +∞) 上是增函数。"
+        },
+        {
+          "id": "section-1-6-block-16",
+          "type": "example",
+          "content": "例 3 证明函数 f (x) = 1"
+        },
+        {
+          "id": "section-1-6-block-17",
+          "type": "property",
+          "content": "在 (0, +∞) 上是减函数。"
+        },
+        {
+          "id": "section-1-6-block-18",
+          "type": "section-intro",
+          "content": "x证明: 设 x1 > 0，x2 > 0，且 x1 < x2，则"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 函数的单调性 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [
+          "我们在研究一次函数、二次函数和幂函数时，根据函数的图象研",
+          "一般地，对于给定区间上的函数 f (x)：",
+          "1. 如果对于属于这个区间的任意两个自变量的值 x1，x",
+          "2. 如果对于属于这个区间的任意两个自变量的值 x1，x"
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-7",
+      "number": "1.7",
+      "title": "函数的奇偶性",
+      "startPage": 27,
+      "unitSlug": "unit-3",
+      "pageRange": [
+        27,
+        30
+      ],
+      "text": "1.7 函数的奇偶性\n\n对于函数 f (x) = 3x，有 f (−x) =−3x，即 f (−x) =−f (x)；而对于函数 f (x) = x2，有f (−x) = (−x)2 = x2，即 f (−x) = f (x)。\n\n一般地，对于函数 f (x)：\n\n1. 如果对于函数定义域内任意一个 x，都有 f (−x) =−f (x)，那么函数 f (x) 就叫做奇函数；\n\n2. 如果对于函数定义域内任意一个 x，都有 f (−x) = f (x)，那么函数 f (x) 就叫做偶函数。\n\n例 1 判断下列函数是否具有奇偶性：\n\n（1）f (x) = x3; （2）f (x) = 2x4 + 3x2;1（3）f (x) = x3 + x−3 ; （4）f (x) = x + 1。\n\n解: （1）f (−x) = (−x)3 =−x3，即\n\nf (−x) =−f (x),所以 f (x) = x3 是奇函数。\n\n（2）f (−x) = 2(−x)4 + 3(−x)2 = 2x4 + 3x2，即f (−x) = f (x),所以 f (x) = 2x4 + 3x2 是偶函数。\n\n111（3）f (−x) = (−x)3 + (−x)−3 =−x3− x−3 =−(x3 + x−3 )，即f (−x) =−f (x),1所以 f (x) = x3 + x−3 是奇函数。\n\n（4）f (−x) =−x + 1，−x + 1 ̸=−f (x)，而且−x + 1 ̸= f (x)，所以 f (x) = x + 1 既不是奇函数，也不是偶函数。\n\n例 2 已知函数 f (x) 是奇函数，而且在 (0, +∞) 上是增函数，f (x) 在 (−∞, 0) 上是增函数还是减\n\n函数？\n\n解: 设 x1 < 0，x2 < 0，而且 x1 < x2。\n\n∵ f (x)是奇函数∴ f (−x1) =−f (x1), f (−x2) =−f (x2)。 由假设可知−x1 > 0，−x2 > 0，而且−x1 >−x2。又已知 f (x) 在 (0, +∞) 上是增函数，于是有f (−x1) > f (−x2)。 (1)(2)把 (1) 代入 (2)，得−f (x1) >−f (x2)，从而f (x1) < f (x2)。\n\n由此可知，函数 f (x) 在 (−∞, 0) 上是增函数。\n\n关于奇函数、偶函数的图象，有下面的定理。\n\n定理 1 奇函数的图象关于原点成中心对称图形；反过来，如果一个函数的图象关于原点成中心对称图形，那么这个函数是奇函数。\n\n证明: 设函数 f (x) 是奇函数，则有 f (−x) =−f (x)。如图 1-20，在 f (x) 的图象上任取一点P (a, f (a))，那么 P 关于原点的对称点是点 P ′(−a,−f (a))，即 P ′(−a, f (−a))。而点 P ′(−a, f (−a)) 是f (x) 的图象上的点。这就是说，函数 f (x) 图象上任意一点关于原点的对称点都在 f (x) 的图象上，所以 f (x) 的图象关于原点成中心对称图形。\n\nyyP = (a, f (a))P = (−a, f (−a))P = (a, f (a))-aO ax-aO axP = (−a, f (−a))图 1-20图 1-21反过来，如果 f (x) 的图象关于原点成中心对称图形，在 f (x) 的图象上任取一点 P (a, f (a))，那么点 P 关于原点的对称点 P ′(−a,−f (a)) 也在 f (x) 的图象上。因为 x =−a 时，f (x) = f (−a)，而函数值是唯一的（即每个原象只有一个象），即有 f (x) = f (−a)，但 x 取值是任意的，于是在 f (x) 的整个定义域内都有 f (−x) =−f (x)。从而 f (x) 是奇函数。\n\n定理 2 偶函数的图象关于 y 轴成轴对称图形；反过来，如果一个函数的图象关于 y 轴成轴对称图形，那么这个函数是偶函数。\n\n请同学们自己证明（参看图 1-21）。\n\n例 3 已知函数 f (x) 是偶函数，它在 y 轴右边的图象如图 1-22（1）所示，画出 f (x) 在 y 轴左边\n\n的图象。\n\n解: 因为偶函数的图象是关于 y 轴成轴对称图形，所以画法如下：\n\n（1）如图 1-22（2），在 y 轴右边的图象上取几个点。例如取点 A1，A2，A3，A4，A5 （这些点一般应包括图象曲线的最低、最高点等“关键”点）。\n\n（2）画出这些点关于 y 轴的对称点。例如点 A1，A2，A3，A4，A5 的对称点分别为 A′1，A′2，A′3，A′4，A′5（图1-22（3））。\n\n（3）用一条平滑曲线把对称点连续起来。例如用平滑曲线连接点 A′1，A′2，A′3，A′4，A′5 后，就得到 f (x) 在 y 轴左边的图象（图1-22（3））。\n\nyyA2A3 A4A5A1OxOx（1）（2）A4A5yA3A3 A4A′2A2A′1A1A5Ox（3）图 1-22\n\n练 习\n\n1. 判断下列函数是否具有奇偶性：\n\n2（1）f (x) = x−2； （2）f (x) = 3x3 ；\n\n1（3）f (x) = 2x + 3 √x； （4）f (x) = x +；\n\nx（5）f (x) = 2x−4− x−2。\n\n2. 证明函数 y= xn 当 n 为奇数时是奇函数，当 n 为偶数时是偶函数。\n\n3. 已知函数 f (x) 是偶函数，而且在 (−∞, 0) 上是增函数。f (x) 在 (0, +∞) 上是增函数还是减函数？\n\nyyOxOx（第 4 题）（第 5 题）4. 如图，已知偶函数 f (x) 在 y 轴右边的一部分图象，根据偶函数的性质，画出它在 y 轴左边的5. 如图，已知奇函数 f (x) 在 y 轴右边的一部分图象，根据奇函数的性质，画出它在 y 轴左边的图象。\n\n图象。\n\n习题 三\n\n(x + 2)121. 求下列函数的定义域：\n\n1（1）y= x−2 + x2 ; （2）y=(3− x)3。\n\n42. 在同一坐标系内画出下列各组中两个函数的图象，并加以比较：\n\n111（1）y= x3 , y= x4 ; （2）y= x−12 , y= x−3 。\n\n3. 比较下列各题中两个值的大小：\n\n11（1）5.1−2, 5.09−2; （2）1.793 , 1.813 ;（3）0.48−1.6, 0.49−1.6; （4）16.30.8, 16.20.8。\n\n114. 研究幂函数 y= x−3，y= x−4，y= x−3 ，y= x−4 的图象分别类似于图 1-17 中哪一个函数的图象。\n\n5. 分下列情况说明函数 y= mx + b 在 (−∞, +∞) 上是否具有单调性；如果有，是增函数还是减函数。\n\n（1）m > 0; （2）m < 0。\n\n6. 画出下列函数的图象：\n\n（1）f (x) = x2− 2x− 3; （2）f (x) = 1− x2。\n\n根据图象说出 f (x) 的单调区间，以及在每一单调区间上，函数是增函数还是减函数；然后根据函数单调性的定义加以证明。\n\n7. 证明函数 f (x) =−x3 + 1 在 (−∞, 0) 上是减函数。\n\n8. 下列函数哪些是奇函数或偶函数，哪些既不是奇函数也不是偶函数？\n\n（1）f (x) = 5x + 3; （2）f (x) = 5x;（3）f (x) = x2 + 1; （4）f (x) = x2 + 2x + 1;（5）f (x) = x−2 + x4; （6）f (x) = x−3 + x。\n\n9. 分析上题中（1），（2），（3），（4），回答：\n\n（1）一次函数 f (x) = ax + b 在什么情况下是奇函数；\n\n（2）二次函数 f (x) = ax2 + bx + c 在什么情况下是偶函数。",
+      "blocks": [
+        {
+          "id": "section-1-7-block-1",
+          "type": "property",
+          "content": "对于函数 f (x) = 3x，有 f (−x) =−3x，即 f (−x) =−f (x)；而对于函数 f (x) = x2，有f (−x) = (−x)2 = x2，即 f (−x) = f (x)。"
+        },
+        {
+          "id": "section-1-7-block-2",
+          "type": "property",
+          "content": "一般地，对于函数 f (x)："
+        },
+        {
+          "id": "section-1-7-block-3",
+          "type": "definition",
+          "content": "1. 如果对于函数定义域内任意一个 x，都有 f (−x) =−f (x)，那么函数 f (x) 就叫做奇函数；"
+        },
+        {
+          "id": "section-1-7-block-4",
+          "type": "definition",
+          "content": "2. 如果对于函数定义域内任意一个 x，都有 f (−x) = f (x)，那么函数 f (x) 就叫做偶函数。"
+        },
+        {
+          "id": "section-1-7-block-5",
+          "type": "example",
+          "content": "例 1 判断下列函数是否具有奇偶性："
+        },
+        {
+          "id": "section-1-7-block-6",
+          "type": "section-intro",
+          "content": "（1）f (x) = x3; （2）f (x) = 2x4 + 3x2;1（3）f (x) = x3 + x−3 ; （4）f (x) = x + 1。"
+        },
+        {
+          "id": "section-1-7-block-7",
+          "type": "example",
+          "content": "解: （1）f (−x) = (−x)3 =−x3，即"
+        },
+        {
+          "id": "section-1-7-block-8",
+          "type": "property",
+          "content": "f (−x) =−f (x),所以 f (x) = x3 是奇函数。"
+        },
+        {
+          "id": "section-1-7-block-9",
+          "type": "property",
+          "content": "（2）f (−x) = 2(−x)4 + 3(−x)2 = 2x4 + 3x2，即f (−x) = f (x),所以 f (x) = 2x4 + 3x2 是偶函数。"
+        },
+        {
+          "id": "section-1-7-block-10",
+          "type": "property",
+          "content": "111（3）f (−x) = (−x)3 + (−x)−3 =−x3− x−3 =−(x3 + x−3 )，即f (−x) =−f (x),1所以 f (x) = x3 + x−3 是奇函数。"
+        },
+        {
+          "id": "section-1-7-block-11",
+          "type": "property",
+          "content": "（4）f (−x) =−x + 1，−x + 1 ̸=−f (x)，而且−x + 1 ̸= f (x)，所以 f (x) = x + 1 既不是奇函数，也不是偶函数。"
+        },
+        {
+          "id": "section-1-7-block-12",
+          "type": "example",
+          "content": "例 2 已知函数 f (x) 是奇函数，而且在 (0, +∞) 上是增函数，f (x) 在 (−∞, 0) 上是增函数还是减"
+        },
+        {
+          "id": "section-1-7-block-13",
+          "type": "property",
+          "content": "函数？"
+        },
+        {
+          "id": "section-1-7-block-14",
+          "type": "example",
+          "content": "解: 设 x1 < 0，x2 < 0，而且 x1 < x2。"
+        },
+        {
+          "id": "section-1-7-block-15",
+          "type": "property",
+          "content": "∵ f (x)是奇函数∴ f (−x1) =−f (x1), f (−x2) =−f (x2)。 由假设可知−x1 > 0，−x2 > 0，而且−x1 >−x2。又已知 f (x) 在 (0, +∞) 上是增函数，于是有f (−x1) > f (−x2)。 (1)(2)把 (1) 代入 (2)，得−f (x1) >−f (x2)，从而f (x1) < f (x2)。"
+        },
+        {
+          "id": "section-1-7-block-16",
+          "type": "property",
+          "content": "由此可知，函数 f (x) 在 (−∞, 0) 上是增函数。"
+        },
+        {
+          "id": "section-1-7-block-17",
+          "type": "property",
+          "content": "关于奇函数、偶函数的图象，有下面的定理。"
+        },
+        {
+          "id": "section-1-7-block-18",
+          "type": "property",
+          "content": "定理 1 奇函数的图象关于原点成中心对称图形；反过来，如果一个函数的图象关于原点成中心对称图形，那么这个函数是奇函数。"
+        },
+        {
+          "id": "section-1-7-block-19",
+          "type": "property",
+          "content": "证明: 设函数 f (x) 是奇函数，则有 f (−x) =−f (x)。如图 1-20，在 f (x) 的图象上任取一点P (a, f (a))，那么 P 关于原点的对称点是点 P ′(−a,−f (a))，即 P ′(−a, f (−a))。而点 P ′(−a, f (−a)) 是f (x) 的图象上的点。这就是说，函数 f (x) 图象上任意一点关于原点的对称点都在 f (x) 的图象上，所以 f (x) 的图象关于原点成中心对称图形。"
+        },
+        {
+          "id": "section-1-7-block-20",
+          "type": "property",
+          "content": "yyP = (a, f (a))P = (−a, f (−a))P = (a, f (a))-aO ax-aO axP = (−a, f (−a))图 1-20图 1-21反过来，如果 f (x) 的图象关于原点成中心对称图形，在 f (x) 的图象上任取一点 P (a, f (a))，那么点 P 关于原点的对称点 P ′(−a,−f (a)) 也在 f (x) 的图象上。因为 x =−a 时，f (x) = f (−a)，而函数值是唯一的（即每个原象只有一个象），即有 f (x) = f (−a)，但 x 取值是任意的，于是在 f (x) 的整个定义域内都有 f (−x) =−f (x)。从而 f (x) 是奇函数。"
+        },
+        {
+          "id": "section-1-7-block-21",
+          "type": "property",
+          "content": "定理 2 偶函数的图象关于 y 轴成轴对称图形；反过来，如果一个函数的图象关于 y 轴成轴对称图形，那么这个函数是偶函数。"
+        },
+        {
+          "id": "section-1-7-block-22",
+          "type": "section-intro",
+          "content": "请同学们自己证明（参看图 1-21）。"
+        },
+        {
+          "id": "section-1-7-block-23",
+          "type": "example",
+          "content": "例 3 已知函数 f (x) 是偶函数，它在 y 轴右边的图象如图 1-22（1）所示，画出 f (x) 在 y 轴左边"
+        },
+        {
+          "id": "section-1-7-block-24",
+          "type": "section-intro",
+          "content": "的图象。"
+        },
+        {
+          "id": "section-1-7-block-25",
+          "type": "example",
+          "content": "解: 因为偶函数的图象是关于 y 轴成轴对称图形，所以画法如下："
+        },
+        {
+          "id": "section-1-7-block-26",
+          "type": "section-intro",
+          "content": "（1）如图 1-22（2），在 y 轴右边的图象上取几个点。例如取点 A1，A2，A3，A4，A5 （这些点一般应包括图象曲线的最低、最高点等“关键”点）。"
+        },
+        {
+          "id": "section-1-7-block-27",
+          "type": "section-intro",
+          "content": "（2）画出这些点关于 y 轴的对称点。例如点 A1，A2，A3，A4，A5 的对称点分别为 A′1，A′2，A′3，A′4，A′5（图1-22（3））。"
+        },
+        {
+          "id": "section-1-7-block-28",
+          "type": "section-intro",
+          "content": "（3）用一条平滑曲线把对称点连续起来。例如用平滑曲线连接点 A′1，A′2，A′3，A′4，A′5 后，就得到 f (x) 在 y 轴左边的图象（图1-22（3））。"
+        },
+        {
+          "id": "section-1-7-block-29",
+          "type": "section-intro",
+          "content": "yyA2A3 A4A5A1OxOx（1）（2）A4A5yA3A3 A4A′2A2A′1A1A5Ox（3）图 1-22"
+        },
+        {
+          "id": "section-1-7-block-30",
+          "type": "exercise",
+          "content": "练 习\n\n1. 判断下列函数是否具有奇偶性："
+        },
+        {
+          "id": "section-1-7-block-31",
+          "type": "section-intro",
+          "content": "2（1）f (x) = x−2； （2）f (x) = 3x3 ；"
+        },
+        {
+          "id": "section-1-7-block-32",
+          "type": "section-intro",
+          "content": "1（3）f (x) = 2x + 3 √x； （4）f (x) = x +；"
+        },
+        {
+          "id": "section-1-7-block-33",
+          "type": "section-intro",
+          "content": "x（5）f (x) = 2x−4− x−2。"
+        },
+        {
+          "id": "section-1-7-block-34",
+          "type": "property",
+          "content": "2. 证明函数 y= xn 当 n 为奇数时是奇函数，当 n 为偶数时是偶函数。"
+        },
+        {
+          "id": "section-1-7-block-35",
+          "type": "property",
+          "content": "3. 已知函数 f (x) 是偶函数，而且在 (−∞, 0) 上是增函数。f (x) 在 (0, +∞) 上是增函数还是减函数？"
+        },
+        {
+          "id": "section-1-7-block-36",
+          "type": "property",
+          "content": "yyOxOx（第 4 题）（第 5 题）4. 如图，已知偶函数 f (x) 在 y 轴右边的一部分图象，根据偶函数的性质，画出它在 y 轴左边的5. 如图，已知奇函数 f (x) 在 y 轴右边的一部分图象，根据奇函数的性质，画出它在 y 轴左边的图象。"
+        },
+        {
+          "id": "section-1-7-block-37",
+          "type": "section-intro",
+          "content": "图象。"
+        },
+        {
+          "id": "section-1-7-block-38",
+          "type": "exercise",
+          "content": "习题 三"
+        },
+        {
+          "id": "section-1-7-block-39",
+          "type": "property",
+          "content": "(x + 2)121. 求下列函数的定义域："
+        },
+        {
+          "id": "section-1-7-block-40",
+          "type": "section-intro",
+          "content": "1（1）y= x−2 + x2 ; （2）y=(3− x)3。"
+        },
+        {
+          "id": "section-1-7-block-41",
+          "type": "property",
+          "content": "42. 在同一坐标系内画出下列各组中两个函数的图象，并加以比较："
+        },
+        {
+          "id": "section-1-7-block-42",
+          "type": "section-intro",
+          "content": "111（1）y= x3 , y= x4 ; （2）y= x−12 , y= x−3 。"
+        },
+        {
+          "id": "section-1-7-block-43",
+          "type": "section-intro",
+          "content": "3. 比较下列各题中两个值的大小："
+        },
+        {
+          "id": "section-1-7-block-44",
+          "type": "section-intro",
+          "content": "11（1）5.1−2, 5.09−2; （2）1.793 , 1.813 ;（3）0.48−1.6, 0.49−1.6; （4）16.30.8, 16.20.8。"
+        },
+        {
+          "id": "section-1-7-block-45",
+          "type": "property",
+          "content": "114. 研究幂函数 y= x−3，y= x−4，y= x−3 ，y= x−4 的图象分别类似于图 1-17 中哪一个函数的图象。"
+        },
+        {
+          "id": "section-1-7-block-46",
+          "type": "property",
+          "content": "5. 分下列情况说明函数 y= mx + b 在 (−∞, +∞) 上是否具有单调性；如果有，是增函数还是减函数。"
+        },
+        {
+          "id": "section-1-7-block-47",
+          "type": "section-intro",
+          "content": "（1）m > 0; （2）m < 0。"
+        },
+        {
+          "id": "section-1-7-block-48",
+          "type": "property",
+          "content": "6. 画出下列函数的图象："
+        },
+        {
+          "id": "section-1-7-block-49",
+          "type": "section-intro",
+          "content": "（1）f (x) = x2− 2x− 3; （2）f (x) = 1− x2。"
+        },
+        {
+          "id": "section-1-7-block-50",
+          "type": "property",
+          "content": "根据图象说出 f (x) 的单调区间，以及在每一单调区间上，函数是增函数还是减函数；然后根据函数单调性的定义加以证明。"
+        },
+        {
+          "id": "section-1-7-block-51",
+          "type": "property",
+          "content": "7. 证明函数 f (x) =−x3 + 1 在 (−∞, 0) 上是减函数。"
+        },
+        {
+          "id": "section-1-7-block-52",
+          "type": "property",
+          "content": "8. 下列函数哪些是奇函数或偶函数，哪些既不是奇函数也不是偶函数？"
+        },
+        {
+          "id": "section-1-7-block-53",
+          "type": "section-intro",
+          "content": "（1）f (x) = 5x + 3; （2）f (x) = 5x;（3）f (x) = x2 + 1; （4）f (x) = x2 + 2x + 1;（5）f (x) = x−2 + x4; （6）f (x) = x−3 + x。"
+        },
+        {
+          "id": "section-1-7-block-54",
+          "type": "section-intro",
+          "content": "9. 分析上题中（1），（2），（3），（4），回答："
+        },
+        {
+          "id": "section-1-7-block-55",
+          "type": "property",
+          "content": "（1）一次函数 f (x) = ax + b 在什么情况下是奇函数；"
+        },
+        {
+          "id": "section-1-7-block-56",
+          "type": "property",
+          "content": "（2）二次函数 f (x) = ax2 + bx + c 在什么情况下是偶函数。"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 函数的奇偶性 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [
+          "对于函数 f (x) = 3x，有 f (−x) =−3",
+          "一般地，对于函数 f (x)：",
+          "1. 如果对于函数定义域内任意一个 x，都有 f (−x",
+          "2. 如果对于函数定义域内任意一个 x，都有 f (−x"
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-8",
+      "number": "1.8",
+      "title": "一一映射",
+      "startPage": 31,
+      "unitSlug": "unit-3",
+      "pageRange": [
+        31,
+        31
+      ],
+      "text": "1.8 一一映射\n\n看下面从集合 A 到集合 B 的映射（图1-23）：\n\n图 1-23容易看出，这个映射有两个特点：第一，对于集合 A 的不同元素，在集合 B 中有不同的象；第二，集合 B 的每一个元素都是集合 A 的某个元素的象，也就是说集合 B 的每一个元素都有原象。\n\n一般地，设 A，B 是两个集合，f : A → B 是从集合 A 到集合 B 的映射，如果在这个映射的作用下，对于集合 A 中的不同元素，在集合 B 中有不同的象，而且 B 中每一个元素都有原象，那么这个映射就叫做 A 到 B 上的一一映射。\n\n例如，图 1-23 中的映射，就是 A 到 B 上的一一映射。又如：\n\n（1） 设X= {1, 2, 3, 4, 5, . . . },Y= {3, 5, 7, 9, 11, . . . },取映射 f : X → Y ，使集合 Y 中的元素 y = 2x + 1 和集合 X 中的元素 x 对应。这个映射是 X 到 Y上的一一映射。\n\n（2）把（1）中的 Y 改为 {1, 3, 5, 7, 9, 11, . . . }，其他条件同（1）中一样，那么这样得到的映射f ′ : X → Y 不是 X 到 Y 上的一一映射，因为这时 Y 中的元素 1 没有原象。\n\n（3）对于实数集 R，取映射 f : R → R−，对应。这个映射不是 R 到 R− 上的一一映射，因为 R 中的不同元素 2 与−2 在集合 R− 中有同一个象 4。\n\n2 使集合 R− 中的元素 y= x2 和集合 R 中的元素 x（4） 对于（3）中的映射，如果改为映射 f ′ : R− → R−，使象集合 R− 中的元素 y= x2 和原象集合 R− 中的元素 x 对应，那么这个映射是 R− 到 R− 上的一一映射。\n\n练 习\n\n1. （1）举出从集合 A 到集合 B 的映射的例子。\n\n（2）举出集合 A 到集合 B 上的一一映射的例子。\n\n（3）映射与一一映射有什么相同和不同的地方？\n\n2 录注：甲种本原书中公式形如： ，注意补集符号的写法。",
+      "blocks": [
+        {
+          "id": "section-1-8-block-1",
+          "type": "section-intro",
+          "content": "看下面从集合 A 到集合 B 的映射（图1-23）："
+        },
+        {
+          "id": "section-1-8-block-2",
+          "type": "section-intro",
+          "content": "图 1-23容易看出，这个映射有两个特点：第一，对于集合 A 的不同元素，在集合 B 中有不同的象；第二，集合 B 的每一个元素都是集合 A 的某个元素的象，也就是说集合 B 的每一个元素都有原象。"
+        },
+        {
+          "id": "section-1-8-block-3",
+          "type": "definition",
+          "content": "一般地，设 A，B 是两个集合，f : A → B 是从集合 A 到集合 B 的映射，如果在这个映射的作用下，对于集合 A 中的不同元素，在集合 B 中有不同的象，而且 B 中每一个元素都有原象，那么这个映射就叫做 A 到 B 上的一一映射。"
+        },
+        {
+          "id": "section-1-8-block-4",
+          "type": "section-intro",
+          "content": "例如，图 1-23 中的映射，就是 A 到 B 上的一一映射。又如："
+        },
+        {
+          "id": "section-1-8-block-5",
+          "type": "section-intro",
+          "content": "（1） 设X= {1, 2, 3, 4, 5, . . . },Y= {3, 5, 7, 9, 11, . . . },取映射 f : X → Y ，使集合 Y 中的元素 y = 2x + 1 和集合 X 中的元素 x 对应。这个映射是 X 到 Y上的一一映射。"
+        },
+        {
+          "id": "section-1-8-block-6",
+          "type": "section-intro",
+          "content": "（2）把（1）中的 Y 改为 {1, 3, 5, 7, 9, 11, . . . }，其他条件同（1）中一样，那么这样得到的映射f ′ : X → Y 不是 X 到 Y 上的一一映射，因为这时 Y 中的元素 1 没有原象。"
+        },
+        {
+          "id": "section-1-8-block-7",
+          "type": "section-intro",
+          "content": "（3）对于实数集 R，取映射 f : R → R−，对应。这个映射不是 R 到 R− 上的一一映射，因为 R 中的不同元素 2 与−2 在集合 R− 中有同一个象 4。"
+        },
+        {
+          "id": "section-1-8-block-8",
+          "type": "section-intro",
+          "content": "2 使集合 R− 中的元素 y= x2 和集合 R 中的元素 x（4） 对于（3）中的映射，如果改为映射 f ′ : R− → R−，使象集合 R− 中的元素 y= x2 和原象集合 R− 中的元素 x 对应，那么这个映射是 R− 到 R− 上的一一映射。"
+        },
+        {
+          "id": "section-1-8-block-9",
+          "type": "exercise",
+          "content": "练 习\n\n1. （1）举出从集合 A 到集合 B 的映射的例子。"
+        },
+        {
+          "id": "section-1-8-block-10",
+          "type": "section-intro",
+          "content": "（2）举出集合 A 到集合 B 上的一一映射的例子。"
+        },
+        {
+          "id": "section-1-8-block-11",
+          "type": "section-intro",
+          "content": "（3）映射与一一映射有什么相同和不同的地方？"
+        },
+        {
+          "id": "section-1-8-block-12",
+          "type": "property",
+          "content": "2 录注：甲种本原书中公式形如： ，注意补集符号的写法。"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 一一映射 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [
+          "一般地，设 A，B 是两个集合，f : A → B 是从",
+          "2 录注：甲种本原书中公式形如： ，注意补集符号的写法。"
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-9",
+      "number": "1.9",
+      "title": "逆映射",
+      "startPage": 32,
+      "unitSlug": "unit-3",
+      "pageRange": [
+        32,
+        32
+      ],
+      "text": "1.9 逆映射\n\n先看图 1-24 所示的映射。\n\n容易看出，这两个映射分别是集合 A 到集合 B 上、集合 B 到集合 A 上的一一映射。在映射f : A → B 作用下的象及原象，分别是在映射 g : B → A 作用下的原象及象。\n\n乘 21乘−21√3√31b 02222A12345246810BB24681012345Af : A → Bg : B → A图 1-24一般地，设 f : A → B 是集合 A 到集合 B 上的一一映射，如果对于 B 中的每一个元素 b，使 b在 A 中的原象 a 和它对应，这样所得的映射叫做映射 f : A → B 的逆映射，记作f−1 : B → A。\n\n从逆映射的定义可以知道，映射 f : A → B 也是映射 f−1 : B → A 的逆映射，而且 f−1 : B → A也是一一映射（从 B 到 A 上的一一映射）。\n\n这样，图 1-24 中的映射 g : B → A 就是 f : A → B 的逆映射。\n\n现在我们来求第 1.8 节例子中的一一映射的逆映射。\n\n在 （1） 中的一一映射 f : X → Y 是使 Y 中的元素 y = 2x + 1 和 X 中的元素 x 对应。由y− 1y− 1y = 2x + 1，得 x =2 。于是逆映射 f−1 : Y → X 就使 X 中的元素 x =2 和 Y 中的元素 y对应。",
+      "blocks": [
+        {
+          "id": "section-1-9-block-1",
+          "type": "section-intro",
+          "content": "先看图 1-24 所示的映射。"
+        },
+        {
+          "id": "section-1-9-block-2",
+          "type": "section-intro",
+          "content": "容易看出，这两个映射分别是集合 A 到集合 B 上、集合 B 到集合 A 上的一一映射。在映射f : A → B 作用下的象及原象，分别是在映射 g : B → A 作用下的原象及象。"
+        },
+        {
+          "id": "section-1-9-block-3",
+          "type": "definition",
+          "content": "乘 21乘−21√3√31b 02222A12345246810BB24681012345Af : A → Bg : B → A图 1-24一般地，设 f : A → B 是集合 A 到集合 B 上的一一映射，如果对于 B 中的每一个元素 b，使 b在 A 中的原象 a 和它对应，这样所得的映射叫做映射 f : A → B 的逆映射，记作f−1 : B → A。"
+        },
+        {
+          "id": "section-1-9-block-4",
+          "type": "section-intro",
+          "content": "从逆映射的定义可以知道，映射 f : A → B 也是映射 f−1 : B → A 的逆映射，而且 f−1 : B → A也是一一映射（从 B 到 A 上的一一映射）。"
+        },
+        {
+          "id": "section-1-9-block-5",
+          "type": "section-intro",
+          "content": "这样，图 1-24 中的映射 g : B → A 就是 f : A → B 的逆映射。"
+        },
+        {
+          "id": "section-1-9-block-6",
+          "type": "section-intro",
+          "content": "现在我们来求第 1.8 节例子中的一一映射的逆映射。"
+        },
+        {
+          "id": "section-1-9-block-7",
+          "type": "section-intro",
+          "content": "在 （1） 中的一一映射 f : X → Y 是使 Y 中的元素 y = 2x + 1 和 X 中的元素 x 对应。由y− 1y− 1y = 2x + 1，得 x =2 。于是逆映射 f−1 : Y → X 就使 X 中的元素 x =2 和 Y 中的元素 y对应。"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 逆映射 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [
+          "乘 21乘−21√3√31b 02222A1234524"
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-10",
+      "number": "1.10",
+      "title": "反函数",
+      "startPage": 33,
+      "unitSlug": "unit-3",
+      "pageRange": [
+        33,
+        33
+      ],
+      "text": "1.10 反函数\n\n函数 y= f (x) = 2x + 4 (x ∈ R) 是由 f (x) 的定义域 R 到值域 R 上的一个一一映射 f : R → R确定的，这个一一映射使 f (x) 的值域 R 中的元素 y = 2x + 4 和定义域 R 中的元素 x 对应。那么，1f : A → B 的逆映射 f−1 : B → A 就确定了一个函数 x =2 y− 2 (y ∈ R)，它使 f (x) 的定义域 R 中1的元素 x =2 y− 2 和 f (x) 的值域 R 中的元素 y 对应。\n\n一般地，如果确定函数 y= f (x) 的映射 f : A → B 是 f (x) 的定义域 A 到值域 B 上的一一映射，那么这个映射的逆映射 f−1 : B → A 所确定的函数 x = f−1(y) 叫做函数 y= f (x) 的反函数。函数y= f (x) 的定义域、值域分别是函数 x = f−1(y) 的值域、定义域。\n\n这样，函数 x = f−1(y) = 12 y− 2 (y ∈ R) 就是函数 y= f (x) = 2x + 4 (x ∈ R) 的反函数。\n\n又如，第 1.8 节例 （4） 中的映射 f : R− → R− 确定函数 y= f (x) = x2 (x ∈ R−)，由第 1.9 节知道，这个映射的逆映射 f−1 : R− → R− 确定函数 x = f−1(y) = √y (y ∈ R−)。函数x = f−1(y) = √y (y ∈ R−) 就是函数 y= f (x) = x2 (x ∈ R−) 的反函数。\n\n在函数式 x = f−1(y) 中，y 表示自变量，x 表示函数。但在习惯上，我们一般用 x 表示自变量，用 y 表示函数，为此我们常常对调函数式 x = f−1(y) 中的字母 x，y，把它改写成 y= f−1(x) （在本书中，今后凡不特别说明，函数的反函数都是指这种经过改写的反函数）。\n\n例 1 求下列函数的反函数：\n\n（1）y = 3x− 1 (x ∈ R)； （3）y= √x + 1 (x ⩾ 0)； （2）y= x3 + 1 (x ∈ R)；\n\n2x + 3（4）y=x− 1 y + 1\n\n解: （1）由于 y = 3x− 1，可得 x =\n\n3，∴ 函数 y = 3x− 1 (x ∈ R) 的反函数是 y=x + 13 (x ∈ R)；\n\n（2）由 y= x3 + 1，可得 x = 3 √y− 1，∴ 函数 y= x3 + 1 (x ∈ R) 的反函数是 y=3 √x− 1 (x ∈ R)；\n\n（3）由 y= √x + 1，可得 x = (y− 1)2，∴ 函数 y= √x + 1 (x ⩾ 0) 的反函数是 y = (x− 1)2 (x ⩾ 1)；\n\n(x ∈ R，且x ̸= 1)。",
+      "blocks": [
+        {
+          "id": "section-1-10-block-1",
+          "type": "property",
+          "content": "函数 y= f (x) = 2x + 4 (x ∈ R) 是由 f (x) 的定义域 R 到值域 R 上的一个一一映射 f : R → R确定的，这个一一映射使 f (x) 的值域 R 中的元素 y = 2x + 4 和定义域 R 中的元素 x 对应。那么，1f : A → B 的逆映射 f−1 : B → A 就确定了一个函数 x =2 y− 2 (y ∈ R)，它使 f (x) 的定义域 R 中1的元素 x =2 y− 2 和 f (x) 的值域 R 中的元素 y 对应。"
+        },
+        {
+          "id": "section-1-10-block-2",
+          "type": "definition",
+          "content": "一般地，如果确定函数 y= f (x) 的映射 f : A → B 是 f (x) 的定义域 A 到值域 B 上的一一映射，那么这个映射的逆映射 f−1 : B → A 所确定的函数 x = f−1(y) 叫做函数 y= f (x) 的反函数。函数y= f (x) 的定义域、值域分别是函数 x = f−1(y) 的值域、定义域。"
+        },
+        {
+          "id": "section-1-10-block-3",
+          "type": "property",
+          "content": "这样，函数 x = f−1(y) = 12 y− 2 (y ∈ R) 就是函数 y= f (x) = 2x + 4 (x ∈ R) 的反函数。"
+        },
+        {
+          "id": "section-1-10-block-4",
+          "type": "property",
+          "content": "又如，第 1.8 节例 （4） 中的映射 f : R− → R− 确定函数 y= f (x) = x2 (x ∈ R−)，由第 1.9 节知道，这个映射的逆映射 f−1 : R− → R− 确定函数 x = f−1(y) = √y (y ∈ R−)。函数x = f−1(y) = √y (y ∈ R−) 就是函数 y= f (x) = x2 (x ∈ R−) 的反函数。"
+        },
+        {
+          "id": "section-1-10-block-5",
+          "type": "property",
+          "content": "在函数式 x = f−1(y) 中，y 表示自变量，x 表示函数。但在习惯上，我们一般用 x 表示自变量，用 y 表示函数，为此我们常常对调函数式 x = f−1(y) 中的字母 x，y，把它改写成 y= f−1(x) （在本书中，今后凡不特别说明，函数的反函数都是指这种经过改写的反函数）。"
+        },
+        {
+          "id": "section-1-10-block-6",
+          "type": "example",
+          "content": "例 1 求下列函数的反函数："
+        },
+        {
+          "id": "section-1-10-block-7",
+          "type": "section-intro",
+          "content": "（1）y = 3x− 1 (x ∈ R)； （3）y= √x + 1 (x ⩾ 0)； （2）y= x3 + 1 (x ∈ R)；"
+        },
+        {
+          "id": "section-1-10-block-8",
+          "type": "section-intro",
+          "content": "2x + 3（4）y=x− 1 y + 1"
+        },
+        {
+          "id": "section-1-10-block-9",
+          "type": "example",
+          "content": "解: （1）由于 y = 3x− 1，可得 x ="
+        },
+        {
+          "id": "section-1-10-block-10",
+          "type": "property",
+          "content": "3，∴ 函数 y = 3x− 1 (x ∈ R) 的反函数是 y=x + 13 (x ∈ R)；"
+        },
+        {
+          "id": "section-1-10-block-11",
+          "type": "property",
+          "content": "（2）由 y= x3 + 1，可得 x = 3 √y− 1，∴ 函数 y= x3 + 1 (x ∈ R) 的反函数是 y=3 √x− 1 (x ∈ R)；"
+        },
+        {
+          "id": "section-1-10-block-12",
+          "type": "property",
+          "content": "（3）由 y= √x + 1，可得 x = (y− 1)2，∴ 函数 y= √x + 1 (x ⩾ 0) 的反函数是 y = (x− 1)2 (x ⩾ 1)；"
+        },
+        {
+          "id": "section-1-10-block-13",
+          "type": "section-intro",
+          "content": "(x ∈ R，且x ̸= 1)。"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 反函数 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [
+          "函数 y= f (x) = 2x + 4 (x ∈ R)",
+          "一般地，如果确定函数 y= f (x) 的映射 f : ",
+          "这样，函数 x = f−1(y) = 12 y− 2 (",
+          "又如，第 1.8 节例 （4） 中的映射 f : R− "
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-11",
+      "number": "1.11",
+      "title": "互为反函数的函数图象间的关系",
+      "startPage": 34,
+      "unitSlug": "unit-3",
+      "pageRange": [
+        34,
+        37
+      ],
+      "text": "1.11 互为反函数的函数图象间的关系\n\n看下面的例题：\n\n例 1 求函数 y = 3x− 2 (x ∈ R) 的反函数，并且画出原来的函数和它的反函数的图象。\n\ny + 2x + 2\n\n解: 从 y = 3x− 2，得 x =\n\n3 ，因此，函数 y = 3x− 2 (x ∈ R) 的反函数是 y=3 (x ∈ R)。\n\nx + 2函数 y = 3x− 2 (x ∈ R) 和它的反函数 y=3 (x ∈ R) 的图象如图 1-25 中所示。\n\nyy = 3x− 2y11y= xx + 2y= x3y=y= xy= 3 √xO 13xO−1 1−1x图 1-25图 1-26\n\n例 2 求函数 y= x3 (x ∈ R) 的反函数，并且画出原来的函数和它的反函数的图象。\n\n解：从 y= x3，得 x = 3 √y。因此，函数 y= x3 (x ∈ R) 的反函数是 y= 3 √x (x ∈ R)。\n\n函数 y= x3 和它的反函数 y= x3 (x ∈ R) 的图象如图 1-26 中所示。\n\nx + 2从图 1-25 可以看出，函数 y = 3x− 2 和它的反函数 y=3 (x ∈ R) 的图象是以直线 y= x 为对称轴的对称图形（以后简称关于直线 y= x 对称；同样，以原点为对称中心的对称图形也简称 关于\n\n原点对称）。从图 1-26 也可以看出，函数 y= x3 (x ∈ R) 和它的反函数 y= 3 √x (x ∈ R) 的图象关于直线 y= x 对称。\n\n现在我们来证明下面的定理：\n\n定理 3 函数 y= f (x) 的图象和它的反函数 y= f−1(x) 的图象关于直线 y= x 对称。\n\n证明: 设 M (a, b) 是 y= f (x) 的图象上的任意一点，那么 x = a 时，f (x) 有唯一的值 f (a) = b。\n\n因为 y= f (x) 有反函数 y= f−1(x)，所以 x = b 时，f−1(x) 有唯一的值 f−1(b) = a，即点 M ′(b, a)在反函数 y= f−1(x) 的图象上。\n\n如果 a = b，那么 M ，M ′ 是直线 y= x 上的同一个点，因此它们关于直线 y= x 对称。\n\nyM (a, b)y= xM ′(b, a)OxP (c, c)图 1-27现设 a ̸= b。如图 1-27，在直线 y= x 上任取一点 P (c, c)，连接 P M ，P M ′ 及 M M ′。由两点间距离公式，P M= (a− c)2 + (b− c)2，P M ′= (b− c)2 + (a− c)2，∴ P M= P M ′。\n\n由此可知，直线 y= x 上任意一点到两个定点 M ， M ′ 的距离相等，因此直线 y= x 是线段 M M ′的垂直平分线，从而点 M ，M ′ 关于直线 y= x 对称。\n\n因为点 M 是 y= f (x) 的图象上的任意一点，所以 y= f (x) 图象上任意一点关于直线 y= x 的对称点都在它的反函数 y= f−1(x) 的图象上。由 f，f−1 的互逆性可知，函数 y= f−1(x) 图象上任意一点关于直线 y= x 的对称点也都在它的反函数 y= f (x) 的图象上。这就是说，y= f (x) 和y= f−1(x) 的图象关于直线 y= x 对称。\n\n练 习\n\n1. （1）在直角坐标系内，画出直线 y= x，然后找出下面这些点关于直线 y= x 的对称点，并写出它们的坐标（不必说明理由）：\n\nA(2, 3)，B(1, 0)，C(−2,−1)，D(0,−1)。\n\n（2）上面所求得的各对称点的坐标同原来的点的坐标有什么关系？\n\n（3）求出点 P (x0, y0) 关于直线 y= x 的对称点 Q 的坐标。\n\n2. 设 a ̸= 0，b ̸= 0，求证下列各题中的两个点关于直线 y= x 对称：\n\n（1）M (a, 0)，M ′(0, a)； （2）M (a, a)，M ′(a, a)；\n\n（3）M (a, b)，M ′(b, a)。\n\n3. 求下列函数的反函数，并画出函数及其反函数的图象：\n\n1（1）y = 4x−2 (x ∈ R)；\n\n1（2）y=x + 3 (x ∈ R，且x ̸=−3)。\n\n4. 画出函数 y= x2 (x ∈ [0, +∞)) 的图象，再利用对称关系画出它的反函数的图象。\n\n习题 四\n\n1. 下列各表分别表示从集合 A（元素 a）到集合 B（元素 b）的一个映射，判断这些映射是不是A 到 B 上的一一映射：\n\n（1） a 1 2 3 4b -1 -1 -1 -1（2） a 1 2 3 4b 3 6 9 125 6和 A 中x（3） a 3 4 5 6b 2 3 2 4（4） a 3 4 5 6b 2 3 4 2. 设 X= {. . . ,−3,−2,−1, 0, 1, 2, 3, . . . }，Y= {0, 1, 2, 3, . . . }，对应法则是把 X 中的元素“取绝对值”。这个对应是不是从 X 到 Y 的映射？是不是从 X 到 Y 上的一一映射？\n\n3. 求下列一一映射 f : A → B 的逆映射：\n\n（1）A= {x|x ⩾ 1}，B= {y|y ⩾ 0}，一一映射 f : A → B 使 B 中的元素 y= √x− 1 和 A中的元素 x 对应；\n\n1（2）A= {x|x ̸= 0}，B= {y|y ̸= 1}，一一映射 f : A → B 使 B 中的元素 y = 1−的元素 x 对应。\n\n4. 下列各映射有没有逆映射？如果有，写出逆映射；如果没有，说明为什么。\n\n（1）A= {x|x ∈ Q}，B= {y|y ∈ R}，映射 f : A → B 使 B 中的元素 y = 2x 和 A 中的元素x 对应；\n\n（2）A= {x|x ∈ Z}，B= {y|y ∈ Z}，映射 f : A → B 使 B 中的元素 y = 3x 和 A 中的元素x 对应；\n\n（3）映射 f : R → R 使象集合中的元素 y= x3 和原象集合中的元素 x 对应；\n\n（4）设 A= {α|0◦ ⩽ α ⩽ 180◦}，B = [0, 1]，映射 f : A → B 使 B 中的元素 y= sin α 和 A中的元素 α 对应。\n\n5. x 取什么值，函数 y=11 + x2 (x ∈ R−) 的值等于下列各数？\n\n（1） 12 ； （2）0.1； （3）1； （4） 117。\n\n6. 下列函数中哪些互为反函数？\n\ny= x3， y = 5 + x， y = 2x，y=−4x， y= 3 √x， y= x− 5，x1y=2 ， y=−4 x。\n\n7. 求下列函数的反函数：\n\n15（1）y=−x + 3 (x ̸= 0)； （2）y= x5 + 1 (x ∈ R)；\n\n（3）y= √x + 5 (x ⩾−5)； （4）y= √2x− 4 (x ⩾ 2)；\n\n32x1（5）y= x5− 2 (x ∈ R)； （6）y=5x + 1 (x ̸=−5 )。\n\n8. 已知函数 y= √25− 4x2。\n\n（1）当 x ∈ −52 ,2 时，这个函数是否有反函数？如果有反函数，将它写出来，并指出反函数的定义域。\n\n（2）就 x ∈ 0,52 的情况重新回答第（1）题中的问题。\n\n9. 求下列函数的反函数，并写出原来的函数及其反函数的定义域：\n\n1（1）y=x− 1 ； （2）y= x3 + 1。\n\n10. 求下列函数的值域：\n\n7（1）y=x + 2 (x ̸=−2)； （3） y= √16− x2 (0 ⩽ x ⩽ 4)； 11. 已知函数 y = 2|x|。\n\n（1）当 x ∈ [0, +∞) 时，这个函数是否有反函数？如果有反函数，将它写出来，并指出反函数的定义域。x ∈ (−∞, +∞) 时呢？\n\n（2）如果有反函数，在同一坐标系内画出函数 y = 2|x| 及其反函数的图象。\n\n1− x12. 求证函数 y=1 + x (x ̸=−1) 的反函数就是它本身。然后说明这个函数的图象关于直线y= x 具有什么特点，并利用这特点画出函数的简图（用描点法）。\n\n（2）y=（4）y= √x2xx + 1 (x ̸=−1)；\n\n− 49 (x ⩽−7)。",
+      "blocks": [
+        {
+          "id": "section-1-11-block-1",
+          "type": "section-intro",
+          "content": "看下面的例题："
+        },
+        {
+          "id": "section-1-11-block-2",
+          "type": "example",
+          "content": "例 1 求函数 y = 3x− 2 (x ∈ R) 的反函数，并且画出原来的函数和它的反函数的图象。"
+        },
+        {
+          "id": "section-1-11-block-3",
+          "type": "section-intro",
+          "content": "y + 2x + 2"
+        },
+        {
+          "id": "section-1-11-block-4",
+          "type": "example",
+          "content": "解: 从 y = 3x− 2，得 x ="
+        },
+        {
+          "id": "section-1-11-block-5",
+          "type": "property",
+          "content": "3 ，因此，函数 y = 3x− 2 (x ∈ R) 的反函数是 y=3 (x ∈ R)。"
+        },
+        {
+          "id": "section-1-11-block-6",
+          "type": "property",
+          "content": "x + 2函数 y = 3x− 2 (x ∈ R) 和它的反函数 y=3 (x ∈ R) 的图象如图 1-25 中所示。"
+        },
+        {
+          "id": "section-1-11-block-7",
+          "type": "section-intro",
+          "content": "yy = 3x− 2y11y= xx + 2y= x3y=y= xy= 3 √xO 13xO−1 1−1x图 1-25图 1-26"
+        },
+        {
+          "id": "section-1-11-block-8",
+          "type": "example",
+          "content": "例 2 求函数 y= x3 (x ∈ R) 的反函数，并且画出原来的函数和它的反函数的图象。\n\n解：从 y= x3，得 x = 3 √y。因此，函数 y= x3 (x ∈ R) 的反函数是 y= 3 √x (x ∈ R)。"
+        },
+        {
+          "id": "section-1-11-block-9",
+          "type": "property",
+          "content": "函数 y= x3 和它的反函数 y= x3 (x ∈ R) 的图象如图 1-26 中所示。"
+        },
+        {
+          "id": "section-1-11-block-10",
+          "type": "definition",
+          "content": "x + 2从图 1-25 可以看出，函数 y = 3x− 2 和它的反函数 y=3 (x ∈ R) 的图象是以直线 y= x 为对称轴的对称图形（以后简称关于直线 y= x 对称；同样，以原点为对称中心的对称图形也简称 关于"
+        },
+        {
+          "id": "section-1-11-block-11",
+          "type": "property",
+          "content": "原点对称）。从图 1-26 也可以看出，函数 y= x3 (x ∈ R) 和它的反函数 y= 3 √x (x ∈ R) 的图象关于直线 y= x 对称。"
+        },
+        {
+          "id": "section-1-11-block-12",
+          "type": "section-intro",
+          "content": "现在我们来证明下面的定理："
+        },
+        {
+          "id": "section-1-11-block-13",
+          "type": "property",
+          "content": "定理 3 函数 y= f (x) 的图象和它的反函数 y= f−1(x) 的图象关于直线 y= x 对称。"
+        },
+        {
+          "id": "section-1-11-block-14",
+          "type": "section-intro",
+          "content": "证明: 设 M (a, b) 是 y= f (x) 的图象上的任意一点，那么 x = a 时，f (x) 有唯一的值 f (a) = b。"
+        },
+        {
+          "id": "section-1-11-block-15",
+          "type": "property",
+          "content": "因为 y= f (x) 有反函数 y= f−1(x)，所以 x = b 时，f−1(x) 有唯一的值 f−1(b) = a，即点 M ′(b, a)在反函数 y= f−1(x) 的图象上。"
+        },
+        {
+          "id": "section-1-11-block-16",
+          "type": "section-intro",
+          "content": "如果 a = b，那么 M ，M ′ 是直线 y= x 上的同一个点，因此它们关于直线 y= x 对称。"
+        },
+        {
+          "id": "section-1-11-block-17",
+          "type": "property",
+          "content": "yM (a, b)y= xM ′(b, a)OxP (c, c)图 1-27现设 a ̸= b。如图 1-27，在直线 y= x 上任取一点 P (c, c)，连接 P M ，P M ′ 及 M M ′。由两点间距离公式，P M= (a− c)2 + (b− c)2，P M ′= (b− c)2 + (a− c)2，∴ P M= P M ′。"
+        },
+        {
+          "id": "section-1-11-block-18",
+          "type": "section-intro",
+          "content": "由此可知，直线 y= x 上任意一点到两个定点 M ， M ′ 的距离相等，因此直线 y= x 是线段 M M ′的垂直平分线，从而点 M ，M ′ 关于直线 y= x 对称。"
+        },
+        {
+          "id": "section-1-11-block-19",
+          "type": "property",
+          "content": "因为点 M 是 y= f (x) 的图象上的任意一点，所以 y= f (x) 图象上任意一点关于直线 y= x 的对称点都在它的反函数 y= f−1(x) 的图象上。由 f，f−1 的互逆性可知，函数 y= f−1(x) 图象上任意一点关于直线 y= x 的对称点也都在它的反函数 y= f (x) 的图象上。这就是说，y= f (x) 和y= f−1(x) 的图象关于直线 y= x 对称。"
+        },
+        {
+          "id": "section-1-11-block-20",
+          "type": "exercise",
+          "content": "练 习\n\n1. （1）在直角坐标系内，画出直线 y= x，然后找出下面这些点关于直线 y= x 的对称点，并写出它们的坐标（不必说明理由）："
+        },
+        {
+          "id": "section-1-11-block-21",
+          "type": "section-intro",
+          "content": "A(2, 3)，B(1, 0)，C(−2,−1)，D(0,−1)。"
+        },
+        {
+          "id": "section-1-11-block-22",
+          "type": "section-intro",
+          "content": "（2）上面所求得的各对称点的坐标同原来的点的坐标有什么关系？"
+        },
+        {
+          "id": "section-1-11-block-23",
+          "type": "section-intro",
+          "content": "（3）求出点 P (x0, y0) 关于直线 y= x 的对称点 Q 的坐标。"
+        },
+        {
+          "id": "section-1-11-block-24",
+          "type": "section-intro",
+          "content": "2. 设 a ̸= 0，b ̸= 0，求证下列各题中的两个点关于直线 y= x 对称："
+        },
+        {
+          "id": "section-1-11-block-25",
+          "type": "section-intro",
+          "content": "（1）M (a, 0)，M ′(0, a)； （2）M (a, a)，M ′(a, a)；"
+        },
+        {
+          "id": "section-1-11-block-26",
+          "type": "section-intro",
+          "content": "（3）M (a, b)，M ′(b, a)。"
+        },
+        {
+          "id": "section-1-11-block-27",
+          "type": "property",
+          "content": "3. 求下列函数的反函数，并画出函数及其反函数的图象："
+        },
+        {
+          "id": "section-1-11-block-28",
+          "type": "section-intro",
+          "content": "1（1）y = 4x−2 (x ∈ R)；"
+        },
+        {
+          "id": "section-1-11-block-29",
+          "type": "section-intro",
+          "content": "1（2）y=x + 3 (x ∈ R，且x ̸=−3)。"
+        },
+        {
+          "id": "section-1-11-block-30",
+          "type": "property",
+          "content": "4. 画出函数 y= x2 (x ∈ [0, +∞)) 的图象，再利用对称关系画出它的反函数的图象。"
+        },
+        {
+          "id": "section-1-11-block-31",
+          "type": "exercise",
+          "content": "习题 四\n\n1. 下列各表分别表示从集合 A（元素 a）到集合 B（元素 b）的一个映射，判断这些映射是不是A 到 B 上的一一映射："
+        },
+        {
+          "id": "section-1-11-block-32",
+          "type": "section-intro",
+          "content": "（1） a 1 2 3 4b -1 -1 -1 -1（2） a 1 2 3 4b 3 6 9 125 6和 A 中x（3） a 3 4 5 6b 2 3 2 4（4） a 3 4 5 6b 2 3 4 2. 设 X= {. . . ,−3,−2,−1, 0, 1, 2, 3, . . . }，Y= {0, 1, 2, 3, . . . }，对应法则是把 X 中的元素“取绝对值”。这个对应是不是从 X 到 Y 的映射？是不是从 X 到 Y 上的一一映射？"
+        },
+        {
+          "id": "section-1-11-block-33",
+          "type": "section-intro",
+          "content": "3. 求下列一一映射 f : A → B 的逆映射："
+        },
+        {
+          "id": "section-1-11-block-34",
+          "type": "section-intro",
+          "content": "（1）A= {x|x ⩾ 1}，B= {y|y ⩾ 0}，一一映射 f : A → B 使 B 中的元素 y= √x− 1 和 A中的元素 x 对应；"
+        },
+        {
+          "id": "section-1-11-block-35",
+          "type": "section-intro",
+          "content": "1（2）A= {x|x ̸= 0}，B= {y|y ̸= 1}，一一映射 f : A → B 使 B 中的元素 y = 1−的元素 x 对应。"
+        },
+        {
+          "id": "section-1-11-block-36",
+          "type": "section-intro",
+          "content": "4. 下列各映射有没有逆映射？如果有，写出逆映射；如果没有，说明为什么。"
+        },
+        {
+          "id": "section-1-11-block-37",
+          "type": "section-intro",
+          "content": "（1）A= {x|x ∈ Q}，B= {y|y ∈ R}，映射 f : A → B 使 B 中的元素 y = 2x 和 A 中的元素x 对应；"
+        },
+        {
+          "id": "section-1-11-block-38",
+          "type": "section-intro",
+          "content": "（2）A= {x|x ∈ Z}，B= {y|y ∈ Z}，映射 f : A → B 使 B 中的元素 y = 3x 和 A 中的元素x 对应；"
+        },
+        {
+          "id": "section-1-11-block-39",
+          "type": "section-intro",
+          "content": "（3）映射 f : R → R 使象集合中的元素 y= x3 和原象集合中的元素 x 对应；"
+        },
+        {
+          "id": "section-1-11-block-40",
+          "type": "section-intro",
+          "content": "（4）设 A= {α|0◦ ⩽ α ⩽ 180◦}，B = [0, 1]，映射 f : A → B 使 B 中的元素 y= sin α 和 A中的元素 α 对应。"
+        },
+        {
+          "id": "section-1-11-block-41",
+          "type": "property",
+          "content": "5. x 取什么值，函数 y=11 + x2 (x ∈ R−) 的值等于下列各数？"
+        },
+        {
+          "id": "section-1-11-block-42",
+          "type": "section-intro",
+          "content": "（1） 12 ； （2）0.1； （3）1； （4） 117。"
+        },
+        {
+          "id": "section-1-11-block-43",
+          "type": "property",
+          "content": "6. 下列函数中哪些互为反函数？"
+        },
+        {
+          "id": "section-1-11-block-44",
+          "type": "section-intro",
+          "content": "y= x3， y = 5 + x， y = 2x，y=−4x， y= 3 √x， y= x− 5，x1y=2 ， y=−4 x。"
+        },
+        {
+          "id": "section-1-11-block-45",
+          "type": "property",
+          "content": "7. 求下列函数的反函数："
+        },
+        {
+          "id": "section-1-11-block-46",
+          "type": "section-intro",
+          "content": "15（1）y=−x + 3 (x ̸= 0)； （2）y= x5 + 1 (x ∈ R)；"
+        },
+        {
+          "id": "section-1-11-block-47",
+          "type": "section-intro",
+          "content": "（3）y= √x + 5 (x ⩾−5)； （4）y= √2x− 4 (x ⩾ 2)；"
+        },
+        {
+          "id": "section-1-11-block-48",
+          "type": "section-intro",
+          "content": "32x1（5）y= x5− 2 (x ∈ R)； （6）y=5x + 1 (x ̸=−5 )。"
+        },
+        {
+          "id": "section-1-11-block-49",
+          "type": "property",
+          "content": "8. 已知函数 y= √25− 4x2。"
+        },
+        {
+          "id": "section-1-11-block-50",
+          "type": "property",
+          "content": "（1）当 x ∈ −52 ,2 时，这个函数是否有反函数？如果有反函数，将它写出来，并指出反函数的定义域。"
+        },
+        {
+          "id": "section-1-11-block-51",
+          "type": "section-intro",
+          "content": "（2）就 x ∈ 0,52 的情况重新回答第（1）题中的问题。"
+        },
+        {
+          "id": "section-1-11-block-52",
+          "type": "property",
+          "content": "9. 求下列函数的反函数，并写出原来的函数及其反函数的定义域："
+        },
+        {
+          "id": "section-1-11-block-53",
+          "type": "section-intro",
+          "content": "1（1）y=x− 1 ； （2）y= x3 + 1。"
+        },
+        {
+          "id": "section-1-11-block-54",
+          "type": "property",
+          "content": "10. 求下列函数的值域："
+        },
+        {
+          "id": "section-1-11-block-55",
+          "type": "property",
+          "content": "7（1）y=x + 2 (x ̸=−2)； （3） y= √16− x2 (0 ⩽ x ⩽ 4)； 11. 已知函数 y = 2|x|。"
+        },
+        {
+          "id": "section-1-11-block-56",
+          "type": "property",
+          "content": "（1）当 x ∈ [0, +∞) 时，这个函数是否有反函数？如果有反函数，将它写出来，并指出反函数的定义域。x ∈ (−∞, +∞) 时呢？"
+        },
+        {
+          "id": "section-1-11-block-57",
+          "type": "property",
+          "content": "（2）如果有反函数，在同一坐标系内画出函数 y = 2|x| 及其反函数的图象。"
+        },
+        {
+          "id": "section-1-11-block-58",
+          "type": "property",
+          "content": "1− x12. 求证函数 y=1 + x (x ̸=−1) 的反函数就是它本身。然后说明这个函数的图象关于直线y= x 具有什么特点，并利用这特点画出函数的简图（用描点法）。"
+        },
+        {
+          "id": "section-1-11-block-59",
+          "type": "section-intro",
+          "content": "（2）y=（4）y= √x2xx + 1 (x ̸=−1)；"
+        },
+        {
+          "id": "section-1-11-block-60",
+          "type": "section-intro",
+          "content": "− 49 (x ⩽−7)。"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 互为反函数的函数图象间的关系 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [
+          "3 ，因此，函数 y = 3x− 2 (x ∈ R) 的",
+          "x + 2函数 y = 3x− 2 (x ∈ R) 和它",
+          "函数 y= x3 和它的反函数 y= x3 (x ∈ R",
+          "x + 2从图 1-25 可以看出，函数 y = 3x−"
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-12",
+      "number": "1.12",
+      "title": "指数函数",
+      "startPage": 38,
+      "unitSlug": "unit-4",
+      "pageRange": [
+        38,
+        39
+      ],
+      "text": "1.12 指数函数\n\n我们来研究下面的问题：\n\n某种细胞分裂时，由 1 个分裂成 2 个，2 个分裂成 4 个，……。一个这样的细胞分裂 x 次后，得到的细胞的个数 y 与 x 的函数关系式是y = 2x。\n\n在这个函数里，自变量 x 出现在指数的位置上，而底数 2 是一个大于零且不等于 1 的常量。\n\n一般地，函数 y= ax 叫做指数函数，其中 a 是一个大于零且不等于 1 的常量。函数的定义域是实数集 R。\n\n3现在研究指数函数 y= ax 的图象和性质。先画出一些指数函数的图象，例如，画出 y = 2x，y = 10x，y=12x的图象。\n\n列出 x，y 的对应值表，用描点法画出图象（图1-28）:x . . .−3−2−1 0 1 2 3. . .111y = 2x. . .1 2 4 8. . .8421x . . .−1−2 011. . .2y = 10x. . . 0.1 0.32 1 3.16 10. . .x . . .−3−2−1 0 1 2 3. . .y=12x111. . . 8 4 2 1248. . .3 a > 0，x 是一个无理数时，ax 是一个确定的实数。对于无理数指数幂，过去学过的有理数指数幂的性质和运算法则都适用。有关概念和定理证明在本书中从略。\n\ny=12xy1098765432y = 10xy = 2x1−3−2−1 O1 2 3x图 1-28一般地，指数函数 y= ax 在其底数 a > 1 及 0 < a < 1 这两种情况下的图象和性质如下表所示：\n\n图象 a > 1 y0 < a < 1yy= ax(a > 1)y= ax(0 < a < 1)y = 1(0, 1)(0, 1)y = 1OxOx（1）y > 0;（2）当 x = 0 时，y = 1;性质（3）当 x > 0 时，y > 1，x < 0 时，0 < y < 1 ；\n\n（3）当 x > 0 时，0 < y < 1，x < 0 时，y > 1 ；\n\n（4）在 (−∞, +∞) 上是增函数。 （4）在 (−∞, +∞) 上是减函数。\n\n例 1 一种放射性物质不断变化为其他物质，每经过一年剩留的质量约是原来的 84%。画出这种物\n\n质的剩留量随时间变化的图象，并从图象上求出约经过多少年，剩留量是原来的一半（结果保留一个有效数字）。",
+      "blocks": [
+        {
+          "id": "section-1-12-block-1",
+          "type": "section-intro",
+          "content": "我们来研究下面的问题："
+        },
+        {
+          "id": "section-1-12-block-2",
+          "type": "property",
+          "content": "某种细胞分裂时，由 1 个分裂成 2 个，2 个分裂成 4 个，……。一个这样的细胞分裂 x 次后，得到的细胞的个数 y 与 x 的函数关系式是y = 2x。"
+        },
+        {
+          "id": "section-1-12-block-3",
+          "type": "property",
+          "content": "在这个函数里，自变量 x 出现在指数的位置上，而底数 2 是一个大于零且不等于 1 的常量。"
+        },
+        {
+          "id": "section-1-12-block-4",
+          "type": "definition",
+          "content": "一般地，函数 y= ax 叫做指数函数，其中 a 是一个大于零且不等于 1 的常量。函数的定义域是实数集 R。"
+        },
+        {
+          "id": "section-1-12-block-5",
+          "type": "property",
+          "content": "3现在研究指数函数 y= ax 的图象和性质。先画出一些指数函数的图象，例如，画出 y = 2x，y = 10x，y=12x的图象。"
+        },
+        {
+          "id": "section-1-12-block-6",
+          "type": "property",
+          "content": "列出 x，y 的对应值表，用描点法画出图象（图1-28）:x . . .−3−2−1 0 1 2 3. . .111y = 2x. . .1 2 4 8. . .8421x . . .−1−2 011. . .2y = 10x. . . 0.1 0.32 1 3.16 10. . .x . . .−3−2−1 0 1 2 3. . .y=12x111. . . 8 4 2 1248. . .3 a > 0，x 是一个无理数时，ax 是一个确定的实数。对于无理数指数幂，过去学过的有理数指数幂的性质和运算法则都适用。有关概念和定理证明在本书中从略。"
+        },
+        {
+          "id": "section-1-12-block-7",
+          "type": "property",
+          "content": "y=12xy1098765432y = 10xy = 2x1−3−2−1 O1 2 3x图 1-28一般地，指数函数 y= ax 在其底数 a > 1 及 0 < a < 1 这两种情况下的图象和性质如下表所示："
+        },
+        {
+          "id": "section-1-12-block-8",
+          "type": "property",
+          "content": "图象 a > 1 y0 < a < 1yy= ax(a > 1)y= ax(0 < a < 1)y = 1(0, 1)(0, 1)y = 1OxOx（1）y > 0;（2）当 x = 0 时，y = 1;性质（3）当 x > 0 时，y > 1，x < 0 时，0 < y < 1 ；"
+        },
+        {
+          "id": "section-1-12-block-9",
+          "type": "section-intro",
+          "content": "（3）当 x > 0 时，0 < y < 1，x < 0 时，y > 1 ；"
+        },
+        {
+          "id": "section-1-12-block-10",
+          "type": "property",
+          "content": "（4）在 (−∞, +∞) 上是增函数。 （4）在 (−∞, +∞) 上是减函数。"
+        },
+        {
+          "id": "section-1-12-block-11",
+          "type": "example",
+          "content": "例 1 一种放射性物质不断变化为其他物质，每经过一年剩留的质量约是原来的 84%。画出这种物"
+        },
+        {
+          "id": "section-1-12-block-12",
+          "type": "section-intro",
+          "content": "质的剩留量随时间变化的图象，并从图象上求出约经过多少年，剩留量是原来的一半（结果保留一个有效数字）。"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 指数函数 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [
+          "某种细胞分裂时，由 1 个分裂成 2 个，2 个分裂成 ",
+          "在这个函数里，自变量 x 出现在指数的位置上，而底数 2",
+          "一般地，函数 y= ax 叫做指数函数，其中 a 是一个",
+          "3现在研究指数函数 y= ax 的图象和性质。先画出一些"
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [
+          {
+            "kind": "function-family",
+            "title": "指数函数底数变化",
+            "curve": "exponential",
+            "bases": [
+              0.5,
+              2,
+              10
+            ],
+            "xMin": -3,
+            "xMax": 3,
+            "step": 0.25
+          }
+        ],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-13",
+      "number": "1.13",
+      "title": "对数函数",
+      "startPage": 40,
+      "unitSlug": "unit-4",
+      "pageRange": [
+        40,
+        42
+      ],
+      "text": "1.13 对数函数\n\n前面我们讲过细胞分裂问题，知道有的细胞分裂时，得到的细胞的个数 y 是分裂次数 x 的函数，这个函数可以用指数函数 y = 2x 表示。现在我们来研究相反的问题，例如，如果目的是求一个这样的\n\n细胞经过多少次分裂，大约可以得到 1 万个，10 万个，……细胞，那么分裂次数 x 就是得到的细胞的个数 y 的函数，这个函数写成对数的形式就是x = log2 y。\n\n按照习惯，如果用 x 表示自变量，用 y 表示函数，那么这个函数就是y= log2 x。\n\n由指数的概念知道，确定函数 y= f (x) = 2x 的映射 f : R → R+ 是 f (x) 的定义域 R 到值域 R+ 上的一一映射。由对数的概念知道，这一映射的逆映射 f−1 : R+ → R 所确定的函数是x = f−1(y) = log2 y。所以由反函数的概念可知，函数 y= log2 x 是指数函数 y = 2x 的反函数。\n\n从第 1.12 节可知，指数函数 y = 2x 的变量 x，y 的对应值表是：\n\nx . . .−3−2−1 0 1 2 3. . .111y . . .1 2 4 8. . .842那么只要把两行的数值对调，就得到函数 y= log2 x 的变量对应值表：\n\n111x . . .1 2 4 8. . .842y . . .−3−2−1 0 1 2 3. . .一般地，对数函数 y= loga x （这里底数 a 是一个大于零且不等于 1 的常量）就是指数函数 y= ax的反函数。因为 y= ax 的值域是 (0, +∞)（即 R+），所以函数 y= loga x 的定义域是 (0, +∞)。\n\n函数 y= loga x 叫做对数函数。\n\n现在研究对数函数 y= loga x 的图象和性质。\n\n因为对数函数 y= loga x 是指数函数 y= ax 的反函数，所以 y= loga x 的图象和 y= ax 的图象关于直线 y= x 对称。因此，我们只要画出和 y= ax 的图象关于直线 y= x 对称的曲线，就可以得到 y= loga x 的图象，例如，画出和第 1.12 节中三个函 y = 2x，y = 10x，y=12x的图象关于直线 y= x 对称的曲线，就可得到 y= log2 x，y= log10 x，y= log 1x 的图象（图 1-30）。\n\n2y=12xy432y = 10xy = 2xy= x1−1 O1 2 3 4−1y= log2 xy= log10 xxxy= log 12图 1-30\n\n一般地，对数函数 y= loga x 在其底数 a > 1 及 0 < a < 1 这两种情况下的图象和性质如下表所示：\n\n图象 yx = 1a > 1 y = loga x (a > 1)0 < a < 1yx = 1(1, 0)O (1, 0)xOxy = loga x(0 < a < 1)（1）x > 0;（2）当 x = 0 时，y = 1;性质（3）当 x > 1 时，y > 0，0 < x < 1 时，y < 0 ；\n\n（3）当 x > 1 时，y < 0，0 < x < 1 时，y > 0 ；\n\n（4）在 (0, +∞) 上是增函数。 （4）在 (0, +∞) 上是减函数。\n\n例 1 求下列函数的定义域：\n\n（1）y= loga(x2)；\n\n（2）y= loga(4− x)。\n\n解: （1）因为 x2 > 0，即 x ̸= 0，所以函数 y= loga(x2) 的定义域是 {x|x ∈ R，且x ̸= 0}。\n\n（2）因为 4− x > 0，即 x < 4，所以函数 y= loga(4− x) 的定义域是 (−∞, 4)。\n\n例 2 比较下列各组中两个值的大小：\n\n（1）log2 3，log2 3.5；\n\n（2）log0.7 1.6，log0.7 1.8。\n\n解: 分别考察对数函数 y= log2 x 与 y= log0.7 x，根据对数函数的性质知道：\n\n（1）∵ 2 > 1，3 < 3.5，∴ log2 3 < log2 3.5；\n\n（2）∵ 0.7 < 1，1.6 < 1.8，∴ log0.7 1.6 > log0.7 1.8。\n\n练 习\n\n1. 画出函数 y= log3 x 及 y= log 1x 的图象，并且说明这两个函数的相同性质和不同性质。\n\n32. 求下列函数的定义域：\n\n（1）y= log5(1 + x)；\n\n1（2）y=；\n\nlog2 x1（3）y= log71− 3x；\n\n（4）y= log3 x。",
+      "blocks": [
+        {
+          "id": "section-1-13-block-1",
+          "type": "property",
+          "content": "前面我们讲过细胞分裂问题，知道有的细胞分裂时，得到的细胞的个数 y 是分裂次数 x 的函数，这个函数可以用指数函数 y = 2x 表示。现在我们来研究相反的问题，例如，如果目的是求一个这样的"
+        },
+        {
+          "id": "section-1-13-block-2",
+          "type": "property",
+          "content": "细胞经过多少次分裂，大约可以得到 1 万个，10 万个，……细胞，那么分裂次数 x 就是得到的细胞的个数 y 的函数，这个函数写成对数的形式就是x = log2 y。"
+        },
+        {
+          "id": "section-1-13-block-3",
+          "type": "property",
+          "content": "按照习惯，如果用 x 表示自变量，用 y 表示函数，那么这个函数就是y= log2 x。"
+        },
+        {
+          "id": "section-1-13-block-4",
+          "type": "property",
+          "content": "由指数的概念知道，确定函数 y= f (x) = 2x 的映射 f : R → R+ 是 f (x) 的定义域 R 到值域 R+ 上的一一映射。由对数的概念知道，这一映射的逆映射 f−1 : R+ → R 所确定的函数是x = f−1(y) = log2 y。所以由反函数的概念可知，函数 y= log2 x 是指数函数 y = 2x 的反函数。"
+        },
+        {
+          "id": "section-1-13-block-5",
+          "type": "property",
+          "content": "从第 1.12 节可知，指数函数 y = 2x 的变量 x，y 的对应值表是："
+        },
+        {
+          "id": "section-1-13-block-6",
+          "type": "property",
+          "content": "x . . .−3−2−1 0 1 2 3. . .111y . . .1 2 4 8. . .842那么只要把两行的数值对调，就得到函数 y= log2 x 的变量对应值表："
+        },
+        {
+          "id": "section-1-13-block-7",
+          "type": "property",
+          "content": "111x . . .1 2 4 8. . .842y . . .−3−2−1 0 1 2 3. . .一般地，对数函数 y= loga x （这里底数 a 是一个大于零且不等于 1 的常量）就是指数函数 y= ax的反函数。因为 y= ax 的值域是 (0, +∞)（即 R+），所以函数 y= loga x 的定义域是 (0, +∞)。"
+        },
+        {
+          "id": "section-1-13-block-8",
+          "type": "definition",
+          "content": "函数 y= loga x 叫做对数函数。"
+        },
+        {
+          "id": "section-1-13-block-9",
+          "type": "property",
+          "content": "现在研究对数函数 y= loga x 的图象和性质。"
+        },
+        {
+          "id": "section-1-13-block-10",
+          "type": "property",
+          "content": "因为对数函数 y= loga x 是指数函数 y= ax 的反函数，所以 y= loga x 的图象和 y= ax 的图象关于直线 y= x 对称。因此，我们只要画出和 y= ax 的图象关于直线 y= x 对称的曲线，就可以得到 y= loga x 的图象，例如，画出和第 1.12 节中三个函 y = 2x，y = 10x，y=12x的图象关于直线 y= x 对称的曲线，就可得到 y= log2 x，y= log10 x，y= log 1x 的图象（图 1-30）。"
+        },
+        {
+          "id": "section-1-13-block-11",
+          "type": "section-intro",
+          "content": "2y=12xy432y = 10xy = 2xy= x1−1 O1 2 3 4−1y= log2 xy= log10 xxxy= log 12图 1-30"
+        },
+        {
+          "id": "section-1-13-block-12",
+          "type": "property",
+          "content": "一般地，对数函数 y= loga x 在其底数 a > 1 及 0 < a < 1 这两种情况下的图象和性质如下表所示："
+        },
+        {
+          "id": "section-1-13-block-13",
+          "type": "property",
+          "content": "图象 yx = 1a > 1 y = loga x (a > 1)0 < a < 1yx = 1(1, 0)O (1, 0)xOxy = loga x(0 < a < 1)（1）x > 0;（2）当 x = 0 时，y = 1;性质（3）当 x > 1 时，y > 0，0 < x < 1 时，y < 0 ；"
+        },
+        {
+          "id": "section-1-13-block-14",
+          "type": "section-intro",
+          "content": "（3）当 x > 1 时，y < 0，0 < x < 1 时，y > 0 ；"
+        },
+        {
+          "id": "section-1-13-block-15",
+          "type": "property",
+          "content": "（4）在 (0, +∞) 上是增函数。 （4）在 (0, +∞) 上是减函数。"
+        },
+        {
+          "id": "section-1-13-block-16",
+          "type": "example",
+          "content": "例 1 求下列函数的定义域："
+        },
+        {
+          "id": "section-1-13-block-17",
+          "type": "section-intro",
+          "content": "（1）y= loga(x2)；"
+        },
+        {
+          "id": "section-1-13-block-18",
+          "type": "section-intro",
+          "content": "（2）y= loga(4− x)。"
+        },
+        {
+          "id": "section-1-13-block-19",
+          "type": "example",
+          "content": "解: （1）因为 x2 > 0，即 x ̸= 0，所以函数 y= loga(x2) 的定义域是 {x|x ∈ R，且x ̸= 0}。"
+        },
+        {
+          "id": "section-1-13-block-20",
+          "type": "property",
+          "content": "（2）因为 4− x > 0，即 x < 4，所以函数 y= loga(4− x) 的定义域是 (−∞, 4)。"
+        },
+        {
+          "id": "section-1-13-block-21",
+          "type": "example",
+          "content": "例 2 比较下列各组中两个值的大小："
+        },
+        {
+          "id": "section-1-13-block-22",
+          "type": "section-intro",
+          "content": "（1）log2 3，log2 3.5；"
+        },
+        {
+          "id": "section-1-13-block-23",
+          "type": "section-intro",
+          "content": "（2）log0.7 1.6，log0.7 1.8。"
+        },
+        {
+          "id": "section-1-13-block-24",
+          "type": "example",
+          "content": "解: 分别考察对数函数 y= log2 x 与 y= log0.7 x，根据对数函数的性质知道："
+        },
+        {
+          "id": "section-1-13-block-25",
+          "type": "section-intro",
+          "content": "（1）∵ 2 > 1，3 < 3.5，∴ log2 3 < log2 3.5；"
+        },
+        {
+          "id": "section-1-13-block-26",
+          "type": "section-intro",
+          "content": "（2）∵ 0.7 < 1，1.6 < 1.8，∴ log0.7 1.6 > log0.7 1.8。"
+        },
+        {
+          "id": "section-1-13-block-27",
+          "type": "exercise",
+          "content": "练 习\n\n1. 画出函数 y= log3 x 及 y= log 1x 的图象，并且说明这两个函数的相同性质和不同性质。"
+        },
+        {
+          "id": "section-1-13-block-28",
+          "type": "property",
+          "content": "32. 求下列函数的定义域："
+        },
+        {
+          "id": "section-1-13-block-29",
+          "type": "section-intro",
+          "content": "（1）y= log5(1 + x)；"
+        },
+        {
+          "id": "section-1-13-block-30",
+          "type": "section-intro",
+          "content": "1（2）y=；"
+        },
+        {
+          "id": "section-1-13-block-31",
+          "type": "section-intro",
+          "content": "log2 x1（3）y= log71− 3x；"
+        },
+        {
+          "id": "section-1-13-block-32",
+          "type": "section-intro",
+          "content": "（4）y= log3 x。"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 对数函数 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [
+          "前面我们讲过细胞分裂问题，知道有的细胞分裂时，得到的细胞",
+          "细胞经过多少次分裂，大约可以得到 1 万个，10 万个，",
+          "按照习惯，如果用 x 表示自变量，用 y 表示函数，那么",
+          "由指数的概念知道，确定函数 y= f (x) = 2x "
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [
+          {
+            "kind": "function-family",
+            "title": "对数函数底数变化",
+            "curve": "logarithmic",
+            "bases": [
+              0.5,
+              2,
+              10
+            ],
+            "xMin": 0.25,
+            "xMax": 4,
+            "step": 0.25
+          }
+        ],
+        "commonMistakes": []
+      }
+    },
+    {
+      "slug": "section-1-14",
+      "number": "1.14",
+      "title": "指数方程和对数方程",
+      "startPage": 43,
+      "unitSlug": "unit-4",
+      "pageRange": [
+        43,
+        51
+      ],
+      "text": "1.14 指数方程和对数方程\n\n在指数里含有未知数的方程叫做指数方程，在对数符号后面含有未知数的方程叫做对数方程。在这两类方程中，我们只能解一些特殊的方程。现在举一些例子。\n\n例 1 解方程 4x = 2x+1\n\n解: 原方程可化为\n\n22x = 2x+1。\n\n同一个底 a（这里 a > 0，且 a ̸= 1) 的幂相等，必须并且只需它们的幂指数相等。因此上式就是2x = x + 1。\n\n∴ x = 1\n\n例 2 电视机厂生产的电视机台数，如果每年平均比上一年增长 10.4%，那么约经过多少年可以增\n\n长到原来的 2 倍（结果保留一个有效数字）？\n\n解: 设经过 x 年可以增长到原来的 2 倍，根据题意，得\n\n(1 + 10.4%)x = 2。\n\n两边取对数，得∴ x =x lg 1.104 = lg 2。\n\nlg 2=lg 1.1040.30100.0429≈ 7。\n\n答：约经过 7 年。\n\n（注：在例 2 中，也可以把指数式 (1 + 10.4%)x = 2 化为对数式 log1.104 2 = x，再利用换底公式lg 2得到 x =≈ 7。）lg 1.104\n\n例 3 解方程 3x+1 + 9x\n\n− 18 = 0。\n\n解: 原方程可化为\n\n利用换元法，设 3x = y，方程又成为3· 3x + (3x)2− 18 = 0。\n\ny2 + 3y− 18 = 0，由此解得y1 = 3, y2 =−6。\n\n由 3x = 3，得 x = 1；另 3x =−6 不符合指数函数意义（性质（1）），应舍去。所以原方程的解是x = 1。\n\n例 4 解方程 lg(x2 + 11x + 8)− lg(x + 1) = 1。\n\n解: 把原方程化为\n\nlg x2 + 11x + 8= lg 10。\n\nx + 1同一个底的对数相等，必须并且只需它们的真数（使对数有意文）相等。因此上式就是x2 + 11x + 8x + 1 = 10。\n\n解这个方程，得 x1 =−2，x2 = 1。\n\n检验：x =−2 时，x + 1 =−1，负数的对数没有意义，所以 x =−2 不是原方程的根；x = 1 时，原方程的 左边= lg 20− lg 2 = lg 10 = 1 = 右边，所以 x = 1 是原方程的根。\n\n注意：解对数方程时，必须对求得的根进行检验。因为在利用对数性质进行变形而得到新方程时，如果未知数的字母的取值范围扩大，可能产生增根。如例 4，由原方程变形为lg x2 + 11x + 8= lg 10x + 1时，x 的取值范围由  x  x2 + 11x + 8 > 0,x + 1 > 0  变为  x  x2 + 11x + 8 > 0,x + 1 > 0  ∪  x  x2 + 11x + 8 < 0,x + 1 < 0  。\n\n因为 x =−2 ∈  x  x2 + 11x + 8 < 0,x + 1 < 0  ，所以方程产生了增根。\n\n例 5 求方程 x + lg x = 3 的近似解。\n\n解: 在同一坐标系内画出 y= lg x 及 y = 3− x 的图象，求得交点的横坐标 x ≈ 2.6（图1-31），这\n\n个 x 值近似地满足 lg x = 3− x，所以它就是原方程的近似解。\n\ny321y = 3− xy= lg xO 1 2 3 4 5x-1图 1-31\n\n练 习\n\n1. 解下列指数方程：\n\n1（1）2x−1 = 8； （2）3x = 9；\n\n（3） 14−x= 64； （4）5(x−1)(x+2) = 1。\n\n2. 利用常用对数解下列指数方程：\n\n（1）10x = 300； （2）2y = 100；\n\n（3）3y = 12； （4）104m = 5.75。\n\n3. 已知镭经过 100 年剩留原来质量的 95.76%，计算它约经过多少年剩留一半（结果保留四个有效数字）。\n\n4. 一个生产队去年粮食平均亩产量是 817 斤，从今年起的 5 年内，计划平均每年比上一年提高7%，约经过几年可以提高到亩产量 1000 斤（结果保留一个有效数字）？\n\n5. 解下列对数方程：\n\n（1）2 lg x + lg 7 = lg 14； （2）lg x + lg(x− 3) = 1；\n\n1（3）lg(x + 6)−2 lg(2x− 3) = 2− lg 25；\n\n（4） 12 (lg x− lg 5) = lg 2−12 lg(9− x)。\n\n6. 用换元法解方程：\n\n（1）52x（2） 112 (lg x)2 =− 23 × 5x− 50 = 0；\n\n13−14 lg x。\n\n1\n\n习题 五\n\n1. （1）一种产品的年产量原来是 a 件，在今后 m 年内，计划使年产量平均每年比上一年增加p%。写出年产量随经过年数变化的函数关系式。\n\n（2）一种产品的成本原來是 a 元，在今后 m 年内，计划使成本平均每年比上一年降低 p%。\n\n写出成本随经过年数变化的函数关系式。\n\n2. 求下列函数的定又域、值域：\n\n（1）y = 23−x； （2）y = 32−x ；\n\n（3）y=5x121； （4）y = 0.74x 。\n\n3. 求下列函数的反函数：\n\n（1）y = 4x (x ∈ R)； （3）y=13x(x ∈ R)； （2）y = 0.25x (x ∈ R)；\n\n（4）y = (√2)x (x ∈ R)；\n\n（5）y= lg x (x ∈ R+)； （6）y = 2 log4 x (x ∈ R+)；\n\n（7）y= loga 2x (a > 0，且a ̸= 1，x ∈ R+)；\n\nx（8）y= loga2 (a > 0，且a ̸= 1，x ∈ R+)。\n\n4. 求下列函数的定义域：\n\n（1）y= 3 log2 x； （2）y= log0.5(4x− 3)；\n\n（3）y= √x2 + 3x + 2 + log2 3x。\n\n5. 如果 f (x) = ex，求证f (x)· f (y) = f (x + y)。\n\n6. 如果 f (x) = lg 1− x1 + x，求证f (a) + f (b) = f a + b1 + ab。\n\n7. 利用指数函数的性质（1），（3）证明性质（4）。\n\n8. 利用换底公式证明：\n\n（1）logan bn = loga b；\n\nm（2）logan bm =loga b。\n\nn9. 解下列方程：\n\n（1） 12x· 82x = 4； （2）5x−1（3）52x− 6 × 5x + 5 = 0； （4）33x10. 解下列方程：\n\n（1）logx+2(2x2 + 3x− 2) = 1；\n\nx2− x + 2（2）logax + 1 = 0 (a > 0, a ̸= 1)；\n\n· 103x = 8x；\n\n− 3−x =809。\n\n（3）lg(x2− 3) = lg(3x + 1)；\n\n（4）lg(x2− x− 2)− lg(x + 1)− lg 2 = 0；\n\n（5）2(log3 x)2 + log3 x− 1 = 0；\n\n（6）2 logx 25− 3 log25 x = 1。\n\n11. 一台机器的价值是 50 万元。如果每年的折旧率是 4.5% （就是每年减少它的价值的 4.5%)，那么约经过几年，它的价值降为 20 万元（结果保留两个有效数字）？\n\n12. 如图，画出函数 y = 3x 及 y = 2 和图象，求方程 3x = 2 的近似解（精确到 0.1）。\n\ny45 y = 3x3y = 221O−2−1 1 2 3x（第 12 题）13. 用图象法求下列方程的近似解（精确到 0.1）。\n\n（1）3x = 4− x；\n\n（2）lg x + x2 = 0。\n\n小 结\n\n一、本章主要内容是在引入集合的概念、集合同集合之间的关系以及定义映射、一一映射、逆映射这些概念的基础上，进一步阐明函数与反函数的概念，研究函数的单调性与奇偶性，并具体研究幂函数、指数函数和对数函数以及简单的指数方程和对数方程等。\n\n二、一组对象的全体形成一集合，集合里的各个对象就是这个集合的元素。对象同集合的关系是属于或不属于。\n\n集合 A 是集合 B 的子集，记作 A ⊆ B。如果 A ⊆ B 而且 B ⊆ A，则 A= B。子集、真子集这两个概念是不同的。\n\n集合 A， B 的交集，记作 A ∩ B，它是 A 的子集也是 B 的子集，特别地， A ∩ A= A， A ∩ ∅= ∅。\n\n集合 A， B 的并集，记作 A ∪ B，集合 A， B 都是 A ∪ B 的子集，特别地， A ∪ A= A， A ∪ ∅= A。\n\n一个集合的补集是相对于给定的全集来说的。如果 A 是全集 I 的子集，则补集记 A，而 A 也是I 的子集。A 及 A 及 I 的关系是 A ∪ A= I，A ∩ A= ∅，A= A。\n\n三、给定两个集合 A，B，如果按照某种对应法则 f ，对于集合 A 中的任何一个元素，在集合 B中都有唯一的元素和它对应，这样的对应（包括集合 A，B 及对应法则 f ）就是从集合 A 到集合 B的映射，表示为 f : A → B。\n\n设 f : A → B 是从集合 A 到集合 B 的一个映射，如果在这个映射的作用下，对于 A 中的不同元素，在 B 中有不同的象，而且 B 中的每一个元素都有原象，那么这个映射就是 A 到 B 上的一一映\n\n射。这时，如果对于 B 中的每一个元素 b，使 b 在 A 中的原象 a 和它对应，这样得到的映射就是映射 f : A → B 的逆映射，表示为 f−1 : B → A。显然，映射 f : A → B 与映射 f−1 : B → A 互为逆映射，它们互相依存。\n\n以实数 x 为自变量的函数 y= f (x) 实际上是 x 取值的集合到 y 取值的集合上的映射，其中 x 取值的集合就是函数 f (x) 的定义域，和 x 对应的的 y 值就是函数值，函数值的集合就是函数 f (x) 的值域。\n\n如果确定函数 y= f (x) 的映射 f : A → B 是函数 f (x) 的定义域 A 到值域 B 上的一一映射，那么这个映射的逆映射 f−1 : B → A 所确定的函数 y= f−1(x) 就是函数 y= f (x) 的反函数，y= f−1(x)的定义域、值域分别是 y= f (x) 的值域、定义域。由 y= f (x) 求 y= f−1(x) 的步驟是：（1）由y= f (x) 中解出 x = f−1(y)；（2）把 x = f−1(y) 改写为 y= f−1(x)。函数 y= f (x) 和 y= f−1(x)的图象关于直线 y= x 对称。\n\n四、在一个区间上，如果对于自变量 x 的任意两个值 x1，x2，且 x1 < x2，都有 f (x1) < f (x2)，那么函数 f (x) 在这个区间上是增函数；如果对于任意的 x1， x2，且 x1 < x2，都有 f (x1) > f (x2)，那么函数在这个区间上是减函数。\n\n如果对于函数定义域内任意一个 x 都有 f (−x) =−f (x)，那么函数 f (x) 是奇函数。如果对于函数定义域内任意一个 x 都有 f (−x) = f (x)，那么函数 f (x) 是偶函数。\n\n奇函数的图象关于原点对称；反过来，如果一个函数的图象关于原点对称，那么这个函数是奇函数。偶函数的图象关于 y 轴对称；反过来，如果一个函数的图象关于 y 轴对称，那么这个函数是偶函数。\n\n五、函数 y= xa 就是幂函数，其中 a 是一个常量。我们巳讨论了 a 是有理数 n 的情况：当 n 为正数时，幂函数的定义域是实数集 R；当 n 为零或负整数时，幂函数的定义域是除 x = 0 以外的所有实数；当 n 为正分数 p或负分数−p，（p，q 是互质的正整数，q > 1) 时，xn 的意义分别是q √xp 或qq1，幂函数的定义域分别是使q √xp 或 1有意义的实数的集合。\n\nq √xpq √xp六、函数 y= ax 就是指数函数，其中 a 是一个大于零且不等于 1 的常量，函数的定义域是实数集 R。函数 y= loga x 就是对数函数，其中 a 是一个大于零且不等于 1 的常量，函数的定义域是 R+。\n\n指数函数 y= ax 和对数函数 y= loga x 互为反函数，它们的图象关于直线 y= x 对称。\n\n七、在指数方程和对数方程中，我们只能解一些比较特殊的方程。解这些特殊方程一般是根据指数、对数的定义，或采取将方程两边化成同底幂、同底对数，从而得到幂指数相等、真数相等的新方程，或在方程两边同时取对数，从而得到新方程等。解对数方程时，可能产生增根，因此，检验是解对数方程整个过程中不可缺少的一步。\n\n复习参考题一\n\nA 组1. 用列举法写出与下列集合相等的集合：\n\n（1）A= {x|x = 9}；\n\n（2）B= {x|x ⩾ 1，且x ⩽ 2, x ∈ N }；\n\n（3）C= {x|x = 1，或x = 2}。\n\n2. 设 P 表示平面内的点，属于下列集合的点组成什么图形？\n\n（1）{P |P A= P B}（A，B 是定点）；\n\n（2）{P |P O = 3厘米}（O 是定点）。\n\n3. 设 A= {菱形}，B= {矩形}，求 A ∩ B。\n\n4. 设 A= {过点M 的圆}，B= {过点P 的圆}，求 A ∩ B。\n\n5. 设平面内有三角形 ABC，且 P 表示平面内的点，求{P |P A= P B} ∩ {P |P A= P C}。\n\n6. 设全集 I= R，A= {x|x ⩽ 6}，求：\n\n（1）A ∩ ∅，A ∪ ∅； （2）A ∩ R，A ∪ R；\n\n（4）A ∩ A，A ∪ A。\n\n√6− 5x− x2=−f (x)。\n\n（3）A； 7. 举出符合下列对应法则的例子：\n\n（1）对于一个集合中的几个元素，另一个集合中有一个元素和它们对应；\n\n（2）对于一个集合中的一个元素，另一个集合中有几个元素和它对应；\n\n（3）对于一个集合中的一个元素，另一个集合中有且仅有一个元素和它对应。\n\n8. 举出几个映射的例子，并说明相应于每个映射的象集合及原象集合各是什么。\n\n9. 求下列函数的定义域：\n\n（1）y= √4x + 3； （2）y=√x− 1x + 2 ；\n\n1（3）y=1x + 3 + √−x + √x + 4； （4）y=。\n\n10. 设 f (x) = 1 + x21− x2 ，求证：\n\n（1）f (−x) = f (x)； （2）f 1x11. 设 f (x) = ex− e−x2 ，g(x) = ex + e−x2 ，求证：\n\n（1）[g(x)]2− [f (x)]2 = 1；\n\n（2）f (2x) = 2f (x)· g(x)；\n\n（3）g(2x) = [f (x)]2 + [g(x)]212. （1）当 n > 0 时，幂函数 y= xn 有哪些共同性质？\n\n（2）当 n < 0 时，幂函数 y= xn 有哪些共同性质？\n\n13. 分下列两种情况写出二次函数 y= ax2 + bx + c 的单调区间，以及在每一单调区间上，函数是增函数还是减函数。\n\n（1）a > 0； 14. 求证：在公共的定义域内，（1）奇函数与奇函数的积是偶函数；\n\n（2）奇函数与偶函数的积是奇函数；\n\n（3）偶函数与偶函数的积是偶函数。\n\n。\n\n（2）a < 0。\n\n23。\n\n=−15. 举出几个一一映射的例子，并分别求出它们的逆映射。\n\n16. 把下列指数式化为对数式，或对数式化为指数式（a > 0，且 a ̸= 1）：\n\n（1）loga N= b； （2）a0 = 1；\n\n（3）a1 = a； （4）loga3 √a2 =17. 写出对数的运算性质：\n\n（1）loga(M· N ) = ；\n\nM（2）logaN= ；\n\n（3）loga M n = ；\n\n（4）logan √M= 。\n\n18. 写出对数换底公式，并加以证明。\n\n19. 求证：\n\n（1）log2 64 = 3 log8 64 ；\n\n4（2）log3 81 =3 log2 8 ；\n\n（3） log5 √2· log7 9132 ；\n\nlog53· log73 √4（4）log4 8− log 193− log√2 4 =−2 。\n\n20. 利用对数计算：\n\n1（1）3.744· e0.24； （2） 0.0341272× 5ln 3。\n\n21. 下列函数中哪些互为反函数？在同一坐标系内画出每一对反函数的图象，然后说明各函数的性质：\n\n（1）y= x4 (x ∈ R)； 1（3）y= x4 (x ∈ R−)； （2）y = 4x (x ∈ R)；\n\n（4）y= log4 x (x ∈ R+)。\n\n22. 求下列函数的定义域：\n\n1（1）y = 82x−1 ； （2）y= 1−12x；\n\n（3）y= loga(2− x) (a > 0，且a ̸= 1)；\n\n（4）y= loga(−x)2 (a > 0，且a ̸= 1)。\n\n23. 设 x，y 为非零实数，a > 0，且 a ̸= 1，下列各式哪些成立，哪些不一定成立，为什么？\n\n（1）loga x2 = 2 loga x； （2）loga x2 = 2 loga |x|；\n\n（3）loga |x· y|= loga |x| · loga |y|；\n\n（4）loga 3 > loga 2。\n\n24. 解下列方程：\n\n（1）62x+4 = 2x+8 · 33x； （2）5x + 5x−1 = 750；\n\n（3）9x = (√3)x+2； （4）4x− 3 × 2x + 2 = 0；\n\n（5）4x− 2 × 6x + 9x = 0； （6）2x = 3x+1 （精确到 0.01）。\n\n25. 解下列方程：\n\n（1）log√x 2x = 4； （3）log10[log2(logx 25)] = 0； （5）lg(x− 1) + lg(x− 2) = lg(x + 2)；\n\n（6）x2 lg x = 10x。\n\n26. 设 1980 年底我国人口为 10 亿，查表计算：\n\n（2）log7(log3 x) =−1；\n\n（4）logx xx = 2；\n\n（1）如果我国人口每年比上年平均递增 2%，那么到 2000 年底将达到多少（结果保留四个有效数字）。\n\n（2）要使 2000 年底我国人口不超过 12 亿，那么每年比上一年平均递增率最高是多少（精确到 0.01%）。\n\nB 组27. 设直线 l1 及 l2 在同一个平面内，A= {P |点P ∈ l1}，B= {Q|点Q ∈ l2}，问：\n\n（1）A ∩ B= ∅ 时，直线 l1，l2 有什么关系。\n\n（2）A ∩ B 是单元素集时，直线 l1，l2 有什么关系。\n\n（3）A ∩ B 含有两个以上元素时，直线 l1，l2 有什么关系。\n\n28. 设集合 I，A，B，C 的关系如图所示，并记 A，B，C 为 A，B，C 在 I 中的补集，用阴影表示下列集合：\n\n（1）A ∩ C； （3）(A ∩ B) ∩ C； （2）(A ∩ B) ∪ C；\n\n（4）(A ∩ B) ∪ B；\n\n（5）B ∪ C； （6）A ∪ B。\n\nIA B Chx（第 28 题） d（第 29 题）29. 如图，一个圆柱形容器的底部直径是 d 厘米，高是 h 厘米。现在以每秒钟 s 厘米3 的速度向容器内注入某种溶液。求容器内溶液的高度 x 与注入溶液的时间 t 之间的函数关系式。并写出函数的定义域与值域。\n\n30. 某人开汽车以 60 公里/小时的速度从 A 地到 150 公里远处的 B 地，在 B 地停留 1 小时后，再以 50 公里/小时的速返回 A 地。把汽车离开 A 地的路程 x 公里表示为时间 t 小时（从 A地出发时开始）的函数，并画出函数的图象；又把车速 v 公里/小时表示为时间 t 的函数，并画出函数的图象31. 设 f (x) = x2，g(x) = 2x− 5，比较 f (g(x)) 和 g(f (x)) 是否一样。\n\n32. 已知 f (x) = (x2 + 2)2− 4(x2 + 2) + 4，求证f (tx) = t4f (x)。\n\n33. （1）已知奇函数 f (x) 在区间 [a, b] 上 (0 < a < b) 是减函数，那么它在区间 [—b￿− a] 上是增函数还是减函数？\n\n（2）已知偶函数 g(x) 在区间 [a, b] 上 (0 < a < b) 是减函数，那么它在区间 [—b￿− a] 上是增函数还是减函数？\n\n34. 设 f (x) 是定义在 R 上的任一函数，求证 F1(x) = f (x)+f (−x) 是偶函数， F2(x) = f (x)−f (−x)是奇函数。\n\n35. 设在离海平面高度 x 米处的大气压强是 y 毫米水银柱高，y 与 x 之间的函数关系式是y= Cekx，这里 C， k 都是常量。已知某地某天在海平面及 1000 米高空的大气压强分别是 760 及 675 毫米水银柱高，求在 600 米高空的大气压强，又求大气压强是 720 毫米水银柱高处的高度（结果都保留三位有效数字）。\n\n36. 把物体放在冷空气中冷却，如果物体原来的温度是 θ1 度，空气的温度是 θ0 度， t 分钟后物体的温度 θ 度可由公式1θ= θ0 + (θ1− θ0)e−kt求得，这里 k 是一个随着物体与空气的接触状况而定的正的常量。现有 62◦C 的物体，放在15◦C 的空气中冷却，1 分钟以后物体的温度是 52◦C，求上式中的 k 值，然后计算开始冷却后多少分钟物体的温是 42◦C，32◦C，22◦C，15.1◦C （精确到一个有效数字）。物体会不会冷却到 12◦C？\n\n37. 求下列函数的定义域、值域：\n\nx + 1（1）y=x + 2 ； （2）y=−√x2 + 25；\n\n1（3）y=(x− 1)(2x− 1) ； （4）y= x + √1− 2x。\n\n38. （1）已知 ln y= x + ln C，求证 y= Cex；\n\n（2）已知 ln yx− ax = ln C，求证 y= Cxeax。\n\n39. 设 a2 + b2 = 7ab，且 a > 0，b > 0，求证lg a + b=32 (lg a + lg b)。\n\n40. 求下列函数的定义域：\n\n（1）y= √3x− 9； （2）y= √1− ax (0 < a < 1)；\n\n（3）y= loga(6x2− x− 2) (a > 0，且a ̸= 1)；\n\n（4）y= loga(−x2 + 4x− 3) (a > 0，且a ̸= 1)。\n\n41. （1）方程 32x2 = 35x+7 与方程 2x2 = 5x + 7 的解集是否相等，为什么？\n\n（2）方程 log2 2x2 = log2(x + 6) 与方程 2x2 = x + 6 的解集是否相等，为什么？\n\n（3）方程 lg(x− 1) + lg(x− 2) = lg(x + 2) 与方程 (x− 1)· (x− 2) = x + 2 的解集是否相等，为什么？\n\n42. 解下列方程组：\n\n（1）  9x+y = 729,3x−y−1 = 1;（3）  lg x + lg y = 5,lg x− lg y = 3;（2）（4）  2x· 3y = 648,3x· 2y = 432;  x− y = 90,lg x + lg y = 3。",
+      "blocks": [
+        {
+          "id": "section-1-14-block-1",
+          "type": "definition",
+          "content": "在指数里含有未知数的方程叫做指数方程，在对数符号后面含有未知数的方程叫做对数方程。在这两类方程中，我们只能解一些特殊的方程。现在举一些例子。"
+        },
+        {
+          "id": "section-1-14-block-2",
+          "type": "example",
+          "content": "例 1 解方程 4x = 2x+1\n\n解: 原方程可化为"
+        },
+        {
+          "id": "section-1-14-block-3",
+          "type": "section-intro",
+          "content": "22x = 2x+1。"
+        },
+        {
+          "id": "section-1-14-block-4",
+          "type": "section-intro",
+          "content": "同一个底 a（这里 a > 0，且 a ̸= 1) 的幂相等，必须并且只需它们的幂指数相等。因此上式就是2x = x + 1。"
+        },
+        {
+          "id": "section-1-14-block-5",
+          "type": "section-intro",
+          "content": "∴ x = 1"
+        },
+        {
+          "id": "section-1-14-block-6",
+          "type": "example",
+          "content": "例 2 电视机厂生产的电视机台数，如果每年平均比上一年增长 10.4%，那么约经过多少年可以增"
+        },
+        {
+          "id": "section-1-14-block-7",
+          "type": "section-intro",
+          "content": "长到原来的 2 倍（结果保留一个有效数字）？"
+        },
+        {
+          "id": "section-1-14-block-8",
+          "type": "example",
+          "content": "解: 设经过 x 年可以增长到原来的 2 倍，根据题意，得"
+        },
+        {
+          "id": "section-1-14-block-9",
+          "type": "section-intro",
+          "content": "(1 + 10.4%)x = 2。"
+        },
+        {
+          "id": "section-1-14-block-10",
+          "type": "section-intro",
+          "content": "两边取对数，得∴ x =x lg 1.104 = lg 2。"
+        },
+        {
+          "id": "section-1-14-block-11",
+          "type": "section-intro",
+          "content": "lg 2=lg 1.1040.30100.0429≈ 7。"
+        },
+        {
+          "id": "section-1-14-block-12",
+          "type": "section-intro",
+          "content": "答：约经过 7 年。"
+        },
+        {
+          "id": "section-1-14-block-13",
+          "type": "property",
+          "content": "（注：在例 2 中，也可以把指数式 (1 + 10.4%)x = 2 化为对数式 log1.104 2 = x，再利用换底公式lg 2得到 x =≈ 7。）lg 1.104"
+        },
+        {
+          "id": "section-1-14-block-14",
+          "type": "example",
+          "content": "例 3 解方程 3x+1 + 9x"
+        },
+        {
+          "id": "section-1-14-block-15",
+          "type": "section-intro",
+          "content": "− 18 = 0。"
+        },
+        {
+          "id": "section-1-14-block-16",
+          "type": "example",
+          "content": "解: 原方程可化为"
+        },
+        {
+          "id": "section-1-14-block-17",
+          "type": "section-intro",
+          "content": "利用换元法，设 3x = y，方程又成为3· 3x + (3x)2− 18 = 0。"
+        },
+        {
+          "id": "section-1-14-block-18",
+          "type": "section-intro",
+          "content": "y2 + 3y− 18 = 0，由此解得y1 = 3, y2 =−6。"
+        },
+        {
+          "id": "section-1-14-block-19",
+          "type": "property",
+          "content": "由 3x = 3，得 x = 1；另 3x =−6 不符合指数函数意义（性质（1）），应舍去。所以原方程的解是x = 1。"
+        },
+        {
+          "id": "section-1-14-block-20",
+          "type": "example",
+          "content": "例 4 解方程 lg(x2 + 11x + 8)− lg(x + 1) = 1。\n\n解: 把原方程化为"
+        },
+        {
+          "id": "section-1-14-block-21",
+          "type": "section-intro",
+          "content": "lg x2 + 11x + 8= lg 10。"
+        },
+        {
+          "id": "section-1-14-block-22",
+          "type": "section-intro",
+          "content": "x + 1同一个底的对数相等，必须并且只需它们的真数（使对数有意文）相等。因此上式就是x2 + 11x + 8x + 1 = 10。"
+        },
+        {
+          "id": "section-1-14-block-23",
+          "type": "example",
+          "content": "解这个方程，得 x1 =−2，x2 = 1。"
+        },
+        {
+          "id": "section-1-14-block-24",
+          "type": "section-intro",
+          "content": "检验：x =−2 时，x + 1 =−1，负数的对数没有意义，所以 x =−2 不是原方程的根；x = 1 时，原方程的 左边= lg 20− lg 2 = lg 10 = 1 = 右边，所以 x = 1 是原方程的根。"
+        },
+        {
+          "id": "section-1-14-block-25",
+          "type": "property",
+          "content": "注意：解对数方程时，必须对求得的根进行检验。因为在利用对数性质进行变形而得到新方程时，如果未知数的字母的取值范围扩大，可能产生增根。如例 4，由原方程变形为lg x2 + 11x + 8= lg 10x + 1时，x 的取值范围由  x  x2 + 11x + 8 > 0,x + 1 > 0  变为  x  x2 + 11x + 8 > 0,x + 1 > 0  ∪  x  x2 + 11x + 8 < 0,x + 1 < 0  。"
+        },
+        {
+          "id": "section-1-14-block-26",
+          "type": "section-intro",
+          "content": "因为 x =−2 ∈  x  x2 + 11x + 8 < 0,x + 1 < 0  ，所以方程产生了增根。"
+        },
+        {
+          "id": "section-1-14-block-27",
+          "type": "example",
+          "content": "例 5 求方程 x + lg x = 3 的近似解。\n\n解: 在同一坐标系内画出 y= lg x 及 y = 3− x 的图象，求得交点的横坐标 x ≈ 2.6（图1-31），这"
+        },
+        {
+          "id": "section-1-14-block-28",
+          "type": "section-intro",
+          "content": "个 x 值近似地满足 lg x = 3− x，所以它就是原方程的近似解。"
+        },
+        {
+          "id": "section-1-14-block-29",
+          "type": "section-intro",
+          "content": "y321y = 3− xy= lg xO 1 2 3 4 5x-1图 1-31"
+        },
+        {
+          "id": "section-1-14-block-30",
+          "type": "exercise",
+          "content": "练 习\n\n1. 解下列指数方程："
+        },
+        {
+          "id": "section-1-14-block-31",
+          "type": "section-intro",
+          "content": "1（1）2x−1 = 8； （2）3x = 9；"
+        },
+        {
+          "id": "section-1-14-block-32",
+          "type": "section-intro",
+          "content": "（3） 14−x= 64； （4）5(x−1)(x+2) = 1。"
+        },
+        {
+          "id": "section-1-14-block-33",
+          "type": "section-intro",
+          "content": "2. 利用常用对数解下列指数方程："
+        },
+        {
+          "id": "section-1-14-block-34",
+          "type": "section-intro",
+          "content": "（1）10x = 300； （2）2y = 100；"
+        },
+        {
+          "id": "section-1-14-block-35",
+          "type": "section-intro",
+          "content": "（3）3y = 12； （4）104m = 5.75。"
+        },
+        {
+          "id": "section-1-14-block-36",
+          "type": "section-intro",
+          "content": "3. 已知镭经过 100 年剩留原来质量的 95.76%，计算它约经过多少年剩留一半（结果保留四个有效数字）。"
+        },
+        {
+          "id": "section-1-14-block-37",
+          "type": "section-intro",
+          "content": "4. 一个生产队去年粮食平均亩产量是 817 斤，从今年起的 5 年内，计划平均每年比上一年提高7%，约经过几年可以提高到亩产量 1000 斤（结果保留一个有效数字）？"
+        },
+        {
+          "id": "section-1-14-block-38",
+          "type": "section-intro",
+          "content": "5. 解下列对数方程："
+        },
+        {
+          "id": "section-1-14-block-39",
+          "type": "section-intro",
+          "content": "（1）2 lg x + lg 7 = lg 14； （2）lg x + lg(x− 3) = 1；"
+        },
+        {
+          "id": "section-1-14-block-40",
+          "type": "section-intro",
+          "content": "1（3）lg(x + 6)−2 lg(2x− 3) = 2− lg 25；"
+        },
+        {
+          "id": "section-1-14-block-41",
+          "type": "section-intro",
+          "content": "（4） 12 (lg x− lg 5) = lg 2−12 lg(9− x)。"
+        },
+        {
+          "id": "section-1-14-block-42",
+          "type": "section-intro",
+          "content": "6. 用换元法解方程："
+        },
+        {
+          "id": "section-1-14-block-43",
+          "type": "section-intro",
+          "content": "（1）52x（2） 112 (lg x)2 =− 23 × 5x− 50 = 0；"
+        },
+        {
+          "id": "section-1-14-block-44",
+          "type": "section-intro",
+          "content": "13−14 lg x。"
+        },
+        {
+          "id": "section-1-14-block-45",
+          "type": "section-intro",
+          "content": "1"
+        },
+        {
+          "id": "section-1-14-block-46",
+          "type": "exercise",
+          "content": "习题 五\n\n1. （1）一种产品的年产量原来是 a 件，在今后 m 年内，计划使年产量平均每年比上一年增加p%。写出年产量随经过年数变化的函数关系式。"
+        },
+        {
+          "id": "section-1-14-block-47",
+          "type": "section-intro",
+          "content": "（2）一种产品的成本原來是 a 元，在今后 m 年内，计划使成本平均每年比上一年降低 p%。"
+        },
+        {
+          "id": "section-1-14-block-48",
+          "type": "property",
+          "content": "写出成本随经过年数变化的函数关系式。"
+        },
+        {
+          "id": "section-1-14-block-49",
+          "type": "property",
+          "content": "2. 求下列函数的定又域、值域："
+        },
+        {
+          "id": "section-1-14-block-50",
+          "type": "section-intro",
+          "content": "（1）y = 23−x； （2）y = 32−x ；"
+        },
+        {
+          "id": "section-1-14-block-51",
+          "type": "section-intro",
+          "content": "（3）y=5x121； （4）y = 0.74x 。"
+        },
+        {
+          "id": "section-1-14-block-52",
+          "type": "property",
+          "content": "3. 求下列函数的反函数："
+        },
+        {
+          "id": "section-1-14-block-53",
+          "type": "section-intro",
+          "content": "（1）y = 4x (x ∈ R)； （3）y=13x(x ∈ R)； （2）y = 0.25x (x ∈ R)；"
+        },
+        {
+          "id": "section-1-14-block-54",
+          "type": "section-intro",
+          "content": "（4）y = (√2)x (x ∈ R)；"
+        },
+        {
+          "id": "section-1-14-block-55",
+          "type": "section-intro",
+          "content": "（5）y= lg x (x ∈ R+)； （6）y = 2 log4 x (x ∈ R+)；"
+        },
+        {
+          "id": "section-1-14-block-56",
+          "type": "section-intro",
+          "content": "（7）y= loga 2x (a > 0，且a ̸= 1，x ∈ R+)；"
+        },
+        {
+          "id": "section-1-14-block-57",
+          "type": "section-intro",
+          "content": "x（8）y= loga2 (a > 0，且a ̸= 1，x ∈ R+)。"
+        },
+        {
+          "id": "section-1-14-block-58",
+          "type": "property",
+          "content": "4. 求下列函数的定义域："
+        },
+        {
+          "id": "section-1-14-block-59",
+          "type": "section-intro",
+          "content": "（1）y= 3 log2 x； （2）y= log0.5(4x− 3)；"
+        },
+        {
+          "id": "section-1-14-block-60",
+          "type": "section-intro",
+          "content": "（3）y= √x2 + 3x + 2 + log2 3x。"
+        },
+        {
+          "id": "section-1-14-block-61",
+          "type": "section-intro",
+          "content": "5. 如果 f (x) = ex，求证f (x)· f (y) = f (x + y)。"
+        },
+        {
+          "id": "section-1-14-block-62",
+          "type": "section-intro",
+          "content": "6. 如果 f (x) = lg 1− x1 + x，求证f (a) + f (b) = f a + b1 + ab。"
+        },
+        {
+          "id": "section-1-14-block-63",
+          "type": "property",
+          "content": "7. 利用指数函数的性质（1），（3）证明性质（4）。"
+        },
+        {
+          "id": "section-1-14-block-64",
+          "type": "property",
+          "content": "8. 利用换底公式证明："
+        },
+        {
+          "id": "section-1-14-block-65",
+          "type": "section-intro",
+          "content": "（1）logan bn = loga b；"
+        },
+        {
+          "id": "section-1-14-block-66",
+          "type": "section-intro",
+          "content": "m（2）logan bm =loga b。"
+        },
+        {
+          "id": "section-1-14-block-67",
+          "type": "section-intro",
+          "content": "n9. 解下列方程："
+        },
+        {
+          "id": "section-1-14-block-68",
+          "type": "section-intro",
+          "content": "（1） 12x· 82x = 4； （2）5x−1（3）52x− 6 × 5x + 5 = 0； （4）33x10. 解下列方程："
+        },
+        {
+          "id": "section-1-14-block-69",
+          "type": "section-intro",
+          "content": "（1）logx+2(2x2 + 3x− 2) = 1；"
+        },
+        {
+          "id": "section-1-14-block-70",
+          "type": "section-intro",
+          "content": "x2− x + 2（2）logax + 1 = 0 (a > 0, a ̸= 1)；"
+        },
+        {
+          "id": "section-1-14-block-71",
+          "type": "section-intro",
+          "content": "· 103x = 8x；"
+        },
+        {
+          "id": "section-1-14-block-72",
+          "type": "section-intro",
+          "content": "− 3−x =809。"
+        },
+        {
+          "id": "section-1-14-block-73",
+          "type": "section-intro",
+          "content": "（3）lg(x2− 3) = lg(3x + 1)；"
+        },
+        {
+          "id": "section-1-14-block-74",
+          "type": "section-intro",
+          "content": "（4）lg(x2− x− 2)− lg(x + 1)− lg 2 = 0；"
+        },
+        {
+          "id": "section-1-14-block-75",
+          "type": "section-intro",
+          "content": "（5）2(log3 x)2 + log3 x− 1 = 0；"
+        },
+        {
+          "id": "section-1-14-block-76",
+          "type": "section-intro",
+          "content": "（6）2 logx 25− 3 log25 x = 1。"
+        },
+        {
+          "id": "section-1-14-block-77",
+          "type": "section-intro",
+          "content": "11. 一台机器的价值是 50 万元。如果每年的折旧率是 4.5% （就是每年减少它的价值的 4.5%)，那么约经过几年，它的价值降为 20 万元（结果保留两个有效数字）？"
+        },
+        {
+          "id": "section-1-14-block-78",
+          "type": "property",
+          "content": "12. 如图，画出函数 y = 3x 及 y = 2 和图象，求方程 3x = 2 的近似解（精确到 0.1）。"
+        },
+        {
+          "id": "section-1-14-block-79",
+          "type": "section-intro",
+          "content": "y45 y = 3x3y = 221O−2−1 1 2 3x（第 12 题）13. 用图象法求下列方程的近似解（精确到 0.1）。"
+        },
+        {
+          "id": "section-1-14-block-80",
+          "type": "section-intro",
+          "content": "（1）3x = 4− x；"
+        },
+        {
+          "id": "section-1-14-block-81",
+          "type": "section-intro",
+          "content": "（2）lg x + x2 = 0。"
+        },
+        {
+          "id": "section-1-14-block-82",
+          "type": "summary",
+          "content": "小 结"
+        },
+        {
+          "id": "section-1-14-block-83",
+          "type": "property",
+          "content": "一、本章主要内容是在引入集合的概念、集合同集合之间的关系以及定义映射、一一映射、逆映射这些概念的基础上，进一步阐明函数与反函数的概念，研究函数的单调性与奇偶性，并具体研究幂函数、指数函数和对数函数以及简单的指数方程和对数方程等。"
+        },
+        {
+          "id": "section-1-14-block-84",
+          "type": "section-intro",
+          "content": "二、一组对象的全体形成一集合，集合里的各个对象就是这个集合的元素。对象同集合的关系是属于或不属于。"
+        },
+        {
+          "id": "section-1-14-block-85",
+          "type": "definition",
+          "content": "集合 A 是集合 B 的子集，记作 A ⊆ B。如果 A ⊆ B 而且 B ⊆ A，则 A= B。子集、真子集这两个概念是不同的。"
+        },
+        {
+          "id": "section-1-14-block-86",
+          "type": "definition",
+          "content": "集合 A， B 的交集，记作 A ∩ B，它是 A 的子集也是 B 的子集，特别地， A ∩ A= A， A ∩ ∅= ∅。"
+        },
+        {
+          "id": "section-1-14-block-87",
+          "type": "definition",
+          "content": "集合 A， B 的并集，记作 A ∪ B，集合 A， B 都是 A ∪ B 的子集，特别地， A ∪ A= A， A ∪ ∅= A。"
+        },
+        {
+          "id": "section-1-14-block-88",
+          "type": "property",
+          "content": "一个集合的补集是相对于给定的全集来说的。如果 A 是全集 I 的子集，则补集记 A，而 A 也是I 的子集。A 及 A 及 I 的关系是 A ∪ A= I，A ∩ A= ∅，A= A。"
+        },
+        {
+          "id": "section-1-14-block-89",
+          "type": "section-intro",
+          "content": "三、给定两个集合 A，B，如果按照某种对应法则 f ，对于集合 A 中的任何一个元素，在集合 B中都有唯一的元素和它对应，这样的对应（包括集合 A，B 及对应法则 f ）就是从集合 A 到集合 B的映射，表示为 f : A → B。"
+        },
+        {
+          "id": "section-1-14-block-90",
+          "type": "section-intro",
+          "content": "设 f : A → B 是从集合 A 到集合 B 的一个映射，如果在这个映射的作用下，对于 A 中的不同元素，在 B 中有不同的象，而且 B 中的每一个元素都有原象，那么这个映射就是 A 到 B 上的一一映"
+        },
+        {
+          "id": "section-1-14-block-91",
+          "type": "section-intro",
+          "content": "射。这时，如果对于 B 中的每一个元素 b，使 b 在 A 中的原象 a 和它对应，这样得到的映射就是映射 f : A → B 的逆映射，表示为 f−1 : B → A。显然，映射 f : A → B 与映射 f−1 : B → A 互为逆映射，它们互相依存。"
+        },
+        {
+          "id": "section-1-14-block-92",
+          "type": "property",
+          "content": "以实数 x 为自变量的函数 y= f (x) 实际上是 x 取值的集合到 y 取值的集合上的映射，其中 x 取值的集合就是函数 f (x) 的定义域，和 x 对应的的 y 值就是函数值，函数值的集合就是函数 f (x) 的值域。"
+        },
+        {
+          "id": "section-1-14-block-93",
+          "type": "property",
+          "content": "如果确定函数 y= f (x) 的映射 f : A → B 是函数 f (x) 的定义域 A 到值域 B 上的一一映射，那么这个映射的逆映射 f−1 : B → A 所确定的函数 y= f−1(x) 就是函数 y= f (x) 的反函数，y= f−1(x)的定义域、值域分别是 y= f (x) 的值域、定义域。由 y= f (x) 求 y= f−1(x) 的步驟是：（1）由y= f (x) 中解出 x = f−1(y)；（2）把 x = f−1(y) 改写为 y= f−1(x)。函数 y= f (x) 和 y= f−1(x)的图象关于直线 y= x 对称。"
+        },
+        {
+          "id": "section-1-14-block-94",
+          "type": "property",
+          "content": "四、在一个区间上，如果对于自变量 x 的任意两个值 x1，x2，且 x1 < x2，都有 f (x1) < f (x2)，那么函数 f (x) 在这个区间上是增函数；如果对于任意的 x1， x2，且 x1 < x2，都有 f (x1) > f (x2)，那么函数在这个区间上是减函数。"
+        },
+        {
+          "id": "section-1-14-block-95",
+          "type": "property",
+          "content": "如果对于函数定义域内任意一个 x 都有 f (−x) =−f (x)，那么函数 f (x) 是奇函数。如果对于函数定义域内任意一个 x 都有 f (−x) = f (x)，那么函数 f (x) 是偶函数。"
+        },
+        {
+          "id": "section-1-14-block-96",
+          "type": "property",
+          "content": "奇函数的图象关于原点对称；反过来，如果一个函数的图象关于原点对称，那么这个函数是奇函数。偶函数的图象关于 y 轴对称；反过来，如果一个函数的图象关于 y 轴对称，那么这个函数是偶函数。"
+        },
+        {
+          "id": "section-1-14-block-97",
+          "type": "property",
+          "content": "五、函数 y= xa 就是幂函数，其中 a 是一个常量。我们巳讨论了 a 是有理数 n 的情况：当 n 为正数时，幂函数的定义域是实数集 R；当 n 为零或负整数时，幂函数的定义域是除 x = 0 以外的所有实数；当 n 为正分数 p或负分数−p，（p，q 是互质的正整数，q > 1) 时，xn 的意义分别是q √xp 或qq1，幂函数的定义域分别是使q √xp 或 1有意义的实数的集合。"
+        },
+        {
+          "id": "section-1-14-block-98",
+          "type": "property",
+          "content": "q √xpq √xp六、函数 y= ax 就是指数函数，其中 a 是一个大于零且不等于 1 的常量，函数的定义域是实数集 R。函数 y= loga x 就是对数函数，其中 a 是一个大于零且不等于 1 的常量，函数的定义域是 R+。"
+        },
+        {
+          "id": "section-1-14-block-99",
+          "type": "property",
+          "content": "指数函数 y= ax 和对数函数 y= loga x 互为反函数，它们的图象关于直线 y= x 对称。"
+        },
+        {
+          "id": "section-1-14-block-100",
+          "type": "section-intro",
+          "content": "七、在指数方程和对数方程中，我们只能解一些比较特殊的方程。解这些特殊方程一般是根据指数、对数的定义，或采取将方程两边化成同底幂、同底对数，从而得到幂指数相等、真数相等的新方程，或在方程两边同时取对数，从而得到新方程等。解对数方程时，可能产生增根，因此，检验是解对数方程整个过程中不可缺少的一步。"
+        },
+        {
+          "id": "section-1-14-block-101",
+          "type": "exercise",
+          "content": "复习参考题一"
+        },
+        {
+          "id": "section-1-14-block-102",
+          "type": "section-intro",
+          "content": "A 组1. 用列举法写出与下列集合相等的集合："
+        },
+        {
+          "id": "section-1-14-block-103",
+          "type": "section-intro",
+          "content": "（1）A= {x|x = 9}；"
+        },
+        {
+          "id": "section-1-14-block-104",
+          "type": "section-intro",
+          "content": "（2）B= {x|x ⩾ 1，且x ⩽ 2, x ∈ N }；"
+        },
+        {
+          "id": "section-1-14-block-105",
+          "type": "section-intro",
+          "content": "（3）C= {x|x = 1，或x = 2}。"
+        },
+        {
+          "id": "section-1-14-block-106",
+          "type": "section-intro",
+          "content": "2. 设 P 表示平面内的点，属于下列集合的点组成什么图形？"
+        },
+        {
+          "id": "section-1-14-block-107",
+          "type": "section-intro",
+          "content": "（1）{P |P A= P B}（A，B 是定点）；"
+        },
+        {
+          "id": "section-1-14-block-108",
+          "type": "section-intro",
+          "content": "（2）{P |P O = 3厘米}（O 是定点）。"
+        },
+        {
+          "id": "section-1-14-block-109",
+          "type": "section-intro",
+          "content": "3. 设 A= {菱形}，B= {矩形}，求 A ∩ B。"
+        },
+        {
+          "id": "section-1-14-block-110",
+          "type": "section-intro",
+          "content": "4. 设 A= {过点M 的圆}，B= {过点P 的圆}，求 A ∩ B。"
+        },
+        {
+          "id": "section-1-14-block-111",
+          "type": "section-intro",
+          "content": "5. 设平面内有三角形 ABC，且 P 表示平面内的点，求{P |P A= P B} ∩ {P |P A= P C}。"
+        },
+        {
+          "id": "section-1-14-block-112",
+          "type": "section-intro",
+          "content": "6. 设全集 I= R，A= {x|x ⩽ 6}，求："
+        },
+        {
+          "id": "section-1-14-block-113",
+          "type": "section-intro",
+          "content": "（1）A ∩ ∅，A ∪ ∅； （2）A ∩ R，A ∪ R；"
+        },
+        {
+          "id": "section-1-14-block-114",
+          "type": "section-intro",
+          "content": "（4）A ∩ A，A ∪ A。"
+        },
+        {
+          "id": "section-1-14-block-115",
+          "type": "section-intro",
+          "content": "√6− 5x− x2=−f (x)。"
+        },
+        {
+          "id": "section-1-14-block-116",
+          "type": "section-intro",
+          "content": "（3）A； 7. 举出符合下列对应法则的例子："
+        },
+        {
+          "id": "section-1-14-block-117",
+          "type": "section-intro",
+          "content": "（1）对于一个集合中的几个元素，另一个集合中有一个元素和它们对应；"
+        },
+        {
+          "id": "section-1-14-block-118",
+          "type": "section-intro",
+          "content": "（2）对于一个集合中的一个元素，另一个集合中有几个元素和它对应；"
+        },
+        {
+          "id": "section-1-14-block-119",
+          "type": "section-intro",
+          "content": "（3）对于一个集合中的一个元素，另一个集合中有且仅有一个元素和它对应。"
+        },
+        {
+          "id": "section-1-14-block-120",
+          "type": "section-intro",
+          "content": "8. 举出几个映射的例子，并说明相应于每个映射的象集合及原象集合各是什么。"
+        },
+        {
+          "id": "section-1-14-block-121",
+          "type": "property",
+          "content": "9. 求下列函数的定义域："
+        },
+        {
+          "id": "section-1-14-block-122",
+          "type": "section-intro",
+          "content": "（1）y= √4x + 3； （2）y=√x− 1x + 2 ；"
+        },
+        {
+          "id": "section-1-14-block-123",
+          "type": "section-intro",
+          "content": "1（3）y=1x + 3 + √−x + √x + 4； （4）y=。"
+        },
+        {
+          "id": "section-1-14-block-124",
+          "type": "section-intro",
+          "content": "10. 设 f (x) = 1 + x21− x2 ，求证："
+        },
+        {
+          "id": "section-1-14-block-125",
+          "type": "section-intro",
+          "content": "（1）f (−x) = f (x)； （2）f 1x11. 设 f (x) = ex− e−x2 ，g(x) = ex + e−x2 ，求证："
+        },
+        {
+          "id": "section-1-14-block-126",
+          "type": "section-intro",
+          "content": "（1）[g(x)]2− [f (x)]2 = 1；"
+        },
+        {
+          "id": "section-1-14-block-127",
+          "type": "section-intro",
+          "content": "（2）f (2x) = 2f (x)· g(x)；"
+        },
+        {
+          "id": "section-1-14-block-128",
+          "type": "property",
+          "content": "（3）g(2x) = [f (x)]2 + [g(x)]212. （1）当 n > 0 时，幂函数 y= xn 有哪些共同性质？"
+        },
+        {
+          "id": "section-1-14-block-129",
+          "type": "property",
+          "content": "（2）当 n < 0 时，幂函数 y= xn 有哪些共同性质？"
+        },
+        {
+          "id": "section-1-14-block-130",
+          "type": "property",
+          "content": "13. 分下列两种情况写出二次函数 y= ax2 + bx + c 的单调区间，以及在每一单调区间上，函数是增函数还是减函数。"
+        },
+        {
+          "id": "section-1-14-block-131",
+          "type": "property",
+          "content": "（1）a > 0； 14. 求证：在公共的定义域内，（1）奇函数与奇函数的积是偶函数；"
+        },
+        {
+          "id": "section-1-14-block-132",
+          "type": "property",
+          "content": "（2）奇函数与偶函数的积是奇函数；"
+        },
+        {
+          "id": "section-1-14-block-133",
+          "type": "property",
+          "content": "（3）偶函数与偶函数的积是偶函数。"
+        },
+        {
+          "id": "section-1-14-block-134",
+          "type": "section-intro",
+          "content": "。"
+        },
+        {
+          "id": "section-1-14-block-135",
+          "type": "section-intro",
+          "content": "（2）a < 0。"
+        },
+        {
+          "id": "section-1-14-block-136",
+          "type": "section-intro",
+          "content": "23。"
+        },
+        {
+          "id": "section-1-14-block-137",
+          "type": "section-intro",
+          "content": "=−15. 举出几个一一映射的例子，并分别求出它们的逆映射。"
+        },
+        {
+          "id": "section-1-14-block-138",
+          "type": "section-intro",
+          "content": "16. 把下列指数式化为对数式，或对数式化为指数式（a > 0，且 a ̸= 1）："
+        },
+        {
+          "id": "section-1-14-block-139",
+          "type": "section-intro",
+          "content": "（1）loga N= b； （2）a0 = 1；"
+        },
+        {
+          "id": "section-1-14-block-140",
+          "type": "property",
+          "content": "（3）a1 = a； （4）loga3 √a2 =17. 写出对数的运算性质："
+        },
+        {
+          "id": "section-1-14-block-141",
+          "type": "section-intro",
+          "content": "（1）loga(M· N ) = ；"
+        },
+        {
+          "id": "section-1-14-block-142",
+          "type": "section-intro",
+          "content": "M（2）logaN= ；"
+        },
+        {
+          "id": "section-1-14-block-143",
+          "type": "section-intro",
+          "content": "（3）loga M n = ；"
+        },
+        {
+          "id": "section-1-14-block-144",
+          "type": "section-intro",
+          "content": "（4）logan √M= 。"
+        },
+        {
+          "id": "section-1-14-block-145",
+          "type": "property",
+          "content": "18. 写出对数换底公式，并加以证明。"
+        },
+        {
+          "id": "section-1-14-block-146",
+          "type": "section-intro",
+          "content": "19. 求证："
+        },
+        {
+          "id": "section-1-14-block-147",
+          "type": "section-intro",
+          "content": "（1）log2 64 = 3 log8 64 ；"
+        },
+        {
+          "id": "section-1-14-block-148",
+          "type": "section-intro",
+          "content": "4（2）log3 81 =3 log2 8 ；"
+        },
+        {
+          "id": "section-1-14-block-149",
+          "type": "section-intro",
+          "content": "（3） log5 √2· log7 9132 ；"
+        },
+        {
+          "id": "section-1-14-block-150",
+          "type": "section-intro",
+          "content": "log53· log73 √4（4）log4 8− log 193− log√2 4 =−2 。"
+        },
+        {
+          "id": "section-1-14-block-151",
+          "type": "section-intro",
+          "content": "20. 利用对数计算："
+        },
+        {
+          "id": "section-1-14-block-152",
+          "type": "section-intro",
+          "content": "1（1）3.744· e0.24； （2） 0.0341272× 5ln 3。"
+        },
+        {
+          "id": "section-1-14-block-153",
+          "type": "property",
+          "content": "21. 下列函数中哪些互为反函数？在同一坐标系内画出每一对反函数的图象，然后说明各函数的性质："
+        },
+        {
+          "id": "section-1-14-block-154",
+          "type": "section-intro",
+          "content": "（1）y= x4 (x ∈ R)； 1（3）y= x4 (x ∈ R−)； （2）y = 4x (x ∈ R)；"
+        },
+        {
+          "id": "section-1-14-block-155",
+          "type": "section-intro",
+          "content": "（4）y= log4 x (x ∈ R+)。"
+        },
+        {
+          "id": "section-1-14-block-156",
+          "type": "property",
+          "content": "22. 求下列函数的定义域："
+        },
+        {
+          "id": "section-1-14-block-157",
+          "type": "section-intro",
+          "content": "1（1）y = 82x−1 ； （2）y= 1−12x；"
+        },
+        {
+          "id": "section-1-14-block-158",
+          "type": "section-intro",
+          "content": "（3）y= loga(2− x) (a > 0，且a ̸= 1)；"
+        },
+        {
+          "id": "section-1-14-block-159",
+          "type": "section-intro",
+          "content": "（4）y= loga(−x)2 (a > 0，且a ̸= 1)。"
+        },
+        {
+          "id": "section-1-14-block-160",
+          "type": "section-intro",
+          "content": "23. 设 x，y 为非零实数，a > 0，且 a ̸= 1，下列各式哪些成立，哪些不一定成立，为什么？"
+        },
+        {
+          "id": "section-1-14-block-161",
+          "type": "section-intro",
+          "content": "（1）loga x2 = 2 loga x； （2）loga x2 = 2 loga |x|；"
+        },
+        {
+          "id": "section-1-14-block-162",
+          "type": "section-intro",
+          "content": "（3）loga |x· y|= loga |x| · loga |y|；"
+        },
+        {
+          "id": "section-1-14-block-163",
+          "type": "section-intro",
+          "content": "（4）loga 3 > loga 2。"
+        },
+        {
+          "id": "section-1-14-block-164",
+          "type": "section-intro",
+          "content": "24. 解下列方程："
+        },
+        {
+          "id": "section-1-14-block-165",
+          "type": "section-intro",
+          "content": "（1）62x+4 = 2x+8 · 33x； （2）5x + 5x−1 = 750；"
+        },
+        {
+          "id": "section-1-14-block-166",
+          "type": "section-intro",
+          "content": "（3）9x = (√3)x+2； （4）4x− 3 × 2x + 2 = 0；"
+        },
+        {
+          "id": "section-1-14-block-167",
+          "type": "section-intro",
+          "content": "（5）4x− 2 × 6x + 9x = 0； （6）2x = 3x+1 （精确到 0.01）。"
+        },
+        {
+          "id": "section-1-14-block-168",
+          "type": "section-intro",
+          "content": "25. 解下列方程："
+        },
+        {
+          "id": "section-1-14-block-169",
+          "type": "section-intro",
+          "content": "（1）log√x 2x = 4； （3）log10[log2(logx 25)] = 0； （5）lg(x− 1) + lg(x− 2) = lg(x + 2)；"
+        },
+        {
+          "id": "section-1-14-block-170",
+          "type": "section-intro",
+          "content": "（6）x2 lg x = 10x。"
+        },
+        {
+          "id": "section-1-14-block-171",
+          "type": "section-intro",
+          "content": "26. 设 1980 年底我国人口为 10 亿，查表计算："
+        },
+        {
+          "id": "section-1-14-block-172",
+          "type": "section-intro",
+          "content": "（2）log7(log3 x) =−1；"
+        },
+        {
+          "id": "section-1-14-block-173",
+          "type": "section-intro",
+          "content": "（4）logx xx = 2；"
+        },
+        {
+          "id": "section-1-14-block-174",
+          "type": "section-intro",
+          "content": "（1）如果我国人口每年比上年平均递增 2%，那么到 2000 年底将达到多少（结果保留四个有效数字）。"
+        },
+        {
+          "id": "section-1-14-block-175",
+          "type": "section-intro",
+          "content": "（2）要使 2000 年底我国人口不超过 12 亿，那么每年比上一年平均递增率最高是多少（精确到 0.01%）。"
+        },
+        {
+          "id": "section-1-14-block-176",
+          "type": "section-intro",
+          "content": "B 组27. 设直线 l1 及 l2 在同一个平面内，A= {P |点P ∈ l1}，B= {Q|点Q ∈ l2}，问："
+        },
+        {
+          "id": "section-1-14-block-177",
+          "type": "section-intro",
+          "content": "（1）A ∩ B= ∅ 时，直线 l1，l2 有什么关系。"
+        },
+        {
+          "id": "section-1-14-block-178",
+          "type": "section-intro",
+          "content": "（2）A ∩ B 是单元素集时，直线 l1，l2 有什么关系。"
+        },
+        {
+          "id": "section-1-14-block-179",
+          "type": "section-intro",
+          "content": "（3）A ∩ B 含有两个以上元素时，直线 l1，l2 有什么关系。"
+        },
+        {
+          "id": "section-1-14-block-180",
+          "type": "property",
+          "content": "28. 设集合 I，A，B，C 的关系如图所示，并记 A，B，C 为 A，B，C 在 I 中的补集，用阴影表示下列集合："
+        },
+        {
+          "id": "section-1-14-block-181",
+          "type": "section-intro",
+          "content": "（1）A ∩ C； （3）(A ∩ B) ∩ C； （2）(A ∩ B) ∪ C；"
+        },
+        {
+          "id": "section-1-14-block-182",
+          "type": "section-intro",
+          "content": "（4）(A ∩ B) ∪ B；"
+        },
+        {
+          "id": "section-1-14-block-183",
+          "type": "section-intro",
+          "content": "（5）B ∪ C； （6）A ∪ B。"
+        },
+        {
+          "id": "section-1-14-block-184",
+          "type": "property",
+          "content": "IA B Chx（第 28 题） d（第 29 题）29. 如图，一个圆柱形容器的底部直径是 d 厘米，高是 h 厘米。现在以每秒钟 s 厘米3 的速度向容器内注入某种溶液。求容器内溶液的高度 x 与注入溶液的时间 t 之间的函数关系式。并写出函数的定义域与值域。"
+        },
+        {
+          "id": "section-1-14-block-185",
+          "type": "property",
+          "content": "30. 某人开汽车以 60 公里/小时的速度从 A 地到 150 公里远处的 B 地，在 B 地停留 1 小时后，再以 50 公里/小时的速返回 A 地。把汽车离开 A 地的路程 x 公里表示为时间 t 小时（从 A地出发时开始）的函数，并画出函数的图象；又把车速 v 公里/小时表示为时间 t 的函数，并画出函数的图象31. 设 f (x) = x2，g(x) = 2x− 5，比较 f (g(x)) 和 g(f (x)) 是否一样。"
+        },
+        {
+          "id": "section-1-14-block-186",
+          "type": "section-intro",
+          "content": "32. 已知 f (x) = (x2 + 2)2− 4(x2 + 2) + 4，求证f (tx) = t4f (x)。"
+        },
+        {
+          "id": "section-1-14-block-187",
+          "type": "property",
+          "content": "33. （1）已知奇函数 f (x) 在区间 [a, b] 上 (0 < a < b) 是减函数，那么它在区间 [—b￿− a] 上是增函数还是减函数？"
+        },
+        {
+          "id": "section-1-14-block-188",
+          "type": "property",
+          "content": "（2）已知偶函数 g(x) 在区间 [a, b] 上 (0 < a < b) 是减函数，那么它在区间 [—b￿− a] 上是增函数还是减函数？"
+        },
+        {
+          "id": "section-1-14-block-189",
+          "type": "property",
+          "content": "34. 设 f (x) 是定义在 R 上的任一函数，求证 F1(x) = f (x)+f (−x) 是偶函数， F2(x) = f (x)−f (−x)是奇函数。"
+        },
+        {
+          "id": "section-1-14-block-190",
+          "type": "property",
+          "content": "35. 设在离海平面高度 x 米处的大气压强是 y 毫米水银柱高，y 与 x 之间的函数关系式是y= Cekx，这里 C， k 都是常量。已知某地某天在海平面及 1000 米高空的大气压强分别是 760 及 675 毫米水银柱高，求在 600 米高空的大气压强，又求大气压强是 720 毫米水银柱高处的高度（结果都保留三位有效数字）。"
+        },
+        {
+          "id": "section-1-14-block-191",
+          "type": "property",
+          "content": "36. 把物体放在冷空气中冷却，如果物体原来的温度是 θ1 度，空气的温度是 θ0 度， t 分钟后物体的温度 θ 度可由公式1θ= θ0 + (θ1− θ0)e−kt求得，这里 k 是一个随着物体与空气的接触状况而定的正的常量。现有 62◦C 的物体，放在15◦C 的空气中冷却，1 分钟以后物体的温度是 52◦C，求上式中的 k 值，然后计算开始冷却后多少分钟物体的温是 42◦C，32◦C，22◦C，15.1◦C （精确到一个有效数字）。物体会不会冷却到 12◦C？"
+        },
+        {
+          "id": "section-1-14-block-192",
+          "type": "property",
+          "content": "37. 求下列函数的定义域、值域："
+        },
+        {
+          "id": "section-1-14-block-193",
+          "type": "section-intro",
+          "content": "x + 1（1）y=x + 2 ； （2）y=−√x2 + 25；"
+        },
+        {
+          "id": "section-1-14-block-194",
+          "type": "section-intro",
+          "content": "1（3）y=(x− 1)(2x− 1) ； （4）y= x + √1− 2x。"
+        },
+        {
+          "id": "section-1-14-block-195",
+          "type": "section-intro",
+          "content": "38. （1）已知 ln y= x + ln C，求证 y= Cex；"
+        },
+        {
+          "id": "section-1-14-block-196",
+          "type": "section-intro",
+          "content": "（2）已知 ln yx− ax = ln C，求证 y= Cxeax。"
+        },
+        {
+          "id": "section-1-14-block-197",
+          "type": "section-intro",
+          "content": "39. 设 a2 + b2 = 7ab，且 a > 0，b > 0，求证lg a + b=32 (lg a + lg b)。"
+        },
+        {
+          "id": "section-1-14-block-198",
+          "type": "property",
+          "content": "40. 求下列函数的定义域："
+        },
+        {
+          "id": "section-1-14-block-199",
+          "type": "section-intro",
+          "content": "（1）y= √3x− 9； （2）y= √1− ax (0 < a < 1)；"
+        },
+        {
+          "id": "section-1-14-block-200",
+          "type": "section-intro",
+          "content": "（3）y= loga(6x2− x− 2) (a > 0，且a ̸= 1)；"
+        },
+        {
+          "id": "section-1-14-block-201",
+          "type": "section-intro",
+          "content": "（4）y= loga(−x2 + 4x− 3) (a > 0，且a ̸= 1)。"
+        },
+        {
+          "id": "section-1-14-block-202",
+          "type": "section-intro",
+          "content": "41. （1）方程 32x2 = 35x+7 与方程 2x2 = 5x + 7 的解集是否相等，为什么？"
+        },
+        {
+          "id": "section-1-14-block-203",
+          "type": "section-intro",
+          "content": "（2）方程 log2 2x2 = log2(x + 6) 与方程 2x2 = x + 6 的解集是否相等，为什么？"
+        },
+        {
+          "id": "section-1-14-block-204",
+          "type": "section-intro",
+          "content": "（3）方程 lg(x− 1) + lg(x− 2) = lg(x + 2) 与方程 (x− 1)· (x− 2) = x + 2 的解集是否相等，为什么？"
+        },
+        {
+          "id": "section-1-14-block-205",
+          "type": "section-intro",
+          "content": "42. 解下列方程组："
+        },
+        {
+          "id": "section-1-14-block-206",
+          "type": "section-intro",
+          "content": "（1）  9x+y = 729,3x−y−1 = 1;（3）  lg x + lg y = 5,lg x− lg y = 3;（2）（4）  2x· 3y = 648,3x· 2y = 432;  x− y = 90,lg x + lg y = 3。"
+        }
+      ],
+      "learningLayer": {
+        "learningGoals": [
+          "理解 指数方程和对数方程 的核心概念",
+          "提取本节的关键记号、结论与例题结构",
+          "通过练习验证本节的判断与表达方式"
+        ],
+        "keyPoints": [
+          "在指数里含有未知数的方程叫做指数方程，在对数符号后面含有",
+          "（注：在例 2 中，也可以把指数式 (1 + 10.4%",
+          "由 3x = 3，得 x = 1；另 3x =−6 不符",
+          "注意：解对数方程时，必须对求得的根进行检验。因为在利用对"
+        ],
+        "conceptMap": null,
+        "interactiveDemos": [],
+        "commonMistakes": []
+      }
+    }
+  ]
+}

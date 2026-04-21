@@ -1,0 +1,407 @@
+:root {
+  --paper: #f4efe5;
+  --paper-deep: #e7dbc7;
+  --paper-soft: #fbf8f2;
+  --ink: #201b15;
+  --muted: #6f6457;
+  --accent: #9d3f14;
+  --accent-soft: rgba(157, 63, 20, 0.12);
+  --blue: #2f5f88;
+  --blue-soft: rgba(47, 95, 136, 0.12);
+  --line: rgba(32, 27, 21, 0.12);
+  --shadow: 0 20px 45px rgba(64, 44, 28, 0.08);
+  --hero-shadow: 0 30px 80px rgba(83, 57, 31, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(157, 63, 20, 0.08), transparent 28%),
+    radial-gradient(circle at right 14%, rgba(47, 95, 136, 0.08), transparent 24%),
+    linear-gradient(180deg, #fcfaf5, var(--paper));
+  font-family: "Iowan Old Style", "Palatino Linotype", "Noto Serif SC", "Songti SC", serif;
+  line-height: 1.75;
+}
+
+a {
+  color: inherit;
+}
+
+.breadcrumbs,
+.page-hero,
+.section-layout,
+.book-home,
+.chapter-overview {
+  width: min(1200px, calc(100vw - 2rem));
+  margin-inline: auto;
+}
+
+.breadcrumbs {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 1.2rem 0 0.4rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.breadcrumbs span::before,
+.breadcrumbs a + a::before {
+  content: "/";
+  margin-right: 0.75rem;
+  color: rgba(31, 26, 20, 0.3);
+}
+
+.page-hero {
+  padding: 1.2rem 0 2rem;
+}
+
+.lesson-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.8fr);
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+.page-kicker {
+  margin: 0 0 0.4rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+}
+
+.page-hero h1 {
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 3.4rem);
+  line-height: 1.15;
+}
+
+.page-source {
+  margin: 0.9rem 0 0;
+  color: var(--muted);
+}
+
+.lesson-hero-copy,
+.lesson-hero-panel {
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--hero-shadow);
+}
+
+.lesson-hero-copy {
+  padding: 2rem 2rem 1.8rem;
+}
+
+.lesson-lead {
+  margin: 1rem 0 0;
+  max-width: 30rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.meta-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+.meta-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.2rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(32, 27, 21, 0.08);
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.lesson-hero-panel {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1.2rem;
+}
+
+.hero-panel-card {
+  border-radius: 22px;
+  padding: 1rem 1.05rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(244, 239, 229, 0.88));
+  border: 1px solid rgba(32, 27, 21, 0.06);
+}
+
+.hero-panel-card p {
+  margin: 0.55rem 0 0;
+}
+
+.hero-panel-label,
+.card-eyebrow {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.book-home,
+.chapter-overview {
+  padding-bottom: 4rem;
+}
+
+.chapter-grid,
+.section-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.chapter-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.section-list {
+  padding-left: 1.2rem;
+}
+
+.chapter-card,
+.source-block,
+.helper-card,
+.demo-card {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 1.2rem 1.3rem;
+  backdrop-filter: blur(8px);
+  box-shadow: var(--shadow);
+}
+
+.chapter-card h2,
+.source-column h2,
+.support-column h2,
+.demo-card h3 {
+  margin-top: 0;
+}
+
+.chapter-card a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.section-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(300px, 0.9fr);
+  gap: 1.4rem;
+  align-items: start;
+  padding-bottom: 4rem;
+}
+
+.source-column,
+.support-column {
+  display: grid;
+  gap: 1rem;
+}
+
+.lesson-main,
+.lesson-sidebar {
+  align-self: start;
+}
+
+.lesson-sidebar {
+  position: sticky;
+  top: 1.25rem;
+}
+
+.section-panel {
+  padding: 1.35rem;
+  border-radius: 30px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.panel-header h2 {
+  margin: 0.35rem 0 0;
+  font-size: 1.45rem;
+}
+
+.source-flow {
+  display: grid;
+  gap: 1rem;
+}
+
+.source-block {
+  position: relative;
+  padding: 1.15rem 1.2rem;
+}
+
+.source-block p,
+.source-block h3 {
+  margin: 0;
+}
+
+.source-block p + p,
+.exercise-item + .exercise-item {
+  margin-top: 0.9rem;
+}
+
+.source-block-prose {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr);
+  gap: 1rem;
+  padding-left: 1rem;
+}
+
+.prose-rail {
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--accent-soft), rgba(47, 95, 136, 0.08));
+}
+
+.prose-content p {
+  font-size: 1.04rem;
+}
+
+.source-block-callout {
+  background: linear-gradient(180deg, rgba(157, 63, 20, 0.08), rgba(255, 255, 255, 0.92));
+}
+
+.source-block-callout[data-block-type="property"],
+.source-block-callout[data-block-type="note"] {
+  background: linear-gradient(180deg, rgba(47, 95, 136, 0.08), rgba(255, 255, 255, 0.92));
+}
+
+.source-block-exercise {
+  background: linear-gradient(180deg, rgba(47, 95, 136, 0.09), rgba(255, 255, 255, 0.94));
+}
+
+.block-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.9rem;
+  margin-bottom: 0.85rem;
+}
+
+.block-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.9rem;
+  padding: 0.22rem 0.72rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(32, 27, 21, 0.08);
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.source-block-callout[data-block-type="property"] .block-badge,
+.source-block-callout[data-block-type="note"] .block-badge,
+.source-block-exercise .block-badge {
+  color: var(--blue);
+}
+
+.block-caption {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.exercise-stack h3 {
+  font-size: 1rem;
+  color: var(--blue);
+}
+
+.helper-card {
+  padding: 1.15rem 1.2rem;
+}
+
+.helper-card h2 {
+  margin: 0.35rem 0 0.7rem;
+  font-size: 1.18rem;
+}
+
+.helper-card ul,
+.demo-card ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.helper-card li + li {
+  margin-top: 0.55rem;
+}
+
+.demo-root {
+  min-height: 56px;
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(231, 219, 199, 0.68));
+  border: 1px solid rgba(32, 27, 21, 0.08);
+  padding: 1rem;
+}
+
+.demo-heading {
+  font-weight: 700;
+}
+
+.demo-copy {
+  margin-top: 0.45rem;
+  color: var(--muted);
+}
+
+.demo-mode-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.85rem;
+}
+
+.demo-mode-list button {
+  border: 1px solid rgba(47, 95, 136, 0.18);
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--blue);
+  border-radius: 999px;
+  padding: 0.32rem 0.72rem;
+  font: inherit;
+}
+
+@media (max-width: 900px) {
+  .lesson-hero,
+  .section-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .lesson-sidebar {
+    position: static;
+  }
+
+  .lesson-hero-copy {
+    padding: 1.4rem 1.3rem 1.2rem;
+  }
+
+  .section-panel {
+    padding: 1rem;
+  }
+}

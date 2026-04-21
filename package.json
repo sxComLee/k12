@@ -1,0 +1,13 @@
+{
+  "name": "k12-daishu-html-learning",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "extract:daishu-1": "swift shared/scripts/extract-pdf.swift \"_sandbox/high_school_jiazhongben/代数第一册(甲种本).pdf\" \"_sandbox/daishu-1/raw/pages.json\"",
+    "build:daishu-1": "node shared/scripts/build-daishu-1.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0"
+  }
+}
